@@ -1,0 +1,23 @@
+{
+  "name": "eduvoice-backend",
+  "version": "1.0.0",
+  "description": "AI Teacher Backend for EduVoice — Tamil Nadu Blind Children",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node data/seed.js"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "^0.9.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "openai": "^6.25.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

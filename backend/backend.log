@@ -1,0 +1,9 @@
+
+> eduvoice-backend@1.0.0 start
+> node server.js
+
+
+🎓 EduVoice Backend running on http://localhost:5001
+📚 AI Teacher ready to help Tamil Nadu students!
+
+✅ MongoDB connected: ac-digpfik-shard-00-00.9jfqxtk.mongodb.net
