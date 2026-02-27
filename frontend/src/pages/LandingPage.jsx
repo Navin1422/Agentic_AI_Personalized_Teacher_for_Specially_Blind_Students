@@ -1,10 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
 import { useStudent } from '../context/StudentContext';
 import useSpeechSynthesis from '../hooks/useSpeechSynthesis';
+import useSpeechRecognition from '../hooks/useSpeechRecognition';
+import VoiceButton from '../components/VoiceButton';
 
 export default function LandingPage({ onDone }) {
   const { loginStudent } = useStudent();
   const { speak } = useSpeechSynthesis();
+  const { isListening, transcript, startListening, stopListening, setTranscript } = useSpeechRecognition();
 
   const [name, setName]         = useState('');
   const [classLvl, setClassLvl] = useState('');
@@ -13,31 +16,68 @@ export default function LandingPage({ onDone }) {
   const [loading, setLoading]   = useState(false);
   const inputRef = useRef(null);
 
-  // On mount: speak welcome
+  // Focus and speak on start
   useEffect(() => {
-    const timer = setTimeout(() => {
-      speak("Vanakkam! Welcome to EduVoice. I am Akka, your AI teacher! Please type your name to get started.", { rate: 0.9 });
-    }, 800);
-    return () => clearTimeout(timer);
-  }, []);
+    const welcome = "Vanakkam! Welcome to EduVoice. I am Akka, your AI teacher! Tap anywhere or click Enter to get started.";
+    speak(welcome, { rate: 0.95 });
 
-  // Focus input when step changes
-  useEffect(() => {
-    if ((step === 'name' || step === 'class') && inputRef.current) {
-      inputRef.current.focus();
-    }
+    // Global listeners for "Tap anywhere or Enter"
+    const triggerStart = (e) => {
+      if (step === 'intro') {
+        if (e.type === 'click' || (e.type === 'keydown' && e.key === 'Enter')) {
+          handleStart();
+        }
+      }
+    };
+
+    window.addEventListener('click', triggerStart);
+    window.addEventListener('keydown', triggerStart);
+    return () => {
+      window.removeEventListener('click', triggerStart);
+      window.removeEventListener('keydown', triggerStart);
+    };
   }, [step]);
+
+  // Voice command handler
+  useEffect(() => {
+    if (!transcript || isListening) return;
+    const t = transcript.trim().toLowerCase();
+    setTranscript('');
+
+    if (step === 'intro' && (t.includes('start') || t.includes('ready') || t.includes('hello') || t.includes('vanakkam'))) {
+      handleStart();
+    } else if (step === 'name' && t.length > 1) {
+      handleNameVoice(transcript.trim());
+    } else if (step === 'class') {
+      const match = t.match(/class\s*(\d+)|(\d+)/);
+      if (match) {
+        const num = match[1] || match[2];
+        if (num) handleClassSelect(num);
+      }
+    } else if (step === 'ready' && (t.includes('go') || t.includes('lesson') || t.includes('start') || t.includes('dashboard'))) {
+      onDone();
+    }
+  }, [transcript, isListening]);
 
   const handleStart = () => {
     setStep('name');
-    speak("Please tell me your name!", { rate: 0.95 });
+    speak("Wonderful! Please tell me your name.", { rate: 0.95 });
+    setTimeout(startListening, 2500); // Wait for speech to finish then listen
+  };
+
+  const handleNameVoice = (voicedName) => {
+    setName(voicedName);
+    setStep('class');
+    speak(`Hello ${voicedName}! Which class are you in? Say a number from one to ten.`, { rate: 0.95 });
+    setTimeout(startListening, 4500);
   };
 
   const handleNameSubmit = (e) => {
-    e.preventDefault();
+    e?.preventDefault();
     if (!name.trim()) return;
     setStep('class');
-    speak(`Hello ${name}! Which class are you in? Please choose your class.`, { rate: 0.95 });
+    speak(`Hello ${name}! Which class are you in? Say a number from one to ten.`, { rate: 0.95 });
+    setTimeout(startListening, 4500);
   };
 
   const handleClassSelect = async (cls) => {
@@ -49,11 +89,12 @@ export default function LandingPage({ onDone }) {
         ? `Welcome ${name}! I am so happy to be your teacher today! Let us start learning together!`
         : `Welcome back ${name}! I missed you! Shall we continue from where we left off?`;
       setGreeting(msg);
-      speak(msg, { rate: 0.9 });
+      speak(msg + " Say 'go to lessons' to begin.", { rate: 0.95 });
       setStep('ready');
+      setTimeout(startListening, 6000);
     } catch (err) {
       console.error(err);
-      speak("Oops! Something went wrong. Please try again.", { rate: 0.9 });
+      speak("Oops! Something went wrong. Please try again.", { rate: 0.95 });
     } finally {
       setLoading(false);
     }
@@ -94,14 +135,17 @@ export default function LandingPage({ onDone }) {
               I can teach you <strong>Science, Maths, and Social Studies</strong> in a fun way!<br />
               Just talk to me — I will listen and explain everything.
             </p>
-            <button
-              className="btn btn-primary"
-              style={{ width:'100%', fontSize:'1.15rem', padding:'0.9rem' }}
-              onClick={handleStart}
-              aria-label="Get started — click to begin"
-            >
-              🚀 Let's Start Learning!
-            </button>
+            <div style={{ display:'flex', flexDirection:'column', gap:'1rem', alignItems:'center' }}>
+              <button
+                className="btn btn-primary"
+                style={{ width:'100%', fontSize:'1.15rem', padding:'0.9rem' }}
+                onClick={handleStart}
+                aria-label="Get started — click to begin"
+              >
+                🚀 Let's Start Learning!
+              </button>
+              <VoiceButton isListening={isListening} onStart={startListening} onStop={stopListening} />
+            </div>
           </div>
         )}
 
@@ -109,13 +153,13 @@ export default function LandingPage({ onDone }) {
         {step === 'name' && (
           <div className="card animate-fadeInUp" style={styles.card}>
             <h2 style={styles.stepTitle}>👤 What is your name?</h2>
-            <p style={styles.stepHint}>Type your name below</p>
-            <form onSubmit={handleNameSubmit} style={{ display:'flex', flexDirection:'column', gap:'1rem' }}>
+            <p style={styles.stepHint}>Say your name clearly after tapping mic</p>
+            <form onSubmit={handleNameSubmit} style={{ display:'flex', flexDirection:'column', gap:'1rem', alignItems:'center' }}>
               <input
                 ref={inputRef}
                 className="input-field"
                 type="text"
-                placeholder="e.g. Priya, Karthik, Anbu..."
+                placeholder="e.g. Priya, Karthik..."
                 value={name}
                 onChange={e => setName(e.target.value)}
                 maxLength={40}
@@ -123,12 +167,13 @@ export default function LandingPage({ onDone }) {
                 style={{ textAlign:'center', fontSize:'1.1rem' }}
                 autoComplete="off"
               />
+              <VoiceButton isListening={isListening} onStart={startListening} onStop={stopListening} />
               <button
                 className="btn btn-primary"
                 type="submit"
                 disabled={!name.trim()}
                 style={{ width:'100%' }}
-                aria-label="Continue after entering name"
+                aria-label="Continue"
               >
                 Continue →
               </button>
@@ -140,36 +185,40 @@ export default function LandingPage({ onDone }) {
         {step === 'class' && (
           <div className="card animate-fadeInUp" style={styles.card}>
             <h2 style={styles.stepTitle}>📚 Hello <span style={{ color:'var(--color-secondary)' }}>{name}</span>! Which class are you in?</h2>
-            <p style={styles.stepHint}>Tap your class number</p>
-            <div style={{ display:'grid', gridTemplateColumns:'repeat(5,1fr)', gap:'0.6rem', marginTop:'0.5rem' }}>
-              {classes.map(cls => (
-                <button
-                  key={cls}
-                  className="select-card"
-                  onClick={() => handleClassSelect(cls)}
-                  disabled={loading}
-                  aria-label={`Class ${cls}`}
-                  style={{ padding:'0.8rem 0.3rem' }}
-                >
-                  <span className="icon" style={{ fontSize:'1.4rem' }}>{classEmojis[cls] || '📖'}</span>
-                  <span style={{ fontSize:'0.9rem' }}>Class {cls}</span>
-                </button>
-              ))}
+            <p style={styles.stepHint}>Say your class number (1-10)</p>
+            <div style={{ display:'flex', flexDirection:'column', gap:'1rem', alignItems:'center', marginTop:'0.5rem' }}>
+              <VoiceButton isListening={isListening} onStart={startListening} onStop={stopListening} />
+              <div style={{ display:'grid', gridTemplateColumns:'repeat(5,1fr)', gap:'0.6rem', width:'100%' }}>
+                {classes.map(cls => (
+                  <button
+                    key={cls}
+                    className="select-card"
+                    onClick={() => handleClassSelect(cls)}
+                    disabled={loading}
+                    aria-label={`Class ${cls}`}
+                    style={{ padding:'0.8rem 0.3rem' }}
+                  >
+                    <span className="icon" style={{ fontSize:'1.4rem' }}>{classEmojis[cls] || '📖'}</span>
+                    <span style={{ fontSize:'0.9rem' }}>Class {cls}</span>
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         )}
 
         {/* Step: Ready */}
         {step === 'ready' && (
-          <div className="card animate-fadeInUp" style={{ ...styles.card, textAlign:'center' }}>
+          <div className="card animate-fadeInUp" style={{ ...styles.card, textAlign:'center', alignItems:'center' }}>
             <div style={{ fontSize:'3rem', marginBottom:'0.5rem' }}>🌟</div>
             <h2 style={styles.stepTitle}>You are all set, {name}!</h2>
             <p style={{ color:'var(--color-text-soft)', margin:'0.5rem 0 1.5rem' }}>{greeting}</p>
+            <VoiceButton isListening={isListening} onStart={startListening} onStop={stopListening} />
             <button
               className="btn btn-gold"
-              style={{ width:'100%', fontSize:'1.15rem', padding:'0.9rem' }}
+              style={{ width:'100%', fontSize:'1.15rem', padding:'0.9rem', marginTop:'1rem' }}
               onClick={onDone}
-              aria-label="Go to lessons dashboard"
+              aria-label="Go to lessons"
             >
               📚 Go to My Lessons!
             </button>

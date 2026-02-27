@@ -1,0 +1,3 @@
+([('Brixbee',
+   '/Users/navins/Documents/EduVoice_GCT/Desktop_brixxbee/dist/Brixbee',
+   'EXECUTABLE')],)

@@ -51,27 +51,62 @@ export default function DashboardPage({ onStartLesson }) {
   // Voice command parser
   useEffect(() => {
     if (!transcript || isListening) return;
-    const t = transcript.toLowerCase();
+    const t = transcript.trim().toLowerCase();
+    setTranscript('');
 
-    // Detect class
-    const classMatch = t.match(/class\s*(\d+)|(\d+)(th|st|nd|rd)?\s*class|standard\s*(\d+)/);
-    if (classMatch) {
-      const num = classMatch[1] || classMatch[2] || classMatch[4];
-      if (num) { setSelectedClass(num); setTranscript(''); return; }
+    // 1. Navigation Commands
+    if (t.includes('back') || t.includes('previous')) {
+      if (step === 'chapter') { 
+        setSelectedSubject(''); setStep('subject'); 
+        speak("Going back to subjects. Which one would you like?"); 
+        setTimeout(startListening, 3000);
+      }
+      else if (step === 'subject') { 
+        setSelectedClass(''); setStep('class'); 
+        speak("Going back to class selection. Which class are you in?"); 
+        setTimeout(startListening, 3500);
+      }
+      return;
     }
-    // Detect subject
-    const subjectMap = { science:'science', maths:'maths', math:'maths', social:'social', english:'english', tamil:'tamil' };
-    for (const [key, val] of Object.entries(subjectMap)) {
-      if (t.includes(key)) { setSelectedSubject(val); setTranscript(''); return; }
+
+    // 2. Selection Commands
+    if (step === 'class') {
+      const match = t.match(/class\s*(\d+)|(\d+)(th|st|nd|rd)?\s*class|standard\s*(\d+)|(\d+)/);
+      if (match) {
+        const num = match[1] || match[2] || match[4] || match[5];
+        if (num) { setSelectedClass(num); return; }
+      }
     }
-    // Detect chapter
-    const chapterMatch = t.match(/chapter\s*(\d+)|(\d+)(st|nd|rd|th)?\s*chapter/);
-    if (chapterMatch && chapters.length) {
-      const num = parseInt(chapterMatch[1] || chapterMatch[2]);
-      const ch  = chapters.find(c => c.chapterNumber === num);
-      if (ch) { handleChapterSelect(ch); setTranscript(''); return; }
+
+    if (step === 'subject') {
+      const subjectMap = { 
+        science:['science', 'signs'], 
+        maths:['maths', 'math', 'mathematics'], 
+        social:['social', 'social science', 'history', 'geography'], 
+        english:['english', 'england'], 
+        tamil:['tamil', 'terminal'] 
+      };
+      for (const [val, keywords] of Object.entries(subjectMap)) {
+        if (keywords.some(k => t.includes(k))) {
+          setSelectedSubject(val);
+          return;
+        }
+      }
     }
-  }, [transcript, isListening]);
+
+    if (step === 'chapter' && chapters.length) {
+      const match = t.match(/chapter\s*(\d+)|(\d+)(st|nd|rd|th)?\s*chapter|lesson\s*(\d+)|(\d+)/);
+      if (match) {
+        const num = parseInt(match[1] || match[2] || match[4] || match[5]);
+        const ch  = chapters.find(c => c.chapterNumber === num);
+        if (ch) { handleChapterSelect(ch); return; }
+      }
+    }
+
+    // Fallback if no command recognized
+    speak("I heard " + t + ". Could you please repeat that or say a subject name like Science?", { rate: 0.95 });
+    setTimeout(startListening, 4000);
+  }, [transcript, isListening, step, chapters]);
 
   const handleChapterSelect = (ch) => {
     setSelectedChapter(ch);

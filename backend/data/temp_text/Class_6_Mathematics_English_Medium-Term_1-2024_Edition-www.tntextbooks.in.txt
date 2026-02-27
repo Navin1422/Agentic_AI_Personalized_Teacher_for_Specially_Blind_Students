@@ -1,0 +1,5373 @@
+GOVERNMENT OF TAMIL NADU
+MATHEMATICS
+A publication under Free Textbook Programme of Government of Tamil Nadu
+Department Of School Education
+STANDARD SIX
+TERM - I
+VOLUME - 2
+Untouchability is Inhuman and a Crime
+6th_Maths_EM_Term1_Front_Index.indd   1 28/11/2022   19:18:42
+www.tntextbooks.in
+
+Government of Tamil Nadu
+First Edition       -  2018
+Revised Edition - 2019, 2020, 2022, 2023
+Reprint              - 2021, 2024
+(Published under New syllabus in 
+Trimester Pattern)
+Tamil NaduTextbook and Educational 
+Services Corporation
+www.textbooksonline.tn.nic.in
+State Council of Educational 
+Research and Training
+© SCERT 2018
+Printing & Publishing
+Content Creation
+II
+The wise
+possess all
+NOT FOR SALE
+6th_Maths_EM_Term1_Front_Index.indd   26th_Maths_EM_Term1_Front_Index.indd   2 21/12/2023   13:21:4521/12/2023   13:21:45
+III
+Mathematics is not about numbers, equations, computations 
+or algorithms; it is about understanding
+— William Paul Thurston 
+To think deep 
+and explore 
+yourself! 
+Think
+Go, Search the content 
+and Learn more!
+ICT Corner
+To know 
+important facts 
+and concepts
+Note
+To enjoy learning 
+Mathematics by doing
+Activity
+A few questions which 
+provide scope for 
+reinforcement of the 
+content learnt.
+Try this/these
+Do you know?
+To know additional 
+information 
+related to the topic to cre-
+ate interest. 
+To give space for learning more 
+and to face higher challenges 
+in Mathematics  and to face 
+Competitive 
+Examinations.
+Miscellaneous 
+and Challenging 
+problems
+  Alive
+ Mathematics
+To understand that Mathematics can be 
+experienced everywhere in 
+nature and real life.
+Mathematics is a unique symbolic language in which the whole world works 
+and acts accordingly. This text book is an attempt to make learning of 
+Mathematics easy for the students community.
+6th_Maths_EM_Term1_Front_Index.indd   3 28/11/2022   19:18:43
+CONTENTS
+E - Book
+ Evaluation
+IV
+CHAPTER TITLE PAGE NUMBER MONTH
+1 NUMBERS 1
+1.1 Introduction 1
+JUNE
+1.2 Formation of large numbers 2
+1.3 Place Value Chart 4
+1.4 Comparison of Numbers 10
+1.5 Creating New Numbers 12
+1.6 Use of Large Numbers in Daily Life Situations 14
+1.7 Order of Operations 16
+1.8 Estimation of numbers 18
+1.9 Whole Numbers 22
+1.10 Properties of Whole Numbers 23
+2 INTRODUCTION TO ALGEBRA 32
+2.1 Introduction 32
+JULY
+2.2 Patterns 33
+2.3 Understanding operations on Variables 35
+2.4 Framing Algebraic Statements 36
+2.5 Solving unknowns through examples 38
+3 RATIO AND PROPORTION 46
+3.1 Introduction 47
+JULY
+3.2 Ratio 47
+3.3 Proportion 55
+3.4 Unitary Method 57
+4 GEOMETRY 63
+4.1 Introduction 63
+AUGUST
+4.2 Describing lines 65
+4.3 Angles 72
+4.4 Points and lines 82
+5 STATISTICS 88
+5.1 Introduction 89
+AUGUST
+5.2 Data 89
+5.3 Representation of data using Pictograph 95
+5.4 Representation of data using Bar Graph 99
+6 INFORMATION PROCESSING 108
+6.1 Introduction 108
+SEPTEMBER6.2 Systematic listing 110
+6.3 Systematic completion of lists 112
+ANSWERS 121
+MATHEMATICAL TERMS 131
+6th_Maths_EM_Term1_Front_Index.indd   4 28/11/2022   19:18:43
+1
+Numbers
+Learning Objectives
+ ● To understand large numbers and the terms used to represent them.
+ ● To compare large numbers and order them.
+ ● To employ estimation for large numbers.
+ ● To solve word problems involving four fundamental operations.
+ ● To understand and use the properties of Whole Numbers.
+1.1 Introduction
+Read the following conversation between two classmates.
+Mani  :  (Reading Newspaper Headlines)  
+“Ten thousand people visited the trade fair yesterday”.
+Mallika :  Wow! That's a lot of people. 
+Mani  :  Thank goodness, I went to the  
+trade fair exactly yesterday!
+Mallika :  Why… what is so important about it?
+Mani  :  Don’t you see? If I had not gone, they 
+would have written “Nine thousand 
+nine hundred and ninety-nine people 
+only visited the trade fair yesterday”. 
+It would have been difficult to read and 
+understand!
+What do you think about this conversation? Was Mani right?
+No! it would still be “Ten thousand people visited!”. Newspapers give (and readers want) 
+a sense of the size, NOT exact values when numbers are large.
+You have probably heard names like ‘lakhs’ and ‘crores’ used by elders.
+We often come across situations that involve large numbers in real life, like the number 
+of people living in a district, the budget of the Government, the distance of stars or the 
+number of bicycles sold in a year and so on. In all these situations, we look for names that 
+convey the “size” of these numbers.
+1
+Chapter
+NUMBERS
+6th_Maths_EM_Term1_Chapter 1.indd   1 19/11/2022   15:35:35
+2
+6th Standard Mathematics
+MATHEMATICS ALIVE - LARGE NUMBERS IN REAL LIFE
+Tamil Nadu has about 26,345 square 
+kilometre of forest land.
+The number of stars in the Milky way 
+galaxy is about 20,000 crore
+Let us understand the large numbers in detail, and the way they are connected to the 
+numbers learnt earlier.
+Recap of Successor and Predecessor
+ ● When 1 is added to a number we get its Successor.
+ ● When 1 is subtracted from a number we get its Predecessor.
+TRY THESE
+ ● 999 + 1 = _________.
+ ● 10000 − 1 = _________.
+ ● The Successor of 4576 is __________.
+ ● The Predecessor of 8970 is _________.
+ ● The predecessor of the smallest 5 digit number is _________.
+1.2 Formation of large numbers
+Now, we learn the formation of large numbers. Let us build and complete the number 
+tower by observing the pattern of numbers.
+Greatest number Add Equals Smallest number Number Name
+Greatest 1 digit number 
+9 +  1 =
+Smallest 2 digit number
+10
+Ten
+Greatest 2 digit number
+99 +  1 =
+Smallest 3 digit number
+100
+Hundred
+Greatest 3 digit number 
+999 +  1 =
+Smallest 4 digit number
+ ________
+Thousand
+  Alive
+ Mathematics
+6th_Maths_EM_Term1_Chapter 1.indd   2 19/11/2022   15:35:41
+3
+Numbers
+Greatest 4 digit number
+ ________ +  1 =
+Smallest 5 digit number
+10000
+Ten Thousand
+Greatest 5 digit number
+ ________ +  1 =
+Smallest 6 digit number
+ ________
+Lakhs
+Greatest 6 digit number
+ ________ +  1 =
+Smallest 7 digit number
+ ________
+Ten Lakhs
+Greatest 7 digit number
+9999999 +  1 =
+Smallest 8 digit number
+10000000
+Crores
+We can observe that in every row the smallest number column has an additional zero 
+compared to the previous row. You have read in lower classes about place value system. 
+In this system (which was invented in India and spread to other countries!), the number 
+10 plays a very important role. It is shown in the following table.
+1 × 10 = 10 (Ten)
+10 × 10 = 100 (Hundred)
+100 × 10 = 1000 (Thousand)
+1000 × 10 = 10000 (Ten Thousand)
+10000 × 10 = 100000 (Lakhs)
+100000 × 10 = 1000000 (Ten Lakhs)
+1000000 × 10 = 10000000 (Crore)
+While each new row gives a number 10 times bigger, what happens if we skip and go  
+2 rows below. Numbers would be 100 times bigger. 
+For example, 1000 = 100 times 10, or Thousand has “hundred tens” in it.
+1.3 1.4 Place Value Chart
+1.4.1 Indian Method
+NOTE
+As the numbers get large, it is difficult to keep track of the number of digits and the place 
+value for each digit. Wherever possible, we use names like lakh and crore instead of writing 
+so many zeros. However, we can write exact values of large numbers too, if needed.
+1. Give 3 e xamples where the number of things counted by you would be a 5 digit 
+number or more.
+2. There are ten lakh people in a district. What would be the population of 10 such districts?
+3. The Government spends rupees 2 crores for education in a particular district every 
+month. What would be its expenditure over 10 months?
+TRY THESE
+6th_Maths_EM_Term1_Chapter 1.indd   3 19/11/2022   15:35:41
+4
+6th Standard Mathematics
+1.3 Place Value Chart
+1.3.1  Indian Method
+Periods Crores Lakhs Thousands Ones
+Place 
+Value
+TC C TL L T Th Th H T O
+Ten Crores
+Crores
+Ten Lakhs
+Lakhs
+Ten 
+Thousands
+Thousands
+Hundreds
+Tens
+Ones
+When we write large numbers we make use of place value chart to ensure that we do not 
+miss any digit in between, while writing it. In a given number, starting from the right, the 
+first three places make the ones period, the next two places make the thousands period, the 
+next two places make the lakhs period and the next places make the crores period.
+Try to  read  the  number  359468421.  Is  it  difficult?  Yes. It  is  not  easy. But  by  using  the 
+indicators or the periods, it is easy to read and write 359468421 as under.
+Periods Crores Lakhs Thousands Ones
+Place Value TC C TL L T Th Th H T O
+Number 3 5 9 4 6 8 4 2 1
+Number Name
+35 Crores 94 Lakhs 68 Thousands 421 Ones
+Thirty five crore ninety four lakh sixty eight thousand four hundred 
+twenty one.
+Use of comma
+In any given number, we separate the periods by using commas. In our Indian System of Numeration, 
+we use commas from the right. The first comma comes before Hundreds place (3 digits from the right). 
+The second comma comes before Ten Thousands place (5 digits from the right). The third comma 
+comes before Ten Lakhs place (7 digits from the right) and the digits next to it represents crore.
+Example 1.1
+The distance between the Sun and the Earth is about 92900000 miles. Read and write the 
+number in the Indian method.
+Solution
+Periods Crores Lakhs Thousands Ones
+Place Value C TL L T Th Th H T O
+Number 9 2 9 0 0 0 0 0
+Using Commas 9,29,00,000
+Number Name Nine crore twenty nine lakh.
+6th_Maths_EM_Term1_Chapter 1.indd   4 19/11/2022   15:35:41
+5
+Numbers
+Complete the table
+TC C TL L T 
+Th Th H T O Number 
+name
+1670
+47684
+120001
+7800500 7 8 0 0 5 0 0
+Seventy Eight 
+Lakh Five 
+Hundred
+53409098
+198765912
+Note:  When we write numbers, the place value increases from right to left.
+TRY THESE
+Place Value
+Number
+1.3.2 International Method
+This system is followed by many countries in the world.
+Periods Billions Millions Thousands Ones
+Place 
+Value
+HB TB B HM TM M HT T Th Th H T O
+Hundred 
+Billions
+Ten 
+Billions
+Billions
+Hundred 
+Millions
+Ten 
+Millions
+Millions
+Hundred 
+thousands
+Ten 
+Thousands
+Thousands
+Hundreds
+Tens
+Ones
+In a given  number , starting  from  the  right,  the  first  three  places  make  the ones period , 
+the next three places make the thousands period , the next three places make the 
+million period and the next three places make the billion period etc.
+Read and write 35694568421 in the international method
+Periods Billions Millions Thousands Ones
+Place Value HB TB B HM TM M HT T Th Th H T O
+Number 3 5 6 9 4 5 6 8 4 2 1
+Number 
+Name
+35 Billions 694 Millions 568 Thousands 421 Ones
+Thirty five billion six hundred ninety four million five hundred sixty eight thousand 
+four hundred twenty one.
+Use of commas
+In the International System of Numeration, we use Ones, Tens, Hundreds, Thousands, 
+T en Thousands,  Hundred Thousands,  Million, T en Million, Hundred Million and Billion, T en 
+Billion, Hundred  Billion. Commas  are used to mark Thousands,  Millions and Billions.
+6th_Maths_EM_Term1_Chapter 1.indd   5 19/11/2022   15:35:41
+6
+6th Standard Mathematics
+Example 1.2
+The distance between the Sun and the Earth is about 92900000 miles. Read and write the 
+number in the International Method.
+Solution
+Periods Billions Millions Thousands Ones
+Place Value HB TB B HM TM M HT T Th Th H T O
+Number 9 2 9 0 0 0 0 0
+Using Commas 92,900,000
+Number Name Ninety two million nine hundred thousand.
+1.3.3 Comparison of Number Systems
+We can easily understand both the Indian and the International Number Systems from the 
+following table.
+Indian Number System International Number System
+Period Name Numeral Name Numeral Period
+Ones
+One 1 One 1
+Ones
+Ten 10 Ten 10
+Hundred 100 Hundred 100
+Thousands
+Thousand 1,000 Thousand 1,000
+Thousands
+Ten thousand 10,000 Ten thousand 10,000
+Lakhs
+Lakh 1,00,000 Hundred 
+thousand 100,000
+Ten Lakh 10,00,000 Million 1,000,000
+Millions
+Crores
+Crore 1,00,00,000 Ten Million 10,000,000
+Ten crore 10,00,00,000 Hundred Million 100,000,000
+Hundred crore 100,00,00,000 Billion 1,000,000,000
+BillionsThousand crore 1000,00,00,000 T en Billion 10,000,000,000
+With the help of the above table, we can read the number 57340000 as 5,73,40,000  
+(Five Crore Seventy Three Lakh Forty Thousand ) in the Indian System and as 57,340,000 
+(Fifty Seven Million Three Hundred Forty Thousand ) in the International System.
+6th_Maths_EM_Term1_Chapter 1.indd   6 19/11/2022   15:35:41
+7
+Numbers
+Identify the incorrectly placed comma and rewrite correctly.
+Indian System          :  (i) 56,12,34,0,1,5 (ii) 9,90,03,2245 
+International System :  (i) 7,5613,4534  (ii) 30,30,304,040
+TRY THESE
+1.3.4 Place Value of digits in Large Numbers
+Every digit of a number has a place value which gives the value of the digit. 
+Write the number 676097 in expanded form:
+   Number  : 6,76,097
+   Expanded form : 6 lakhs + 7 ten thousands + 6 thousands + 0 hundreds + 9 tens + 7 ones
+: 6 × 100000 + 7 × 10000 + 6 × 1000 + 0 × 100 + 9 × 10 + 7 × 1
+: 600000 + 70000 + 6000 + 90 + 7
+Finding the place value of all the digits in 9847056:
+The Place value of 6 is = 6 Ones = 6 × 1 = 6
+The Place value of 5 is = 5 Tens = 5 × 10 = 50
+The Place value of 0 is = 0 Hundreds = 0 × 100 = 0
+The Place value of 7 is = 7 Thousands = 7 × 1000 = 7,000
+The Place value of 4 is = 4 Ten Thousands = 4 × 10000 =  40,000
+The Place value of 8 is = 8 Lakhs = 8 × 100000 = 8,00,000
+The Place value of 9 is = 9 Ten Lakhs = 9 × 1000000 = 90,00,000
+Hence, the number 98,47,056 is read as Ninety Eight Lakh Forty Seven Thousand Fifty Six.
+ACTIVITY
+Take a white chart and cut into 9 equal pieces. Write different numbers on each piece. 
+Arrange the pieces, as many times, horizontally which form different numbers. Write 
+any five different numbers and express them in the Indian and the International System.
+1.  Expand the following numbers:
+    (i) 2304567 (ii) 4509888  (iii) 9553556
+2. Find the place value of underlined digits.
+    (i) 3841567  (ii) 9443810
+3.  Write down the numerals and place value of 5 in the numbers represented by  
+the following number names.
+    (i)  Forty Seven Lakh Thirty Eight Thousand Five Hundred Sixty One.
+    (ii)  Nine Crore Eighty Two Lakh Fift y Thousand Two Hundred Forty One.
+    (iii) Nineteen Crore Fifty Seven Lakh Sixty Thousand Three Hundred Seventy.
+TRY THESE
+6th_Maths_EM_Term1_Chapter 1.indd   7 19/11/2022   15:35:41
+8
+6th Standard Mathematics
+Example 1.3
+How many thousands are there in 1 lakh?
+Solution
+Place Value L T Th Th H T O
+1 lakh 1 0 0 0 0 0
+1 thousand 1 0 0 0
+Lakh is 2 places to the left of thousand. So, it is 10 × 10 = 100 times thousand. 
+Hence, 1 lakh = 100 thousands.
+Example 1.4
+How many thousands are there in 1 million?
+Solution
+Place Value M H Th T Th Th H T O
+1 million 1 0 0 0 0 0 0
+1 thousand 1 0 0 0
+Million is 3 places to the left of Thousand.
+1000 Thousands (1000x1000 = 1,000,000) are in a million. 
+Exercise 1.1
+1. Fill in the blanks.
+ (i) The smallest 7 digit number is _________.
+ (ii) The largest 8 digit number is _________.
+ (iii) The place value of 5 in 7005380 is _________.
+ (iv)  The expanded form of the number 76,70,905 is _________.
+2. Say True or False.
+ (i) Successor of a one digit number is always a one digit number
+ (ii)  Predecessor of a 3-digit number is always a 3 or 4-digit number
+ (iii)  In the Indian System of Numeration the number 67999037 is written as 6,79,99,037.
+ (iv)  88,888 = 8 × 10000 + 8 × 100 + 8 × 10 + 8 × 1
+1 million 1000000
+1000 10001 thousand
+1. How many hundreds are there in 10 lakh?
+2. How many lakhs are there in a million?
+3. 10 lakh candidates write the Public Exam this year. If each exam centre is allotted 
+with 1000 candidates. How many exam centres would be needed?
+TRY THESE
+6th_Maths_EM_Term1_Chapter 1.indd   8 19/11/2022   15:35:42
+9
+Numbers
+3. How many ten thousands are there in the smallest 6 digit number?
+4. Observe the commas and write down the place value of 7.
+ (i) 56,74,56,345  (ii) 567,456,345
+5. Write the following numbers in the International System by using commas.
+ (i) 347056 (ii) 7345671 (iii) 634567105 (iv) 1234567890
+6. Write the largest six digit number and put commas in the Indian and the 
+International  Systems.
+7. Write the number names of the following numerals in the Indian System.
+ (i) 75,32,105 (ii) 9,75,63,453
+8. Write the number names in words using the International System.
+ (i) 345,678 (ii) 8,343,710 (iii) 103,456,789
+9. Write the number name in numerals.
+  (i)   Two crore thirty lakh fifty  one thousand nine hundred eighty.
+  (ii)   Sixty six million three hundred forty five thousand twenty seven.
+ (iii)   Seven hundred eighty nine million two hundred thirteen thousand four hundred fifty six.
+10.  T amil Nadu has about twenty six thousand three hundred forty five square kilometre 
+of Forest land. Write the number mentioned in the statement in Indian System and 
+International System.
+11. The number of employees in the Indian Railways is about ten lakhs. Write this in the 
+International System of numeration. 
+Objective Type Questions
+12. The successor of 10 million is
+ (a) 1000001 (b) 10000001  (c) 9999999 (d) 100001
+13. The difference between the successor and the predecessor of 99999 is
+ (a) 90000  (b) 1  (c) 2  (d) 99001
+14. 1 billion is equal to
+ (a) 100 crore (b) 100 million  (c) 100 lakh (d) 10000 lakh
+15. The expanded form of the number 6,70,905 is
+ (a) 6 × 10000 + 7 × 1000 + 9 × 100 + 5 × 1
+ (b) 6 × 10000 + 7 × 1000 + 0 × 100 + 9 × 100 + 0 × 10 + 5 × 1
+ (c) 6 × 1000000 + 7 × 10000 + 0 × 1000 + 9 × 100 + 0 × 10 + 5 × 1
+ (d) 6 × 100000 + 7 × 10000 + 0 × 1000 + 9 × 100 + 0 × 10 + 5 × 1
+6th_Maths_EM_Term1_Chapter 1.indd   9 19/11/2022   15:35:42
+10
+6th Standard Mathematics
+1.4 Comparison of Numbers
+We are  familiar  with  the  concept  of  comparing  numbers  and  finding  the  biggest  among 
+them. We use symbols <, > and = to compare any two numbers.
+1.4.1 Comparing numbers with unequal number of digits
+1.  When we compare the numbers 16090 
+and 100616, we have already learnt that 
+the number with more digits is greater.
+ Hence, 1,00,616 (6 digit number) > 
+16,090 (5 digit number).
+2. Suppose we are given more than two numbers say 1468, 5, 201, 69 and 70000. Then 
+among these, we can immediately say that the number 70000 is the greatest and 5 is 
+the least, based on the number of digits.
+1.4.2 Comparing numbers with equal number of digits
+Think about the situation
+In a distance analysis chart, the distance between Chennai and New Delhi is 2180 k.m. 
+and Chennai to Noida is 2158 k.m. respectively. Which city is farther from Chennai?
+Step 1 Step 2 Step 3
+Compare the thousands 
+place of two numbers
+2   1  8  0
+2   1  5  8
+Here digit at the 
+thousands place of both 
+numbers are the same. 
+We can’t arrive at any 
+conclusion. So, we move 
+on to the next step.
+Compare the hundreds 
+place of two numbers
+2  1  8  0
+2  1  5  8
+Here digit at the 
+hundreds place of both 
+numbers are the same. 
+We can’t arrive at any 
+conclusion. So, we move 
+on to the next step.
+Compare the tens place 
+of two numbers
+2  1  8  0
+2  1  5  8
+Here digit at the tens 
+place of both numbers 
+are different, So, 
+the number with the 
+greatest tenth place 
+will be the greater. 
+Therefore,
+2180 > 2158
+Think!
+Why we 
+need not 
+compare 
+the one’s 
+place?
+Compare the given numbers 2180 and 2158 using the above mentioned steps.
+2 = 2 1 = 1 8 > 5
+ Hence, 2180 > 2158. So, New Delhi is farther from chennai.
+1.  Write the numbers in the ascending 
+order: 688, 9, 23005, 50, 7500.
+2.  Find the least and the greatest among the 
+numbers: 478, 98, 6348, 3, 6007, 50935.
+TRY THESE
+6th_Maths_EM_Term1_Chapter 1.indd   10 19/11/2022   15:35:42
+11
+Numbers
+Example 1.5
+Compare 59283746 and 59283748 using place value chart. 
+Solution
+Step 1: Number of digits in the two given numbers are equal.
+Step 2: Compare the place values using the place value chart.
+Place Value C T L L T Th Th H T O
+First Number 5 9 2 8 3 7 4 6
+Second Number 5 9 2 8 3 7 4 8
+Compare the digits of the two numbers from the highest place value as noted below.
+5 = 5 9 = 9 2 = 2 8 = 8 3 = 3 7 = 7 4 = 4 6 < 8
+Here only the digits in the ones place are not equal and 6 < 8. 
+Hence, 59283746 < 59283748.
+1.4.3 Arranging the numbers in ascending and descending order
+The  heights  of  five  different 
+apartments named as A, B, C, D 
+and E in a locality are 985 feet, 
+1245 feet, 1865 feet, 355 feet 
+and 585 feet respectively. They 
+are shown according to their 
+heights as shown in Fig. 1.1.
+Can you arrange them in the 
+ascending order of their heights?
+Yes, We can arrange the numbers 
+by comparing them based on 
+the place values.
+Compare the two numbers and put <, > and = using place value chart.
+15475 3214
+73204 973561
+8975430 8975430
+1899799 1899799
+TRY THESE
+Fig. 1.1
+985 ft
+1245 ft
+1865 ft
+355 ft
+585 ft
+6th_Maths_EM_Term1_Chapter 1.indd   11 19/11/2022   15:35:42
+12
+6th Standard Mathematics
+Step 1
+Compare the 4 digit numbers 1245 and 
+1865. By following the steps mentioned 
+for comparing the numbers having same 
+number of digits, we get 1865 > 1245. 
+The tallest apartment is ‘C’ (1865 feet).
+The  next  tallest  apartment  is  ‘B’ 
+(1245 feet).
+Step 2
+Compare the three digit numbers 985, 585 and 355. Using the above table, we get, 
+985 > 585 > 355. The smallest among them is 355.
+ Hence we write the heights of the apartments in ascending order as,
+ 355  < 585  < 985  <  1245  <   1865
+  D  E  A   B    C
+The area in sq. k.m. of four Indian states are 
+given below
+States Area (Sq.k.m.)
+Tamil Nadu 1,30,058
+Kerala 38,863
+Karnataka 1,91,791
+Andhra Pradesh 1,62,968
+List the areas of the above four Indian States in 
+the ascending and the descending order.
+TRY THESE
+A famous mathematician, was 
+the  first  to  use  "<"  (less  than) 
+and ">" (greater than) symbols.
+Thomas Harriot 
+(1560 - 1621)
+1.5 Creating New Numbers
+Using the four digits 9, 4, 8 and 5 we need to make different 4-digit numbers in such a way that 
+the digits are not repeated. We get the following arrangement of different 4-digit numbers.
+Th H T O
+9 4 8 5
+9 4 5 8
+9 8 4 5
+9 8 5 4
+9 5 4 8
+9 5 8 4
+Th H  T O
+A 9 8 5
+B 1 2 4 5
+C 1 8 6 5
+D 3 5 5
+E 5 8 5
+Apartments
+Place Value
+TRY THESE
+In the same way, try placing the digit 4 in thousands place 
+and get six different 4-digit numbers. Also make different 
+4-digit numbers by fixing 8 and 5 in the thousands place.
+ACTIVITY
+Divide a chart paper into eight equal parts. Write different 1-digit 
+numbers on it. List out the possible 8 digit numbers and also find 
+the largest and the smallest numbers among them.
+6th_Maths_EM_Term1_Chapter 1.indd   12 19/11/2022   15:35:43
+13
+Numbers
+Impact of Place Value
+Consider the 4-digit number 3795. When we exchange the digits of two places, the number 
+either becomes larger or smaller. For example, the given number is 3795. If the digits 9 
+and 5 are exchanged, then the number is 3759. This number is less than the given number.
+It makes a great impact in the situations like handling currencies. 
+TRY THESE
+ ●  In the same way, make different 4-digit numbers by exchanging the digits and check 
+every time whether the number made is small or big.
+ ●  Pedometer used in walking practice contains 5 digit number. 
+  
+What could be the largest measure?
+Exercise 1.2
+1. Fill in the blanks with > or < or =. 
+ (i) 48792 _____ 48972
+ (ii) 1248654 _____ 1246854
+ (iii) 658794 _____ 658794
+2. Say True or False.
+(i) The difference between the smallest number of seven digits and the largest 
+number of six digits is 10.
+(ii) The largest 4-digit number formed by the digits 8, 6, 0, 9 using each digit only 
+once is 9086.
+(iii) The total number of 4 digit numbers is 9000.
+3. Of the numbers 1386787215, 137698890, 86720560, which one is the largest? Which 
+one is the smallest ?
+4. Arrange the following numbers in the descending order:
+ 128435, 10835, 21354, 6348, 25840
+5. Write any eight digit number with 6 in ten lakhs place and 9 in ten thousandth place. 
+6. Rajan writes a 3-digit number, using the digits 4, 7 and 9. What are the possible 
+numbers he can write?
+7. The password to access my ATM card includes the digits 9,4,6 and 8. It is the smallest 
+4 digit even number. Find the password of my ATM Card.
+8.  Postal Index Number consists of six digits. The first three digits are 6, 3, and 1. Make 
+the largest and the smallest Postal Index Number by using the digits 0,3 and 6, each  
+only once.
+6th_Maths_EM_Term1_Chapter 1.indd   13 19/11/2022   15:35:43
+14
+6th Standard Mathematics
+9. The heights (in metres) of the mountains in Tamil Nadu are as follows:
+Sl. No Mountains Height (in metres)
+1 Doddabetta 2637
+2 Mahendragiri 1647
+3 Aanaimudi 2695
+4 Velliangiri 1778
+(i) Which is the highest mountain listed above?
+(ii) Order the mountains from the highest to the lowest.
+(iii) What is the difference between the heights of the mountains Aanaimudi and 
+Mahendragiri? 
+Objective Type Questions
+10. Which list of numbers is in order from the smallest to the largest?
+ (a) 1468, 1486, 1484  (b) 2345, 2435, 2235
+ (c) 134205, 134208, 154203  (d) 383553, 383548, 383642
+11. The Arabian Sea has an area of 1491000 square miles. This area lies between which  
+two numbers?
+ (a) 1489000 and 1492540  (b) 1489000 and 1490540
+ (c) 1490000 and 1490100  (d) 1480000 and 1490000
+12. The chart below shows the number of newspapers sold as per Indian Readership 
+Survey in 2018. Which could be the missing number in the table?
+Name of the Newspaper Ranking Sold (in Lakh)
+A 1 70
+B 2 50
+C 3 ?
+D 4 10
+ (a) 8   (b) 52   (c) 77   (d) 26
+1.6 Use of Large Numbers in Daily Life Situations
+We know to apply four basic operations on numbers. We will see a few more examples 
+which deal with the four operations such as addition, subtraction, multiplication and division. 
+Example 1.6
+In an exhibition,  the number of tickets sold on the first, second, third and fourth days are 
+1,10,000, 75,060, 25,700 and 30,606 respectively. Find the total number of tickets sold 
+on all the 4 days.
+6th_Maths_EM_Term1_Chapter 1.indd   14 19/11/2022   15:35:43
+15
+Numbers
+Solution
+  Number of tickets sold on the first day  =  1,10,000
+ Number of tickets sold on the second day  =  75,060
+ Number of tickets sold on the third day  =  25,700
+ Number of tickets sold on the fourth day  =  30,606 
+ Adding all the above, the total number of  
+ tickets sold on all the 4 days =    2,41,366
+Example 1.7
+In  a  year , a  whole-sale  paper  firm  sold  6,25,600  notebooks  out  of  7,50,000  notebooks. 
+Find the number of notebooks left unsold.
+Solution
+  Number of notebooks in the store  =  7,50,000
+  Number of notebooks sold =  6,25,600
+  Number of notebooks unsold  =  1,24,400
+Example 1.8
+In a mobile store, the number of mobiles sold during a month is 1250. Assuming that the 
+same number of mobiles are sold every month, find the number of mobiles sold in 2 years.
+Solution
+Number of mobiles sold in 1 month =  1250
+ 1 year =  12 months
+ 2 years  =  2 × 12
+  =  24 months
+ Number of mobiles sold in 24 months  =  1250 × 24 = 30,000
+Number of mobiles sold in 2 years  =  30,000
+Example 1.9
+If `10,00,000 was distributed in a Government scheme to 500 women in the Self Help 
+Groups, then find the amount given  to each woman. 
+Solution
+ Amount to be given to 500 women =  `10,00,000
+ Amount given to each woman  =  10,00,000 ÷ 500 = `2000
+ Each woman in the Self Help Group was given `2000.
+6th_Maths_EM_Term1_Chapter 1.indd   15 19/11/2022   15:35:43
+16
+6th Standard Mathematics
+1.7 Order of Operations 
+Think about the situation
+Valli and her four friends went to a butter milk shop. Each had a cup of butter milk and paid  
+`30, assuming that the cost of one cup of butter milk to be `6. But the shop keeper told that 
+the cost of butter milk had increased by `2. Then, Valli decided to give `2 more and paid  
+`32. But the shop keeper claimed that she had to pay `40. Who is correct? 
+Valli calculated as,
+= (5 × 6) + 2
+= 30 + 2
+= 32
+Shop keeper 
+calculated as,
+= 5 × (6 + 2)
+= 5 × 8
+= 40
+The amount `40 claimed by the Shop keeper is correct. This 
+confusion can be avoided by using the brackets in the correct 
+places like 5 × (6 + 2). 
+The rule of order of operations is called as BIDMAS. In BIDMAS the operations done from 
+left to right.
+Expansion of BIDMAS
+B Bracket ( )
+I Indices (you will learn it later)
+D Division ÷ or /
+M Multiplication × 
+A Addition  + 
+S Subtraction −
+  Now, we try to solve 9 + 5 × 2 by using BIDMAS, 
+    9 + (5 × 2)  = 9 + 10 
+      = 19
+Example 1.10
+ Simplify : 24 + 2 × 8 ÷ 2 – 1
+Solution
+      24 + 2 × 8 ÷ 2 − 1     (given question)
+      = 24 + 2 × 4 − 1      ( ÷ operation, completed first)
+      = 24 + 8 − 1        ( × operation, completed second)
+      = 32 − 1        ( + operation, completed third)
+      = 31          (− operation , completed  last)
+Butter 
+Milk
+Butter 
+Milk
+Butte
+Mil
+Butter 
+Milk
+Butter 
+Milk
+Butter 
+Milk
+e
+k
+Butter 
+Milk
+Butter 
+Milk
+er
+k
+Butter
+Milk
+Butter 
+Milk
+Butter 
+Milk
+Butter 
+Milk
+Milk Shop
+6th_Maths_EM_Term1_Chapter 1.indd   16 19/11/2022   15:35:44
+17
+Numbers
+Example 1.11
+  Simplify : 20 + [8 × 2 + {(6 × 3) − (10 ÷ 5)}]
+Solution
+Given,
+      20 + [8 × 2 + {(6 × 3) − (10 ÷ 5)}]  
+      =20 + [8 × 2 + {(6 × 3) − 2}]     (÷ completed first)
+      =20 + [8 × 2 + {18 − 2}]     (× completed second )
+      =20 + [8 × 2 + 16]       ({ } completed third)
+      =20 + [16 + 16]        (×  completed fourth)
+      =20 + 32           ([ ] operation completed fifth)
+   =52       (+  completed last)
+Exercise 1.3
+1. Fill in the blanks.
+ (i) If Arulmozhi saves ` 12 per day, then she saves ` ________ in 30 days.
+ (ii) If a person ‘A’ earns ` 1800 in 12 days, then he earns ` ________ in a day.
+  (iii)  45 ÷ (7 + 8) − 2 = ________.
+2. Say True or False.
+  (i)  3 + 9 × 8 = 96    (ii) 7 × 20 − 4 = 136  (iii) 40 + (56 − 6) ÷ 2 = 45
+3. The number of people who visited the Public Library for the past 5 months were 1200, 
+2000, 2450, 3060 and 3200 respectively. How many people visited the library in the last  
+5 months.
+4. Cheran had a bank savings of ` 7,50,250. He withdrew ` 5,34,500 for educational 
+purpose. Find the balance amount in his account.
+5. In a cycle factory, 1560 bicycles were manufactured every day. Find the number of 
+bicycles manufactured in 25 days.
+6. ` 62500 was equally distributed as a New Year bonus for 25 employees of a company. 
+How much did each receive?
+7. Simplify the following numerical expressions:   
+  (i)  (10 + 17) ÷ 3        (ii)  12 − [3 − {6 − (5 − 1)}]
+  (iii)  100 + 8 ÷ 2 + {(3 × 2) − 6 ÷ 2}
+Objective Type Questions
+8.  The value of 3 + 5 − 7 × 1 is ________.
+ (a) 5 (b) 7 (c) 8 (d) 1
+6th_Maths_EM_Term1_Chapter 1.indd   17 19/11/2022   15:35:44
+18
+6th Standard Mathematics
+9.  The value of 24 ÷ {8 − (3 x 2)} is _________
+ (a) 0 (b) 12 (c) 3 (d) 4
+10.  Use BIDMAS and  put the correct operator in the box.
+ 2  6 −12 ÷ (4 + 2) = 10
+  (a) +   (b) −  (c) ×   (d)  ÷  
+1.8 Estimation of numbers
+Let us see few examples now,
+(ix) Nearly 60,000 people watched the Republic day parade at 
+Rajpath, New Delhi.
+(x) About 2,80,000 people of various countries died due to 
+earthquake and Tsunami on 26th December 2004 in the 
+Indian ocean.
+(xi) The India-Pakistan cricket match was viewed by about 30 
+million cricket fans in the Television all over the world. 
+We often come across statements like these in TV channels and dailies. Do these news items, 
+give the exact numbers? No. The numbers mentioned are not accurate. They are only the 
+approximate or closer values to the actual ones. This is the reason, why we generally use 
+words like “about”, “nearly” and “approximately”. These numbers are only the estimation of 
+the actual value. The word ‘about’ denotes the number not exactly, but a little more or less. 
+This value is called the estimated value. 
+The actual figure, though not exactly possible, could have been 59,853 or 61,142 for the 
+first example and it could have been 2,78,955 or 2,80,984 for the second example. Imagine 
+and write about, what could have been the exact number for the third example given above? 
+Similarly, there are many more possible numbers. Thus,
+ ● to get a rough idea we need estimation.
+ ● to get the estimated value, we generally round off the numbers to their nearest tens, 
+hundreds or thousands.
+Some real life situations where we use estimates are
+(a) Cost of a Television, Refrigerator, Mixer Grinder etc., are usually expressed in 
+thousands of rupees.
+(b) The Voters population in an Assembly Constituency in a state is often stated in 
+lakhs.
+(c)  The Central or State Government’s Annual Budget is usually given in lakh crore.
+When an exact answer is not necessary, estimation strategies can be used to determine 
+a reasonably close answer.
+6th_Maths_EM_Term1_Chapter 1.indd   18 19/11/2022   15:35:44
+19
+Numbers
+ACTIVITY
+1. Fill in the jar with some items like Tamarind seeds. Let each student give an estimate 
+of the number of items. Make a table of the result by finding the difference of the 
+estimate and the actual amount.
+2. Get a large jar and a bag of Tamarind seeds and put 30 seeds in the jar. Observing 
+the contents, estimate how many seeds roughly will fill the whole jar . Continue to fill 
+the jar to check your estimate.
+Rounding off is one way to find a number for estimation that is quite convenient. It gives us 
+the closest suitable number according to a given place value. There are four steps involved 
+in the rounding process. Let us illustrate this with an example.
+Example 1.12
+ Round off the number 8,436 to the nearest hundreds.
+Step To do 8,436 to hundreds
+Step 1 Find the digit in hundreds place 8,436
+Step 2 Look at the digit to its right 8,436
+Step 3 If this digit is 5 or greater, add 1 to it. If it is  
+less than 5, leave it unchanged
+8,436 (3 < 5)
+Leave 4 unchanged
+Step 4 Change the digits to the right of 4 to zeros 8,400
+Example 1.13
+ Round off the number 78,794 to the nearest thousands.
+Step To do 78,794 to thousands
+Step 1 Find the digit in thousands place 78,794
+Step 2 Look at the digit to its right 78,794
+Step 3 If this digit is 5 or greater, add 1 to it. If it 
+is less than 5, leave it unchanged
+78,794 (7 > 5)
+Add 1 to 8 and Change 8 to 99
+Step 4 Change the digits to the right of 79 to zeros 79,000
+6th_Maths_EM_Term1_Chapter 1.indd   19 19/11/2022   15:35:44
+20
+6th Standard Mathematics
+TRY THESE
+1. Round off the following numbers to the nearest ten.
+ (i) 57  (ii) 189    (iii) 3,956  (iv) 57,312
+2. Round off the following numbers to the nearest ten, hundred and thousand. 
+ (i) 9,34,678 (ii) 73,43,489 (iii) 17,98,45,673
+3. The tallest mountain in the world Mount Everest, located in Nepal is 8,848 m high. 
+Its height can be rounded to the nearest thousand as __________.
+1.8.1 Estimation of Sum and Difference
+Example 1.14
+The amount deposited by a Gold merchant 
+in his bank account in the month of January 
+is `17,53,740 and in the month of February 
+is `15,34,300. Estimate the sum and 
+difference of the amount deposited to the 
+nearest thousand.
+Solution
+Rounding off to the nearest thousand is as 
+follows.
+Actual 
+Amount
+Estimated 
+Amount
+Amount deposited in January ` 17,53,740 ` 17,54,000
+Amount deposited in February ` 15,34,300 ` 15,34,000
+Total amount deposited ` 32,88,040 ` 32,88,000
+Difference between the 
+amounts deposited ` 2,19,440 ` 2,20,000
+1.8.2 Estimation of Product and Quotient
+Example 1.15
+If the cost of a copy of Thirukkural book is ` 188, then 
+find  the  estimated  cost  of  31  copies  of  such  books. 
+(Note : Find the rounded values of 188 to hundreds 
+and 31 to tens and then find the result)
+Is 2,19,440 is 
+rounded off to its 
+nearest thousand 
+as 2,19,000. Why?
+THINK
+The number 10100  
+is called googol  
+(this is, 10 multiplied 
+100 times)
+The number  
+10googol = 10(10100) 
+is called googolplex
+6th_Maths_EM_Term1_Chapter 1.indd   20 19/11/2022   15:35:45
+21
+Numbers
+Solution
+Here, 188 is nearer to 200 and 31 is nearer to 30.
+The exact cost of 31 copies is 188 × 31 = ` 5828 whereas, 
+The estimated cost of 31 copies = 200 × 30  = ` 6000
+Therefore, the estimated cost of 31 copies of Thirukkural books is ` 6000.
+Example 1.16
+Find the estimated value of 5598 ÷ 689.
+Solution
+  Actual value Estimated value   
+8 8
+689 5598 700 5600
+5512 5600
+86 0
+Hence, the estimated value of 5598 ÷ 689 is 8 
+TRY THESE
+ ● Estimate the sum and the difference rounding off to nearest thousands: 8457 and 4573.
+ ● Estimate the product : 39 × 53
+ ● Estimate the quotient : 6845 ÷ 395
+Exercise 1.4
+1. Fill in the blanks.
+ (i) The nearest 100 of 843 is ________________.
+ (ii) The nearest 1000 of 756 is _______________.
+ (iii) The nearest 10000 of 85654 is ____________.
+2. Say True or False.
+ (i) 8567 is rounded off as 8600 to the nearest 10.
+ (ii) 139 is rounded off as 100 to the nearest 100.
+ (iii) 1,70,51,972 is rounded off as 1,70,00,000 to the nearest lakh.
+3. Round off the following to the given nearest place.
+ (i)  4,065; hundred   (ii) 44,555; thousand
+ (iii) 86,943; ten thousand   (iv) 50,81,739; lakh
+ (v) 33,75,98,482; ten crore
+4. Estimate the sum of 157826 and 32469 rounded off to the nearest ten thousand.
+5. Estimate by rounding off each number to the nearest hundred.
+ (i)  8074 + 4178    (ii) 1768977 + 130589
+Round of the numbers 
+5598 and 689 to the nearest 
+hundreds are 5600 and 700
+6th_Maths_EM_Term1_Chapter 1.indd   21 19/11/2022   15:35:45
+22
+6th Standard Mathematics
+6. The population of a city was 43,43,645 in the year 2001 and 46,81,087 in the year 
+2011. Estimate the increase in population by rounding off to the nearest thousand.
+Objective Type Questions
+7. The number which on rounding off to the nearest thousand gives 11000 is
+ (a) 10345 (b) 10855 (c) 11799 (d) 10056
+8. The estimation to the nearest hundred of 76812 is
+ (a) 77000 (b) 76000 (c) 76800 (d) 76900
+9. The number 9785764 is rounded off to the nearest lakh as 
+ (a) 9800000 (b) 9786000 (c) 9795600 (d) 9795000
+10. The estimated difference of 167826 and 2765 rounded off to the nearest thousand is 
+ (a) 180000 (b) 165000 (c) 140000 (d) 155000
+1.9 Whole Numbers 
+What is Mathematics about? It is about numbers, perhaps about shapes as well. It is 
+true that people usually count 1,2,3... on various situations. This collection of counting 
+numbers  {1,2,3,...}  is  called  Natural  numbers,  denoted  by  N.  If  this  collection  includes 
+0 as well, then the collection  {0,1,2,3,...} is called Whole numebrs, denoted by W .
+1.9.1 Recall the facts on Natural and Whole Numbers  
+• The smallest natural number is 1.
+• The smallest whole number is 0.
+• Every number has a successor. The number that comes just after the given number  
+ is its successor.
+• Every number has a predecessor. The number 1 has a predecessor in W namely ‘0’,  
+ but it has no predecessor in N. The number ‘0’ has no predecessor in W.
+•  There is an order to numbers. By comparing the two given numbers the larger of the  
+  two can be identified.
+•  Numbers  are  endless.  By  adding  1  to  any  chosen  large  number , the  next  number 
+ can be found.
+Logical and Mathematical operations of numbers are used in everyday arithmetic of 
+numbers. These operations can be made easier using properties. Certain properties of 
+numbers are already used without actually knowing them. For example, while adding  
+8 + 2 + 7, one way of adding is, 8 and 2 are added first to get 10 and then 7 is added to 
+it. The other way of adding this is, 2 and 7 added first to get 9 of then 8 is added to 9 to 
+get 17 which is same as the are about in first way
+N
+W
+6th_Maths_EM_Term1_Chapter 1.indd   22 19/11/2022   15:35:45
+23
+Numbers
+TRY THESE
+ ● Find the value of 6 + 3 + 8 and 3 + 6 + 8 
+ i) Are they same?
+ ii) Is there any other way of arranging these three numbers?
+ ● Find the value of 5 × 2 × 6 and 2 × 5 × 6
+ i) Are they same?
+ ii) Is there any other way of arranging these three numbers?
+ ● Is 7 − 5, the same as 5 − 7? Why?
+ ● What is the value of (15 − 8) − 6? Is it the same as 15 − ( 8 − 6)? Why?
+ ● What is 15 ÷ 5? Is it the same as 5 ÷ 15? Why?
+ ● What is the value of (100 ÷ 10)  ÷  5? Is it the same as 100  ÷  (10  ÷  5)? Why?
+1.10  Properties of Whole Numbers 
+The properties of numbers are important facts to be remembered,which helps to do 
+arithmetic calculations more precisely and to avoid mistakes.  
+1.10.1 Commutativity of addition and multiplication
+When two numbers are added (or multiplied), the order of the numbers does not affect 
+the sum (or the product). This is called commutativity of addition (or multiplication).
+Observe the given facts:
+ (i)   43 + 57   =  57 + 43
+ (ii)  12 × 15   =  15 × 12 
+ (iii) 35,784 + 48,12,69,841   =  48,12,69,841 + 35,784
+ (iv) 39,458 × 84,321   =  84,321 × 39,458
+Such facts are called as equations. In each of the above equations, the answers on both 
+the sides are same. Finding the answer for the third and fourth equations takes more 
+time.  But,  these  equations  are  meant  to  convey  the  properties  of  numbers.  The  third 
+equation is correct by commutativity of addition and the fourth equation is correct by 
+commutativity of multiplication.
+There is a nice pictorial way of understanding commutativity of multiplication. If we 
+have 5 rows of stars, each with 4 stars, we can draw the total of 20 stars as a rectangle  
+(5 × 4 = 20). See Fig.1.2 below. Now rotate the rectangle given in Fig.1.2 (a) to get the 
+Fig.1.2(c) as given below. It is the same rectangle. It has exactly the same total number 
+of stars,  20. But now we have 4 rows of stars,  each with 5 stars!  That is, 5 × 4 = 4 × 5.
+6th_Maths_EM_Term1_Chapter 1.indd   23 19/11/2022   15:35:45
+24
+6th Standard Mathematics
+  (a) (b) (c)
+Fig. 1.2
+Now, look at the following example. 
+7  –  3 = 4  but  3  –  7 will not give the same answer. Similarly, the answers of 12 ÷ 6 
+and 6 ÷ 12 are not equal.
+That is, 7  –  3 ≠ 3  –  7 and 12 ÷ 6 ≠ 6 ÷ 12
+Hence, In whole numbers subtraction and division are not commutative.
+TRY THESE
+ ● Use atleast three different pairs of whole numbers to verify that subtraction is not 
+commutative.
+ ● Is 10  ÷  5, the same as 5 ÷ 10? Justify it by taking two more combinations  
+of numbers.
+1.10.2 Associativity of addition and multiplication
+When several numbers are added, the order in which the numbers are added does not 
+matter. This is called associativity of addition. Similarly, when several numbers are to be 
+multiplied, the order in which the numbers are multiplied does not matter. This is called 
+associativity of multiplication.
+It can be said that the following equations are correct, without actually doing any addition 
+or multiplication, but by using the property of associativity. A few examples are given 
+below:
+6th_Maths_EM_Term1_Chapter 1.indd   24 19/11/2022   15:35:45
+25
+Numbers
+ (43 + 57) + 25  =  43 + (57 + 25)
+ 12 × (15 × 7)  =  (12 × 15) × 7
+ 35,784 + (48,12,69,841 + 3)  =  (35,784 + 48,12,69,841) + 3
+ (39,458 × 84,321) × 17 =  39,458 × (84,321 × 17) 
+It is to be noted that here too, subtraction and division are not associative.
+1.10.3  Distributivity of multiplication over addition or subtraction
+An interesting fact relating to addition and multiplication comes from the following patterns:
+ (72 × 13) + (28 × 13)  =  (72 + 28) × 13 
+ 37 × 102  =  (37 × 100) + (37 × 2) 
+ 37 × 98  =  (37 × 100)  –  (37 × 2)
+From the last two cases, we are arriving at the following equations:
+ 37 × (100 + 2)  =  (37 × 100) + (37 × 2) 
+   37 × (100 − 2)   =   (37 × 100)  –  (37 × 2)
+It can be noted that the product of a number and a sum of numbers can be written as the 
+sum of two products. Similarly, the product of a number and a number got by subtraction 
+can be written as the difference of two products. This property is called the property of 
+distributivity of multiplication over addition or subtraction. It is a very useful property to 
+group numbers in a convenient way. Now let us say 18 × 6 = (10 + 8) × 6 in an easy way 
+as shown in Fig.1.3.
+18 8
+6 =  + 6 6
+10
+  (a) (b) (c)Fig.1.3
+Thus, 18 × 6 = (10 + 8) × 6  is shown clearly in the above figure.
+It is to be noted that addition does not distribute over multiplication.
+For example,
+10 + (10 × 5) = 60 and  (10 + 10) × (10 + 5) = 300 are not equal.
+1.10.4  Identity for addition and multiplication
+When zero is added to any number, we get the same number. Similarly, when we multiply 
+any number by 1, we get the same number. So, zero is called the additive identity and one 
+is called the multiplicative identity for whole numbers.
+6th_Maths_EM_Term1_Chapter 1.indd   25 19/11/2022   15:35:45
+26
+6th Standard Mathematics
+TRY THESE
+ Complete the following tables.
+9  + 0 = 9 11  × 1 = 11
+7  + 0 = 1  × 55 = 55
+0  + 17 = 17 1  × 12 =
+0  + = 37 1  × = 100
+0  + = 1  × =
+Finally, these are some simple observations that are important.
+ ● When we add any two natural numbers, we get a natural number. Similarly when we 
+multiply any two natural numbers, we get a natural number.
+ ● When we add any two whole numbers, we get a whole number. Similarly when we 
+multiply any two whole numbers, we get a whole number.
+ ● When we add a natural number to a whole number, we get a natural number. When 
+we multiply a natural number by a whole number, we get a whole number. 
+NOTE
+ ● Any number multiplied by zero gives zero.
+TRY THESE
+Complete the table.
+6  + 8 = 14, a natural number
+4  + 5 = 9, a natural number
+4  × 5 = 20, a natural number
+6  × 8 = 48, a natural number
+ + =
+ + =
+ × =
+ × =
+6  + 8 = 14 , a whole number
+4  + 5 = 9, a whole number
+15  × 0 = 0, a whole number
+11  × 2 = 22, a whole number
+ + =
+ + =
+ × =
+ × =
+6th_Maths_EM_Term1_Chapter 1.indd   26 19/11/2022   15:35:45
+27
+Numbers
+All such properties together play a vital role in the Number System. When we learn Algebra, 
+we can realise the usefulness  of these properties  of the Number System and we can find 
+ways of extending it too.
+How will you read the large number given below?
+731,687,303,715,884,105,727
+This is read as 731 quintillion, 687 quadrillion, 303 trillion, 715 billion, 884 million,  
+105 thousand, 727 ones.
+Exercise 1.5
+1. Fill in the blanks.
+(i) The difference between the smallest natural number and the 
+smallest whole  number is __________.
+(ii) 17 × __________ = 34 × 17
+(iii) When __________ is added to a number, it remains the same.
+(iv)  Division by __________  is not defined.
+ (v) Multiplication by __________ leaves a number unchanged.
+2. Say True or False.
+ (i) 0 is the identity for multiplication of whole numbers.
+ (ii) Sum of two whole numbers is always less than their product.
+  (iii)  Both addition and  multiplication  are associative for  whole numbers. 
+  (iv)  Both addition and  multiplication  are commutative  for whole numbers.
+ (v) Multiplication is distributive over addition for whole numbers.
+3. Name the property being illustrated in each of the cases given below.
+ (i) 75 + 34 = 34 + 75  (ii) (12 × 4) × 8 = 12 × (4 × 8)
+ (iii) 50 + 0 = 50   (iv) 50 × 1 = 50
+ (v) 50 × 42 = 50 × 40 + 50 × 2
+4. Use the properties of whole numbers and simplify.
+  (i)  50 × 102       (ii)  500 × 689 − 500 × 89 
+ (iii) 4 × 132 × 25    (iv) 196 + 34 + 104
+6th_Maths_EM_Term1_Chapter 1.indd   27 19/11/2022   15:35:45
+28
+6th Standard Mathematics
+Objective Type Questions
+5. (53 + 49) × 0 is
+ (a) 102 (b) 0 (c) 1 (d) 53 + 49 × 0
+6. 59 
+ 1
+ is
+ (a) 1 (b) 0 (c)  1  
+59  (d) 59 
+7. The product of a non-zero whole number and its successor is always
+ (a) an even number (b) an odd number 
+ (c) zero  (d) none of these
+8. The whole number that does not have a predecessor is
+ (a) 10 (b) 0 (c) 1 (d) none of these
+9. Which of the following expressions is not zero?
+ (a) 2 × 0 (b) 0 + 0 (c) 2 + 0 (d) 0 – 0
+10. Which of the following is not true?
+ (a) (4237  + 5498) + 3439 = 4237 + (5498 + 3439)
+ (b) (4237 × 5498) × 3439= 4237 × (5498 × 3439)
+ (c) 4237 +  5498 × 3439 = (4237 + 5498) × 3439
+ (d) 4237 × (5498 + 3439) = (4237 × 5498) + (4237 × 3439)
+Exercise 1.6
+Miscellaneous Practice Problems 
+1. Try to open my locked suitcase which has the biggest 5 digit odd number as the 
+password comprising the digits 7, 5, 4, 3 and 8. Find the password.
+2. As per the census of 2001, the population of four states are given below. Arrange the 
+states in ascending and descending order of their population.
+State Population
+Tamil Nadu 72147030
+Rajasthan 68548437
+Madhya Pradesh 72626809
+West Bengal 91276115
+6th_Maths_EM_Term1_Chapter 1.indd   28 19/11/2022   15:35:45
+29
+Numbers
+3. Study the following table and answer the questions.
+Year No. of Tigers
+1990 3500
+2008 1400
+2011 1706
+2014 2226
+(i) How many tigers were there in 2011?
+(ii) How many tigers were less in 2008 than in 1990?
+(iii) Did the number of tigers increase or decrease between 2011 and 2014? If yes, 
+by how much?
+4. Mullaikodi has 25 bags of apples. In each bag there are 9 apples. She shares them 
+equally amongst her 6 friends. How many apples do each get? Are there any apples 
+left over?
+5.  A poultry  has  produced  15472  eggs  and fits 30 eggs  in a tray. How many trays do 
+they need? 
+Challenging Problems
+6. Read the table and answer the following questions.
+Name of the Star Diameter (in miles)
+Sun 864730
+Sirius 1556500
+Canopus 25941900
+Alpha Centauri 1037700
+Arcturus 19888800
+Vega 2594200
+(i) Write the Canopus star’s diameter in words, in the Indian and the International 
+System.
+(ii) Write the sum of the place values of 5 in Sirius star’s diameter in the Indian 
+System.
+(iii) Eight hundred sixty four million seven hundred thirty. Write in Indian System.
+(iv) Write the diameter in words of Arcturus star in the International System.
+(v) Write the difference of the diameters of Canopus and Arcturus stars in the 
+Indian and the International Systems.
+6th_Maths_EM_Term1_Chapter 1.indd   29 19/11/2022   15:35:45
+30
+6th Standard Mathematics
+7.  Anbu asks Arivu Selvi to guess a five digit odd number . He gives the following hints.
+ ● The digit in the 1000s place is less than 5
+ ● The digit in the 100s place is greater than 6
+ ● The digit in the 10s place is 8
+ What is Arivu Selvi answer? Does she give more than one answer?
+8. A Music concert is taking place in a stadium. A total of 7,689 chairs are to be put in 
+rows of 90. (i) How many rows will there be? (ii) Will there be any chairs left over?
+9. Round off the seven digit number 29,75,842 to the nearest lakhs and ten lakhs. Are 
+they the same?
+10. Find the 5 or 6 or 7 digit numbers from a newspaper or a magazine to get a rounded 
+number to the nearest ten thousand.
+Summary
+ ● Use of commas helps us in reading and writing large numbers.
+ ● Use of commas differs in the Indian and the International Systems.
+ ● Comparing any two numbers, the one with more digits is larger.
+ ● Comparing any two numbers, if the digits are the same, the number that has a 
+greater left most digit is larger.
+ ● Using BIDMAS, we can avoid the common arithmetic  mistakes.
+ ● Large numbers are needed for various situations in our daily life.
+ ● The situations where we do not need the exact quantity give rise to estimation or 
+approximation.
+ ● Estimation is approximating a quantity to a reasonable accuracy.
+ ● Rounding of a number involves in getting a quick, desired and rough estimate of it.
+ ● If zero is included in the collection of Natural numbers (N), we get the collection 
+of Whole numbers  (W), W = {0, 1, 2, …}.
+ ● ‘0’ is the smallest whole number.
+ ● ‘0’ and ‘1’ are the additive and multiplicative identities of whole numbers  
+respectively.
+ ● Whole numbers can be added or multiplied in any order and hence Commutative.
+ ● Multiplication of Whole numbers is both Commutative and Associative.
+ ● Multiplication is Distributive over addition for Whole numbers.
+ ● Division by ‘0’ is not defined.
+6th_Maths_EM_Term1_Chapter 1.indd   30 19/11/2022   15:35:45
+31
+Numbers
+ICT Corner
+NUMBERS
+ Expected Result is shown in this picture
+Step – 1  
+Open the Browser, Copy and paste the link given below (or) by type the URL given (or) Scan the QR Code. 
+Step - 2 
+GeoGebra worksheet named “Place Value” will open. A Natural number is given. You can change the problem by 
+clicking on “Problem” bu�on. 
+Step-3 
+In the bo�om page, Answer the ques�on asked by typing the number related to the ques�on. 
+Step-4 
+Now Click on the “Place Value” to see all the place values. Repeat the test by clicking on “Problem”. 
+Step-1 Step-2  
+Step-3 Step-4 
+Browse in the link  
+Place Value: - https://www.geogebra.org/m/XG3PPt3U  
+6th_Maths_EM_Term1_Chapter 1.indd   31 19/11/2022   15:35:45
+32
+6th Standard Mathematics
+Learning Objectives
+ ● To describe, extend, create numeric and geometric patterns.
+ ● To make predictions related to the patterns and investigate repeating patterns.
+ ● To understand the role of 'variables' in patterns.
+ ● To use variables in simple algebraic expressions and equations to describe 
+relationships.
+2.1 Introduction 
+ Are you ready for a number game? Follow the steps carefully:
+Step 1 Step 2 Step 3 Step 4 Step 5
+Think of any 
+number
+Multiply it 
+by 2 Add 20 Divide by 2 Subtract the original number 
+you had thought in step 1
+Is your answer 10? Is it the same for all in the class? Verify it with your friend who might 
+have started with a number other than your number. Surprised? What if you started with 
+a fraction, say 2
+1 or 4
+3 or 5
+4 ? In this game, regardless of the number you started with, the 
+answer will be 10. 
+Let us verify the game for two more numbers, say 4 and 9.
+ ● If the initial number is 4,
+Step 1 Step 2 Step 3 Step 4 Step 5
+4 4 × 2 = 8 8 + 20 = 28 28 ÷ 2 = 14 14 − 4  = 10
+ ● If the initial number is 9,  
+Step 1 Step 2 Step 3 Step 4 Step 5
+9 9  × 2 = 18 18 + 20 = 38 38 ÷ 2 = 19 19 − 9 = 10
+2
+Chapter
+INTRODUCTION TO ALGEBRA
+6th_Maths_EM_Term1_Chapter 2.indd   32 19/11/2022   15:39:15
+33
+Introduction to Algebra
+So, we can say that the same will happen for other numbers too. 
+You will find that Algebra is interesting and useful in solving problems in our daily life such as
+ ● Finding the number of things to its cost.
+ ● Expressing the distance covered, in terms of speed and time.
+ ● Converting miles into kilometres, grams to kilograms etc.
+ ● Finding the length of the barbed wire to fence a garden.
+ ● Finding the area of a park.
+ ● Finding the missing numbers in a sequence.
+MATHEMATICS ALIVE − ALGEBRA IN REAL LIFE
+           
+4 sticks 8 sticks 12 sticks
+1 × 4 sticks 2 × 4 sticks 3 × 4 sticks
+2.2 Patterns
+Mathematics is easy when we look at it as a study of patterns. Patterns allow us to make 
+reasonable guesses. Understanding patterns provide a clear basis for problem solving 
+skills. In this chapter, we are going to look at patterns that deals with numbers. For 
+example, let us list the numbers we know in order 
+     1, 2, 3, 4, 5, 6, 7, 8, 9, 10... 
+We observe that 1 is odd, 2 is even, 3 is odd, 4 is even etc. Thus odd numbers and even 
+numbers alternate with each other. If these is a sequence 12, 8, 4 … can you find the 
+next number? Easy, each number is obtained by subtracting 4 from the previous number.  
+So the fourth number is 0. 
+The branch of Mathematics that deals with such patterns is called Algebra. Today Algebra is 
+used widely in many fields that include banking, insurance, accounting, statistics, science, 
+engineering, manufacturing and so on.
+  Alive
+ Mathematics
+6th_Maths_EM_Term1_Chapter 2.indd   33 19/11/2022   15:39:15
+34
+6th Standard Mathematics
+TRY THESE
+ ● Observe the following patterns and complete them.
+ (i) 5, 8, 11, 14, ___ , ___ , ___
+ (ii) If 15873 × 7 = 111111 and 15873 × 14 = 222222 then what is
+  15873 × 21 =? and 15873 × 28 =? 
+ ● Draw the next two patterns and complete the table.
+Pattern 1st 2nd 3rd 4th 5th
+Squares 1 2 3
+Circles 3 6 9
+ ● Create your own pattern of shapes and prepare a table.
+2.2.1 Patterns in Number Operations
+In the first chapter on Whole Numbers, you have learnt about numbers that are multiplied 
+by 1 or 0.  
+For example, we know, 57 × 1 = 57 and 43 × 0 = 0.
+But we also know that this statement is true for all numbers (not just for the above two).  
+So, can we say “any number” × 1 = "the same number" that we started with?
+Algebra gives a way for writing such facts in a short and sweet way. We can write the 
+above statement as n × 1 = n, where n is a number. Here n on the left-hand side is just 
+a letter that is used instead of saying " any number". The number on the right-hand side 
+is the same n. This ensures that we get a correct statement! 
+In Algebra, we say that “n” is a variable. A variable is a symbol (usually an alphabet like 
+n or x) that represents a number. Variables often help us to write briefly what we mean 
+by a relation. In n × 1 = n, left side number quantity 1 do not vary always. So we call it 
+as constant.
+6th_Maths_EM_Term1_Chapter 2.indd   34 19/11/2022   15:39:15
+35
+Introduction to Algebra
+For example, the following patterns such as,
+ 7 + 9   =   9 + 7
+ 57 + 43   =   43 + 57
+ 123 + 456   =   456 + 123
+ 7098 + 2018   =   2018 + 7098
+ 35784 + 481269841   =   481269841 + 35784
+can be simply summarized as  a + b = b + a.
+Here, we have two variables namely “a” and “b”. Each variable can take “any value” , 
+but the value of ‘a’ is the same on both sides, and the value of ‘b’ is also the same on 
+both sides. But, the values of ‘a’ and ‘b’ need not be equal  to each other.
+Can you give a similar intrepretation for  a × b = b × a ?
+NOTE
+Similar rules cannot be written for subtraction! We know what is ‘7 − 3’, but not ‘3 − 7’. 
+So ‘a − b’ and ‘b − a’ are not the same!
+2.3 Understanding operations on Variables
+Consider the following situations.
+Situation 1:
+Mathi is 3 years elder than his sister Nila. If we know Nila's age, 
+can we find Mathi’s?
+If Nila’s age is ‘n’, you can see that Mathi’s age is always  
+‘n + 3’. This is the advantage of using variables. We do not need 
+different statements for different values of the age! As we give 
+different values for ‘n’, we get different values for ‘n + 3’, here 
+3 is a constant. This is clear from the following table. 
+Nila's age 'n' Mathi’s age 'n + 3'
+If n = 4 7
+If n = 8 11
+If n = 12 15
+6th_Maths_EM_Term1_Chapter 2.indd   35 19/11/2022   15:39:15
+36
+6th Standard Mathematics
+Situation 2:
+Patterns using Ice Candy Sticks
+Pari and Manimegalai made some patterns with ice candy sticks.
+To make one ‘T’, how many ice candy sticks are used by them?  (Two sticks)
+To make two ‘T’s, how many ice candy sticks are used by them? (Four sticks)
+Continuing this, they prepared the following table to find the number of ice candy sticks 
+used by them
+Number of ‘T’s formed 1 2 3 4 .  .   .  k .  .   .   
+Number of ice candy 
+sticks used / required
+2 4 6 8 .  .   .  2k .  .   .   
+1 × 2 2 × 2 3 × 2 4 × 2 .  .   .  k × 2 .  .   .   
+From the above table, it is clear that if the number of ‘T’s required by them is ‘k’ then the 
+number of ice candy sticks required by them will be   k × 2 = 2k. Here ‘k’ is a variable.
+2.4 Framing Algebraic Statements
+Consider that there are ‘n’ number of apples in a basket. If 5 more apples are 
+added, what will be the total number of apples in the basket now? 
+The total number of apples can be easily framed into an algebraic statement 
+as ‘n + 5’. This algebraic statement ‘n + 5’ tells that, whatever be the number of apples 
+you had earlier, there are 5 more apples now in the basket.
+ ● Suppose there are unknown number of people in a bus, say ‘x’ and if 2 more people 
+get into the bus, then there will be ‘x + 2’ people in the bus. 
+TRY THESE
+Use a variable to write the rule, which gives the number of ice candy sticks required 
+to make the following patterns. 
+(i) a pattern of letter C as   (ii) a pattern of letter M as  
+6th_Maths_EM_Term1_Chapter 2.indd   36 19/11/2022   15:39:16
+37
+Introduction to Algebra
+ ● There is a patty of butter which weighs ‘w’ grams. If you cut off 100 grams from it, 
+you will have ‘w − 100’ grams left. 
+ ● If you start with a number ‘y’ and then double it, you can write it as ‘2y’ (you know, 
+‘2y’ means 2 multiplied by y).
+2.4.1 Converting Algebraic statements to Verbal statements
+A few examples are given in the following table.
+Sl. No Algebraic statement Verbal statement
+1. m + 14 14 more than ‘m’
+2. x – 6 ‘x’ is reduced by 6
+3. 3y (or) 3 × y product of 3 and ‘y’
+4. 5 ÷ z (or) 5
+z 5 divided by ‘z’
+5. 2p – 5 5 less to 2 times ‘p’
+ Likewise, verbal statements can be converted to algebraic statements as follows.
+2.4.2 Converting Verbal statements to Algebraic Statements
+A few examples are given in the following table.
+Sl. No Verbal statement Algebraic statement
+1. ‘x’ is increased by 21 x + 21
+2. 7 is taken away from ‘a’ a – 7
+3. Twice ‘p’ 2p
+4. 10 divided by ‘m’ 10 ÷ m
+5. The product of 7 and ‘y’ is divided by 2 7y ÷ 2
+TRY THESE
+Sl. No Algebraic statement Verbal statement
+1. a + 5
+2. 6z − 1
+3. 12y
+4.
+6th_Maths_EM_Term1_Chapter 2.indd   37 19/11/2022   15:39:16
+38
+6th Standard Mathematics
+TRY THESE
+Sl. No Verbal statement Algebraic statement 
+1. Seven times of ‘n’ minus 5
+2. The sum of ‘x’ and 4
+3. 3 times ‘y’ is divided by 8
+4. 11 is multiplied by ‘m’
+2.5 Solving unknowns through examples
+ Let us fill in the empty boxes
+  (a)   + 3 = 8 (b) 2  +    = 9  (c) 11 − 5  = 
+ The  stands for an unknown n umber. 
+To make the equations meaningful, we shall write 5 in the first box, we shall write 7 in the 
+second box and we shall write 6 in the third box. 
+Example 2.1
+Suppose that there are some eggs in a tray. If 6 eggs are taken out from it and still  
+10 eggs are remaining, how many eggs are there in the tray? 
+–
+  
+  
+  
+ 
+gives
+ 
+  
+  
+ 
+  
+ 
+  
+  
+According to the given statement,
+Unknown number of eggs in the tray minus 6 eggs gives 10 eggs
+TRY THESE
+Find the unknown.
+(i) 37 + 43 = 43 +    (ii) (22 + 10) + 15 =  + (10 + 15)
+(iii) If 7 × 46 = 322 then 46 × 7 = 
+6th_Maths_EM_Term1_Chapter 2.indd   38 19/11/2022   15:39:20
+39
+Introduction to Algebra
+This can be written as, x – 6 gives 10, where ‘x’ denotes the unknown number.  
+Now, we will find out for what value of ‘x’, x − 6 gives 10.
+Value of ‘x’ 
+Yes/No x − 6 Result Is it 10?
+7 7 − 6 1 No
+10 10 − 6 4 No
+12 12 − 6 6 No
+15 15 − 6 9 No
+16 16 − 6 10 Yes
+18 18 − 6 12 No
+Hence, the unknown number (variable) ‘x’ takes the value 16.  
+Example 2.2
+Athiyan and Mugilan are brothers. Athiyan is ‘p’ years old and Mugilan is elder to Athiyan 
+by 6 years. Write an algebraic statement for this and find the age of Mugilan if Athiyan is  
+20 years old.
+ Age of Athiyan  =   ‘p’ years
+ Age of Mugilan  =  ‘p + 6’ years (algebraic statement)
+ If p = 20, then Mugilan’s age is   =   20 + 6
+   =   26 years. 
+TRY THIS
+Find the suitable value of ‘m’, to get a sum of 9?
+m m + 4 Result Is it 9? 
+Yes / No
+1 1+4 5 No
+2 ________ ________
+3 ________ ________
+4 ________ ________
+5 ________ ________
+6th_Maths_EM_Term1_Chapter 2.indd   39 19/11/2022   15:39:20
+40
+6th Standard Mathematics
+Exercise 2.1
+1. Fill in the blanks.
+ (i) The letters a, b, c, … x, y, z  are used to represent _________.
+ (ii) The algebraic statement of ‘f decreased by 5 ’ is __________.
+ (iii) The algebraic statement of ‘s divided by 5’ is __________.
+ (iv) If A’s age is ‘n’ years now, 7 years ago A’s age was ________.
+ (v) If ‘p − 5’ gives 12 then ‘p’ is __________.
+2.  Say True or False.
+ (i)  
+6 cm
+A B
+a cm ?
+ The length of part B in the pencil shown is ‘a − 6’.  
+ (ii)  If the cost of an  
+  is ‘x’  and the cost of a 
+  is `5, then the total cost of fruits 
+is ` 'x + 5'.
+ (iii) 10 more to three times 'c' is '10c + 3'
+ (iv) If the cost of 10 rice bags is ` ‘t’, then the cost of 1 rice bag is ‘t’` 10
+t . 
+ (v) The product of ‘q’ and 20 is '20 q'.
+3. Draw the next two patterns and complete the table.
+Shapes 1st 
+Pattern
+2nd 
+Pattern
+3rd 
+Pattern
+4th 
+Pattern
+5th 
+Pattern
+Squares 1 2 3
+Circles 1 2 3
+Triangles 2 4 6
+4. Arivazhagan is 30 years younger to his father. Write Arivazhagan's age in terms of his 
+father's age.
+5. If ‘u’ is an even number, how would you represent
+ (i) the next even number?    (ii) the previous even number?
+6th_Maths_EM_Term1_Chapter 2.indd   40 19/11/2022   15:39:24
+41
+Introduction to Algebra
+6. Express the following verbal statement to algebraic statement.
+ (i) ‘t’ is added to 100. (ii) 4 times ‘q’. (iii) 4 less to 9 times of ‘y’.
+7. Express the following algebraic statement to verbal statement.
+ (i) x ÷ 3 (ii) 11 + 10x (iii) 70s
+8. The teacher  asked two students to write the algebraic statement for the verbal 
+statement “8 more than a number”. Vetri wrote ‘8 + x’ but Maran wrote ‘8 x’. Who 
+gave the correct answer? 
+9. Answer the following questions.
+ (i) If ‘g’ is equal to 300 what is the value of ‘g − 1’ and ‘g + 1’ ?
+ (ii) What is the value of ‘s’, if '2s − 6' gives 30?
+10. Complete the table and find the value of ‘k’ for which ‘k’
+3  gives 5.
+k 3 6 9 12 15 18
+1 2
+Objective Type Questions
+11. Variable means that it 
+ (a) can take only a few values  (b) has a fixed value 
+ (c) can take different values (d) can take only 8 values
+12. The number of days in ‘w’ weeks is 
+ (a) 30 + w (b) 30w  (c) 7 + w  (d) 7w 
+13. The value of ‘x’ in the circle is
+ (a) 6 (b) 8  (c) 21 (d) 22
+14. The value of ‘y’ in y + 7 = 13 is 
+ (a) y = 5  (b)  y = 6   (c) y = 7  (d) y = 8
+15. 6 less to ‘n’ gives 8 is represented as 
+ (a) n − 6 = 8 (b) 6 − n = 8  (c) 8 − n = 6 (d) n − 8 = 6
+  k
+3
+x 2
+416
+11 7
+6th_Maths_EM_Term1_Chapter 2.indd   41 19/11/2022   15:39:24
+42
+6th Standard Mathematics
+Exercise 2.2
+Miscellaneous Practice Problems 
+1. Complete the following pattern.
+9 − 1 = 
+98 − 21 =  
+987 − 321 = 
+9876 − 4321 = 
+98765 − 54321 =  
+ What comes next?
+2. A piece of wire is ‘12s’ cm long. What will be the length of the side, if it is formed as 
+ (i) an equilateral triangle
+ (ii) a square 
+3. Identify the value of the shapes and figures in the table given below and verify their 
+addition horizontally and vertically.
+   
+ =  30
+    
+ =  36
+  
+ = 
+  
+ = 
+ =  32  =  =  =  = 
+6th_Maths_EM_Term1_Chapter 2.indd   42 03-12-2022   12:50:34
+43
+Introduction to Algebra
+4. The table given below shows the results of the matches played by 8 teams in a  
+Kabaddi championship tournament.
+Teams A B C D E F G H
+Total Matches played 8 7 n a 9 10 8 y
+Matches won 5 6 4 7 b 6 x 3
+Matches lost k m 6 2 3 c 4 6
+ Find the value of all the variables in the table given above. 
+Challenging Problems
+5. Gopal is 8 years younger to Karnan. If the sum of their ages is 30, how old is Karnan?
+6. The rectangles made of identical squ are blocks with varying lengths but having only 
+two square blocks as width are given be low.
+  P                Q   R  S   T
+ (i) How many small size squares are there in each of the rectangles P, Q, R and S?
+ (ii) Fill in the boxes.
+Rectangle P Q R S T
+Number of small size squares along the 
+breadth 2 2 ? 2 2
+Number of squares along the length 1 4 3 ? x
+Total number of squares in rectangle ? 8 ? 10 ?
+6th_Maths_EM_Term1_Chapter 2.indd   43 19/11/2022   15:39:25
+44
+6th Standard Mathematics
+7.  Find the variables from the clues given below and solve the cross−word puzzle.
+x t
+z p
+v k
+u
+a m
+s
+Across Down
+x + 40 gives 100 x is 1005 multiplied by 6
+7 reduced from t gives 31 t ÷ 7 = 5
+z is 5 added 5 times p is the predecessor of first 3 digit number
+v is the whole number zero plus number of 
+days in a ordinary year
+z is the number of weeks in a year 
+(digits reversed)
+k is 24 added to 25 k is 11 times 4
+u is 2 added to two times 11 gives the 
+number of hours in a day u is product of 23 and 9
+a is 20 more to 40 a is 4 added to the product of 12 and 5
+s minus 1 gives 246 is the number of letters 
+in Tamil language m is the successor of 9
+Summary
+ ● Variables are quantities that can take any value and they are denoted by small 
+alphabets a,b,c, …, x,y,z.
+ ● Constants are quantities whose value do not change always i.e. a fixed value.
+ ● A Variable allows us to express relations easily in all practical situations.
+ ● Variables are used to generalise and express many common rules of Geometry and 
+Arithmetic.
+6th_Maths_EM_Term1_Chapter 2.indd   44 19/11/2022   15:39:25
+45
+Introduction to Algebra
+ICT Corner
+INTRODUCTION TO ALGEBRA
+ Expected Result is shown in this picture
+Step – 1  
+Open the Browser, Copy and paste the link given below (or) by type the URL given (or) Scan the QR Code.  
+Step - 2 
+GeoGebra Work Book “6th Standard Algebra” will appear. There are several worksheets. In that open “Linear 
+Equa�on Generator” 
+Step-3 
+In the page select the diﬃculty level by moving the slider. Linear equa�on will appear on the top solve it and enter 
+your answer in the “x” box and hit enter.  
+Step-4 
+If your answer is correct “Correct!!!” menu will appear. Try more problems by clicking on “New Problem” 
+.Step-1 Step-2  
+Step-3 Step-4 
+Try the remaining worksheets given in this work book related to your lesson
+Browse in the link 
+Algebra: - https://ggbm.at/GUafZjxr 
+6th_Maths_EM_Term1_Chapter 2.indd   45 19/11/2022   15:39:25
+46
+6th Standard Mathematics
+Learning Objectives
+ ● To understand the concept of ratio.
+ ● To use ratio notation and simplify ratios.
+ ● To divide a quantity into two parts for a given ratio.
+ ● To recognise the relationship between ratio and proportion.
+ ● To use the unitary method and solve simple ratio problems.
+Recap
+1. Which of the following fractions is not a proper fraction?
+ (a) 3
+1   (b) 3
+2   (c) 10
+5   (d) 5
+10   
+2. The equivalent fraction of 7
+1  is _________.  
+ (a) 15
+2   (b) 49
+1    (c) 49
+7    (d) 7
+100
+3.    Write > ,< or = in the box.
+ (i) 8
+5   10
+1   (ii) 12
+9  4
+3
+4.    Anban says that 6
+2 th of the group of triangles given below are blue. Is he correct? 
+ 
+5.   Joseph has a flower garden. Draw a picture which shows that 10
+2  th of the flowers 
+are red and the rest of them are yellow.
+6.  Malarkodi has 10 oranges. If she ate 4 oranges, what fraction of oranges was not 
+eaten by her?
+7.  After sowing seeds on day one, Muthu observes the growth of two plants and records 
+it. In 10 days, if the first plant grew 4
+1  th of an inch and the second plant grew 8
+3  th 
+of an inch, then which plant grew more?
+3
+Chapter
+RATIO AND PROPORTION
+6th_Maths_EM_Term1_Chapter 3.indd   46 28/11/2022   17:13:56
+47
+Ratio and proportion
+3.1 Introduction
+In our daily life, we handle lots of situations where we compare quantities. Comparison 
+of our heights, weights, marks secured in examinations, speeds of vehicles, distances 
+travelled, auto fare to taxi fare, bank balances at different periods of time and many more 
+things are done.  Comparison is usually between quantities of the same kind and not of 
+different kind. It will not be meaningful to compare the height of a person with the age of 
+another person. Also, we need a standard measure for comparison.
+This  sort of comparison by expressing one quantity as the number of times the other is 
+called a ‘Ratio’.
+MATHEMATICS ALIVE – RATIO IN REAL LIFE
+Not to Scale
+555 persons to one square k.m. Comparison of Height and Weight by using ratio
+3.2 Ratio
+Think about this Situation
+Let us consider a situation of cooking 
+rice for two persons. The quantity of rice 
+required for two persons is one cup. To 
+cook every one cup of rice, we need to 
+add two cups of water. Assuming that 8 
+more guests join for lunch, will the use of 
+ratio help us in handing this situation?
+The number of cups of rice and water 
+required are given below.
+Male Female
+Height Ideal Weight Height Ideal Weight
+4' 6" 28 - 35 Kg. 4' 6" 28 - 35 Kg.
+4' 7" 30 - 39 Kg. 4' 7" 30 - 37 Kg.
+4' 8" 33 - 40 Kg. 4' 8" 32 - 40 Kg.
+4' 9" 35 - 44 Kg. 4' 9" 35 - 42 Kg.
+4' 10" 38 - 46 Kg. 4' 10" 36 - 45 Kg.
+4' 11" 40 - 50 Kg. 4' 11" 39 - 47 Kg.
+5' 0" 43 - 53 Kg. 5' 0" 40 - 50 Kg.
+5' 1" 45 - 55 Kg. 5' 1" 43 - 52 Kg.
+5' 2" 48 - 59 Kg. 5' 2" 45 - 55 Kg.
+5' 3" 50 - 61 Kg. 5' 3" 47 - 57 Kg.
+5' 4" 53 - 65 Kg. 5' 4" 49 - 60 Kg.
+5' 5" 55 - 68 Kg. 5' 5" 51 - 62 Kg.
+5' 6" 58 - 70 Kg. 5' 6" 53 - 65 Kg.
+5' 7" 60 - 74 Kg. 5' 7" 55 - 67 Kg.
+5' 8" 63 - 76 Kg. 5' 8" 57 - 70 Kg.
+5' 9" 65 - 80 Kg. 5' 9" 59 - 72 Kg.
+5' 10" 67 - 83 Kg. 5' 10" 61 - 75 Kg.
+5' 11" 70 - 85 Kg. 5' 11" 63 - 77 Kg.
+6' 0" 72 - 89 Kg. 6' 0" 65 - 80 Kg.
+  Alive
+ Mathematics
+It is possible to trace the origin of the  
+word "ratio" to the Ancient Greek 
+Medieval. Writers used the word proprotio 
+("proportion") to indicate ratio and 
+proportionalities ("proprotionality") for 
+the equality of ratios. Early translators 
+rendered this into Latin as ratio ("reason"; 
+as in the word "rational")
+6th_Maths_EM_Term1_Chapter 3.indd   47 28/11/2022   17:13:57
+48
+6th Standard Mathematics
+Number of cups of rice 1 2 3 4 5
+Number of cups of water 
+(or) No. of persons 2 4 6 8 10
+In all the cases, the number of cups of water (or) the number of persons is 2 times the 
+number of cups of rice. So, we write
+Number of cups of rice : Number of cups of water (or) the number of persons = 1 : 2
+Such comparison is called as a Ratio.
+NOTE
+ ● A ratio is a comparison of two quantities with same units.
+ ● If ‘a’ and ‘b’ are two different quantities with same unit then, we can write the 
+ratio as a:b (read as a is to b).
+ ● A ratio can be written as a fraction; ratios are mostly written in the simplest form.
+ ● In the above example, the ratio of rice to water in terms of the number of cups 
+can be written in three different ways as 1 : 2 or 2
+1  or 1 to 2 .
+TRY THESE
+1. Write the ratio of red tiles to blue tiles and yellow tiles to red tiles.
+2. Write the ratio of blue tiles to that of red tiles and red tiles to that of total tiles.
+3. Write the ratio of shaded portion to the unshaded portions in the following shapes.
+Ratio:___________ Ratio:___________
+3.2.1  Properties of Ratio
+ ● A ratio has no unit. It is a number.  For example, the ratio of 8 km to 4 km is written 
+as 8 : 4 = 2 : 1 and not 2 km : 1 km
+ ● The two quantities in a ratio should be of the same unit. The ratio of 4 km to  
+400 m is expressed as (4 × 1000) : 400 = 4000 : 400 = 10 : 1
+6th_Maths_EM_Term1_Chapter 3.indd   48 28/11/2022   17:13:57
+49
+Ratio and proportion
+ ● Each number of the ratio is called a term.
+ ● Order of the terms in a ratio cannot be reversed.
+A few examples are given below.
+(a)
+ (b)
+Ratio of the number of small fish to the 
+number of big fish is 5 : 1
+Ratio of the number of boys to girls in 
+above figure is 5 : 4
+In the above example, the ratio of the number of small fish to the number of big fish is 5 : 1. 
+The same information cannot be written as 1 : 5 and so, 5 : 1 and 1 : 5 are not the same. 
+If in a class, there are 12 boys and 12 girls, then the ratio of number of boys to the number 
+of girls is expressed as 12 : 12 which is the same as 1 : 1.
+3.2.2  Ratios in simplest form
+Think about these situations
+`5,00,000
+`50,000
+  (a)  Fig. 3.1 (b)
+TRY THESE
+If the given quantity is in the same unit, put  otherwise put X in the table below.
+Sl.No Quantity Put  or  X
+1 5 cm and 100 cm
+2 ` 5 and 50 oranges 
+3 2 m and 75 ml
+4 7 km and 700 m
+5 3 kg of potatoes and 2 kg onions
+6 10 cm and 32 pencils
+4 m
+2 m
+6th_Maths_EM_Term1_Chapter 3.indd   49 28/11/2022   17:13:59
+50
+6th Standard Mathematics
+1. The larger rope is 4 m long and the smaller rope is 2 m long. This is expressed in the 
+form of ratio as 4 : 2 and the simplest form of ratio of the larger rope to the smaller 
+rope is 2 : 1 (See Fig. 3.1 (a))
+2. The cost of a car is ` 5,00,000 and the cost of a motorbike is ` 50,000. This is 
+expressed as 500000 : 50000 = 50 : 5 and the simplest form of ratio of the car to the 
+motorbike is 10 : 1  (See Fig. 3.1 (b)) 
+3.2.3  Simplifying ratios of same unit
+Example 3.1 
+Simplify the ratio 20 : 5.
+Solution
+Step 1 :  Write the ratio in fraction form as 5
+20 .
+Step 2 :  Divide numerator and denominator by 5. That is,  55
+20 5
+'
+'  = 1
+4  = 4 : 1
+This is the ratio in the simplest form.
+Example 3.2 
+Find the ratio of 500 g to 250 g.
+Solution
+500 g to 250 g = 500 : 250 &  250
+500  = 2502 50
+5002 50
+'
+'  = 1
+2  = 2 : 1
+This is the ratio in the simplest form.
+Example 3.3
+Madhavi and Anbu bought two tables for ` 750 and ` 900 respectively. What is the ratio 
+of the prices of tables bought by Anbu and Madhavi?
+Solution
+The ratio of the price of tables bought by Anbu and Madhavi 
+900: 750 750
+900
+7501 50
+9001 50
+5
+6 6: 5& '
+'== == . This is the ratio in the simplest form. 
+3.2.4  Simplifying ratios of different units
+Example 3.4
+What is the ratio of 40 minutes to 1 hour?  
+Solution
+Step 1 :  Express the quantity in the same unit. (Hint :  1 Hour = 60 minutes) 
+Step 2 :  Now, the ratio of 40 minutes to 60 minutes is 40:6 0 60
+40
+60 20
+40 20
+3
+2 2: 3& '
+'== =  
+This is the ratio in the simplest form. 
+5 x 1 =   5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+1 hour = 60 minutes
+20 x 1 = 20
+20 x 2 = 40
+20 x 3 = 60
+6th_Maths_EM_Term1_Chapter 3.indd   50 28/11/2022   17:14:01
+51
+Ratio and proportion
+Exercise 3.1
+1. Fill in the blanks.
+ (i) Ratio of `3 to `5 = __________.
+ (ii) Ratio of 3 m to 200 c.m = __________.
+ (iii) Ratio of 5 k.m 400 m to 6 k.m = __________.
+ (iv) Ratio of 75 paise to `2 = __________.
+2. Say whether the following statements are True or False.
+ (i) The ratio of 130 c.m to 1 m is 13 : 10.
+ (ii) One of the terms in a ratio cannot be 1.
+3. Find the simplified form of the following ratios.
+ (i) 15 : 20 (ii) 32 : 24 (iii) 7 : 15  (iv) 12 : 27   (v) 75 : 100
+4. Akilan walks 10 k.m in an hour while Selvi walks 6 km in an hour. Find the simplest 
+ratio of the distance covered by Akilan to that of Selvi.
+5. The cost of parking a bicycle is `5 and the cost of parking a scooter is `15. Find the 
+simplest ratio of the parking cost of a bicycle to that of a scooter.
+6. Out of 50 students in a class, 30 are boys.  Find the ratio of
+ (i) number of boys to the number of girls.
+ (ii) number of girls to the total number of students.
+ (iii) number of boys to the total number of students.
+TRY THIS
+Write the ratios in the simplest form and fill in the table.
+Sl. 
+No. Quantity Ratio Form Fraction 
+Form
+Dividing by 
+a common 
+number
+Simplest 
+form of 
+Ratio
+1 Ratio of 15 girls to 10 
+boys 15 : 10
+10
+15
+10 5
+15 5
+2
+3
+'
+' = 3 : 2
+2 Ratio of  
+1m 25 cm to 2 m
+125 : 200
+(1m = 100cm) 200
+125
+3 Ratio of 3 Kg to 750 g 3000 : 750
+(1Kg = 1000g)
+4 Ratio of 70 minutes to 
+30 minutes
+TRY THESE
+6th_Maths_EM_Term1_Chapter 3.indd   51 28/11/2022   17:14:02
+52
+6th Standard Mathematics
+Objective Type Questions
+7. The ratio of `1 to 20 paise is __________.
+ (a)  1 : 5   (b) 1 : 2   (c) 2 : 1  (d) 5 : 1
+8. The ratio of 1 l to 50 ml is __________.
+ (a) 1 : 5   (b) 1 : 20  (c) 20 : 1  (d) 5 : 1
+9. The length and breadth of a window are in 1m and 70 cm respectively. The ratio of 
+the length to the breadth is ____________.
+ (a) 1 : 7   (b) 7 : 1   (c) 7 : 10   (d) 10 : 7
+10.  The ratio of the number of sides of a triangle to the number of sides of a rectangle is 
+ (a) 4 : 3  (b) 3 : 4  (c) 3 : 5  (d) 3 : 2
+11.  If Azhagan is 50 years old and his son is 10 years old then the simplest ratio between 
+the age of Azhagan to his son is
+  (a) 10 : 50  (b) 50 : 10  (c) 5 : 1  (d) 1 : 5
+3.2.5  Equivalent Ratios
+We can get equivalent ratios by multiplying or dividing the numerator and denominator by 
+a common number. This is clear from the following example. Let us find the ratio between 
+breadth and length of the following rectangles given below.
+2 cm
+1 cm
+4 cm
+2 cm
+8 cm
+4 cm
+A
+B
+C
+ ● Ratio of breadth to length of rectangle A is 1 : 2 (already in simplest form)
+ ● Ratio of breadth to length of rectangle B is 2 : 4 (simplest form is 1 : 2)
+ ● Ratio of breadth to length of rectangle C is 4 : 8 (simplest form is 1 : 2)
+ ● Thus, the ratios of breadth and length of rectangles A, B and C are said to be 
+equivalent ratios.
+ ● That is, the ratios 1 : 2 = 2 : 4 = 4 : 8 are equivalent.
+6th_Maths_EM_Term1_Chapter 3.indd   52 28/11/2022   17:14:02
+53
+Ratio and proportion
+1. For the given ratios, find two equivalent ratios and complete the table.
+Ratio Fraction Form Equivalent ratio
+(i) 1 : 3 3
+1  3
+1
+2
+2
+6
+2 2: 6==#  and 3
+1
+3
+3
+9
+3 3: 9==#
+(ii) 3 : 7 7
+3
+(iii) 5 : 8 8
+5
+2. Write three equivalent ratios and fill in the boxes.
+Ratio Equivalent Ratios
+(i) 4 : 5  8 :  : 50 12 : 
+(ii) 7 : 2  : 10 14 : 49 : 
+(iii) 8 : 5 32 :  : 50 16 : 
+3. For the given ratios, find their simplest form  and complete the table.
+Ratio Fraction Form Simplest form
+(i) 5 : 60 60
+5
+(ii) 4000 : 6000 6000
+4000
+(iii) 1100 : 5500
+TRY THESE
+3.2.6  Comparison of Ratios
+Consider the following situations.
+Situation 1
+In the Idly Batter, the ratio of
+black gram to idly rice is 1 : 4
+In the Idly Batter, the ratio of
+black gram to idly rice is 1 : 3
+ (a)  Fig. 3.2 (b)
+6th_Maths_EM_Term1_Chapter 3.indd   53 28/11/2022   17:14:04
+54
+6th Standard Mathematics
+Can you find which ratio is greater in Fig. 3.2? 
+Express ratios as a fraction and then find the equivalent fractions, until the denominators are 
+the same, and compare the fractions with common denominators. This is done as follows : 
+Idly Batter Ratio - (a) Idly Batter Ratio - (b)
+4
+1
+2
+2
+8
+2=/uni2A09 3
+1
+2
+2
+6
+2=#
+4
+1
+3
+3
+12
+3=# 3
+1
+3
+3
+9
+3=#
+4
+1
+4
+4
+16
+4=# 3
+1
+4
+4
+12
+4=#
+Comparing the equivalent ratios,  4  &  3 
+12 12 , we can conclude that 1 : 3 is greater than 1 : 4
+Situation 2
+Let us consider another situation. For example, if a thread of 5 m is cut at 3 m, then the 
+length of two pieces are 3 m and 2 m and the ratio of the two pieces is 3 : 2. From this 
+we say that, a ratio ‘a : b’ is said to have a total of ‘a+b’ parts in it.
+Example 3.5
+Kumaran has ` 600 and wants to divide it between Vimala and Yazhini in the ratio 2 : 3. 
+Who will get more and how much?
+Solution
+ Divide the whole money into 2 + 3 = 5 equal parts then, Vimala gets 2 parts out of 5 
+parts and Yazhini gets 3 parts out of 5 parts. 
+ Amount Vimala gets = ` 600 × 5
+2  = ` 240 
+ Amount Yazhini  gets = ` 600 × 5
+3  = ` 360  
+ Vimala received ` 240 and Yazhini gets ` 360,  
+which is ` 120 more than that of Vimala.
+Exercise 3.2
+1. Fill in the blanks for the given equivalent ratios.
+ (i)  3 : 5 = 9 : ___  (ii) 4 : 5 = ___ : 10  (iii) 6 : ___ = 1 : 2
+2. Complete the table.
+(i) Feet 1 2 3 ?
+Inch 12 24 ? 72
+(ii) Days 28 21 ? 63
+Weeks 4 3 2 ?
+6th_Maths_EM_Term1_Chapter 3.indd   54 03-12-2022   12:53:04
+55
+Ratio and proportion
+3. Say True or False.
+ (i) 5 : 7 is equivalent to 21 : 15
+ (ii) If 40 is divided in the ratio 3 : 2, then the larger part is 24.
+4. Give two equivalent ratios for each of the following. 
+ (i) 3 : 2    (ii) 1 : 6   (iii) 5 : 4
+5.  Which of the two ratios is larger?
+ (i) 4 : 5 or 8 : 15    (ii) 3 : 4 or 7 : 8  (iii) 1 : 2 or 2 : 1
+6.  Divide the numbers given below in the required ratio.
+ (i) 20 in the ratio 3 : 2   (ii) 27 in the ratio 4 : 5  (iii) 40 in the ratio 6 : 14
+7.  In a family, the amount spent in a month for buying Provisions and Vegetables are in 
+the ratio 3 : 2. If the allotted amount is `4000, then what will be the amount spent 
+for (i) Provisions  and (ii) Vegetables?
+8.  A line segment 63 cm long is to be divided into two parts in the ratio 3 : 4.  Find the 
+length of each part.
+Objective Type Questions
+9.  If 2 : 3 and 4 : ___ are equivalent ratios, then the missing term is 
+ (a)  6   (b)  2   (c)  4   (d)  3
+10.  An equivalent ratio of 4 : 7 is
+ (a) 1 : 3  (b) 8 : 15  (c) 14 : 8  (d) 12 : 21
+11.  Which is not an equivalent ratio of 24
+16  ?
+ (a) 9
+6    (b) 18
+12   (c) 15
+10   (d) 28
+20
+12.  If `1600 is divided among A and B in the ratio 3 : 5 then, B’s share is
+ (a) ` 480  (b) ` 800  (c) ` 1000  (d) ` 200
+3.3 Proportion 
+When two ratios are equal , we say that the ratios are in  Proportion.This is 
+denoted as a : b : :  c : d and it is read as ‘a is to b as c is to d’. The following situations 
+explain about proportion.
+Situation 1
+ The Teacher said to the students, “You can do a maximum of 4 projects in Mathematics.  
+You will get 5 as internal marks for each project that you do”. Kamala asked, “Teacher, 
+What if I do 2 or 3 or 4 projects?” The teacher replied, “For 2 projects you will get 10 
+marks, for 3 projects you will get 15 marks and for 4 projects you will get 20 marks”.
+6th_Maths_EM_Term1_Chapter 3.indd   55 28/11/2022   17:14:07
+56
+6th Standard Mathematics
+ Here “1 project carries 5 marks” is equivalent to saying “2 projects carry 10 marks” 
+and so on and hence the ratios, 1 : 5 = 2 : 10 = 3 : 15 = 4 : 20 are said to be in 
+Proportion. Thus 1 : 5 is in proportion to 2 : 10, 3 : 15, 4 : 20 and so on. This is denoted by  
+1 : 5 : :  2 : 10 and it is read as ‘1 is to 5 as 2 is to 10’ and so on.
+Situation 2
+The size of the photograph of Srinivasa Ramanujan as shown in Figure 3.3 (a) is of length 
+5 grids and breadth 3 grids. Figure 3.3 (b) shows the enlarged size of the photograph of 
+length 10 grids and breadth 6 grids. Here,
+Photo
+grid 
+length
+ 
+: 
+Enlarged 
+Photo grid 
+length
+= 5 : 10 
+(1 : 2) and
+Photo
+grid 
+breadth
+ 
+: 
+Enlarged 
+Photo grid 
+breadth
+= 3 : 6 
+(1 : 2)
+As the two ratios are equal, the given figures are in  proportion. This is  represented as  
+5 : 10 : :  3 : 6 or 5 : 10 = 3 : 6 and it is read as ‘5 is to 10 as 3 is to 6’
+3.3.1  Proportionality law
+If two ratios are in proportion ie., a : b : :  c : d then the product of the extremes is equal to 
+the product of the means ad=bc. This is called the proportionality law. Here, a and d are the 
+extremes and b and c are the means. Also, if two ratios are equal ie., ad = bc is 
+called the cross product of proportions. 
+Fig. 3.3(b)
+Fig. 3.3(a)
+6th_Maths_EM_Term1_Chapter 3.indd   56 28/11/2022   17:14:08
+57
+Ratio and proportion
+Example 3.6
+By proportionality law, check whether 3 : 2  and  30 : 20 are in proportion.
+Solution
+Here the extremes are 3 and 20 and the means are 2 and 30.
+Product of extremes, ad = 3 × 20 = 60.
+Product of means, bc = 2 × 30 = 60.
+Thus by proportionality law, we find ad = bc and hence 3 : 2  and  30 : 20 are in proportion.
+Example 3.7
+A picture is resized in a computer as shown below.
+Do you observe any change in shape and size of the picture? Check whether the ratios 
+formed by its length and breadth are in proportion by cross product method. 
+Solution
+The given pictures are in the ratio 2 : 5 and 4 : 3 respectively.
+Here the extremes are 2 and 3 and the means are 5 and 4.
+Product of extremes, ad = 2 × 3 = 6.
+Product of means, bc = 5 × 4 = 20.
+Thus, we find ad ! bc and hence 2 : 5 and  4 : 3 are not in proportion.
+3.4 Unitary Method
+Finding the value of one unit and then using it to find the value of the required number of 
+units is known as unitary method.
+Steps involved in Unitary Method
+ ● Express the given problem in Mathematical statement.
+ ● Find the value of one unit of the given item using division.
+ ● Find the value of the required number of the same items using multiplication.
+TRY THIS
+1. Fill in the box by using cross 
+product rule of two ratios 
+8
+15=  
+2. Use the digits 1 to 9 only 
+once and write as many 
+ratios that are in proportion 
+as possible. (For example :  
+4
+2
+6
+3= )
+5
+2
+Fig. 3.6 (a)
+4
+3
+Fig. 3.6 (b)
+6th_Maths_EM_Term1_Chapter 3.indd   57 28/11/2022   17:14:08
+58
+6th Standard Mathematics
+Example 3.8
+Pari wants to buy 5 tennis balls from a sports shop. If a dozen balls cost ` 180, how much 
+should Pari pay to buy 5 balls?
+Solution
+By unitary method, we can solve this as follows : 
+Cost of a dozen balls = `180 
+Cost of 12 balls  = `180
+Cost of 1 ball   = 12
+180  = `15
+Cost of 5 balls   = 5 x 15 = `75
+Hence, Pari has to pay `75 for 5 balls. 
+Example 3.9
+A heater uses 3 units of electricity in 40 minutes. How many units does it consume in 2 hours?
+Solution
+In 40 minutes, electricity used    = 3 units.
+In 1 minute, electricity used    = 40
+3  units.
+In 120 minutes (2 hours), electricity used = 40
+3 120#  = 9 units
+Thus, the heater consumed 9 units of electricity in 2 hours.
+Exercise 3.3
+1. Fill in the boxes.
+ (i) 3 : 5 : :    : 20    (ii)   : 24 : :  3 : 8
+ (iii) 5 :   : :  10 : 8 : :  15 :  (iv) 12 :  =  : 4 = 8 : 16
+2. Say True or False.
+ (i) 7 Persons is to 49 Persons as 11 k.g is to 88 k.g 
+ (ii) 10 books is to 15 books  as  3 books is to 15 books
+ (iiii) If the weight of 40 books is 8 k.g, then the weight of 15 books is 3 k.g.
+(iv) A car travels 90 k.m in 3 hours with constant speed. It will travel 140 k.m in 
+5 hours at the same speed.
+3. Fill in the blanks.
+ (i) If the cost of 3 pens is `18, then the cost of 5 pens is __________ .
+ (ii) If Karkuzhali earns `1800 in 15 days, then she earns `3000 in __________ days.
+6th_Maths_EM_Term1_Chapter 3.indd   58 03-12-2022   12:53:20
+59
+Ratio and proportion
+4. Find whether 12, 24, 18, 36 are in order that can be expressed as two ratios that are in proportion.
+5. Write the mean and extreme terms in the following ratios and check whether they 
+are in proportion.
+ (i)   78 litre is to 130 litre and 12 bottles is to 20 bottles
+ (ii)   400 gm is to 50 gm and 25 rupees is to 625 rupees
+6. The America’s famous Golden Gate bridge is 6480 ft 
+long with 756 ft tall towers. A model of this bridge 
+exhibited  in a fair is 60 ft long with 7 ft tall towers. 
+Is the model, in proportion to the original bridge? 
+7. If a person reads 20 pages of a book in 2 hours, 
+how many pages will he read in 8 hours at the same speed?
+8. Cholan walks 6 km in 1 hour at constant speed. Find the distance covered by him in 
+20 minutes at the same speed.
+9. The number of correct answers given by Kaarmugilan and Kavitha in a quiz competition 
+are in the ratio 10 : 11. If they had scored a total of 84 points in the competition, 
+then how many points did Kavitha get?
+10. Karmegan made 54 runs in 9 overs and Asif made 77 runs in 11 overs. Whose run 
+rate is better? (run rate = ratio of runs to overs)
+11. You purchase 6 apples for `90 and your friend purchases 5 apples for `70. Whose 
+purchase is better?
+Objective Type Questions
+12. Which of the following ratios are in proportion?
+ (a) 3 : 5 , 6 : 11 (b) 2 : 3, 9 : 6  (c) 2 : 5, 10 : 25    (d) 3 : 1, 1 : 3
+13. If the ratios formed using the numbers 2, 5, x, 20 in the same order are in proportion, 
+then ‘x’ is
+ (a) 50  (b) 4  (c) 10  (d) 8
+14. If 7 : 5 is in proportion to x : 25, then ‘x’ is 
+ (a) 27  (b) 49  (c) 35  (d) 14
+15. If a barbie doll costs `90, then the cost of 3 such dolls is ` ___________.
+ (a) 260  (b) 270 (c) 30  (d) 93
+16. If a man walks 2 k.m. in 15 minutes, then he will walk _________ k.m. in 45 minutes.
+ (a) 10  (b) 8  (c) 6  (d) 12
+6th_Maths_EM_Term1_Chapter 3.indd   59 28/11/2022   17:14:09
+60
+6th Standard Mathematics
+Exercise 3.4
+Miscellaneous Practice Problems 
+1. The maximum speed of some of the animals are given below :  
+ the Elephant = 20 k.m./h; the Lion = 80 k.m./h; the Cheetah = 100 k.m./h 
+ Find the following ratios of their speeds in simplified form and find which ratio is the 
+least?. 
+ (i) the Elephant and the Lion  (ii) the Lion and the Cheetah
+ (iii) the Elephant and the Cheetah  
+2. A particular high school has 1500 students 50 teachers and 5 administrators. If the 
+school grows to 1800 students and the ratios are maintained, then find the number 
+of teachers and administrators.
+3. I have a box which has 3 green, 9 blue, 4 yellow, 8 orange coloured cubes in it.
+(a) What is the ratio of orange to yellow cubes?
+(b)  What is the ratio of green to blue cubes?
+(c)  How many different ratios can be formed, when you 
+compare each colour to anyone of the other colours? 
+4. A gets double of what B gets and B gets double of what C gets. Find A : B and B : C 
+and verify whether the result is in proportion or not.
+5. The ingredients required for the preparation of Ragi Kali, a healthy dish of Tamilnadu 
+is given below.
+Ingredients Quantity
+Ragi flour 4 cups
+Raw rice broken 1 cup
+Water 8 cups
+Sesame oil 15 ml
+Salt 10 mg
+(a)  If one cup of ragi flour is used then, what would be the amount of raw rice 
+required?
+(b)  If 16 cups of water is used, then how much of ragi flour should be used?
+(c)  Which of these ingredients cannot be expressed as a ratio? Why?
+6th_Maths_EM_Term1_Chapter 3.indd   60 28/11/2022   17:14:10
+61
+Ratio and proportion
+Challenging Problems
+6. Antony brushes his teeth in the morning and night on all days in a week. Shabeen 
+brushes her teeth only in the morning. What is the ratio of the number of times they 
+brush their teeth in a week?
+7. Thirumagal's mother wears a bracelet made of 35 red beads and 
+30 blue beads. Thirumalgal wants to make smaller bracelets using 
+the same two coloured beads in the same ratio. In how many 
+different ways can she make the bracelets? 
+8. Team A wins 26 matches out of 52 matches. Team B wins three-fourth of 52 matches 
+played. Which team has a better winning record? 
+9. In a school excursion, 6 teachers and 12 students from 6th standard  and 9 teachers 
+and 27 students from 7th standard, 4 teachers and 16 students from 8th standard  
+took part. Which class has the least teacher to student ratio?
+10. Fill the boxes using any set of suitable numbers 6 :  : :   : 15.
+11. From your school diary, write the ratio of the number of holidays to the number of 
+working days in the current academic year.
+12.  If the ratio of Green, Yellow and Black balls in a bag is 4 : 3 : 5, then 
+ (a) Which is the most likely ball that you can choose from the bag?
+(b) How many balls in total are there in the bag if you have 40 black balls in it?
+(c) Find the number of green and yellow balls in the bag.
+Summary
+ ● A ratio is a comparison of two quantities by division.
+ ● Ratios are often expressed as fractions in the simplest form.
+ ● A ratio has no unit.
+ ● The two quantities of a ratio should be in the same unit.
+ ● Order of the terms in a ratio cannot be reversed.
+ ● To get an equivalent ratio, multiply or divide the numerator and denominator by 
+the same number.
+ ● When two ratios are equal, they are said to be in proportion.
+ ● The proportionality law states that the product of the extremes is equal to the 
+product of the means.
+ ● Finding the value of required number of units by knowing the value of one unit is 
+known as unitary method.
+6th_Maths_EM_Term1_Chapter 3.indd   61 28/11/2022   17:14:10
+62
+6th Standard Mathematics
+ICT Corner
+RATIO AND PROPORTION
+  Expected Result is shown in this picture
+Step – 1  
+Open the Browser, Copy and paste the link given below (or) by type the URL given (or) Scan the QR Code.  
+Step - 2 
+GeoGebra worksheet named “Ra�o and Propor�on” will open. Two sets of Coloured beads will appear. 
+Step-3 
+Find the ra�o of coloured beads for each pair. You can Increase or decrease the no’s by pressing “+” and “-“ bu�on 
+appearing on the right side of the page. 
+Step-4 
+To check your answer Press on “Pa�ern 1” and “Pa�ern 2” bu�on. Repeat the test by increasing and decreasing the 
+beads. 
+.Step-1 Step-2  
+Step-3 Step-4 
+Browse in the link  
+Ra�os: - h�ps://www.geogebra.org/m/fcHk4eRW  
+6th_Maths_EM_Term1_Chapter 3.indd   62 28/11/2022   17:14:10
+63
+Geometry
+Learning Objectives
+ ● To know about lines, line segments and rays.
+ ● To know angles and its types.
+ ● To know the usage of ruler and protractor.
+ ● To identify parallel and intersecting lines.
+ ● To identify pairs of complementary and supplementary angles.
+ ● To know collinear points an d point of concurrency.
+4.1 Introduction
+Geometry means the measurement of the earth. It includes the study of the properties of 
+shapes and its measures. In ancient days, geometry was developed for the practical purpose 
+of construction, surveying and various crafts.
+Nature evolves out of simple geometrical shapes and patterns from tiny atoms to huge galaxies. 
+The objects that you see in your environment have an impact of geometrical ideas. An appealing 
+appearance of houses and buildings are made possible by geometrical thinking. Vehicles like 
+cycle, car, bus are designed using geometrical concepts. The toys that you play with, the tools 
+like pencil, scale and book that you use with, give rise to geometrical ideas and shapes.
+In this chapter, we will learn about the geometrical concepts such as lines, line segments, 
+rays and angles.
+MATHEMATICS ALIVE –  NATURE’S GEOMETRIC MASTERPIECES
+Hexagon in Honey Comb Art of Geometric Patterns
+  Alive
+ Mathematics
+4
+Chapter
+GEOMETRY
+6th_Maths_EM_Term1_Chapter 4.indd   63 19/11/2022   17:26:02
+64
+6th Standard Mathematics
+4.1.1  Fun with lines
+What shapes can you draw with 3 lines or 4 lines or 5 lines? 
+We have already seen some shapes with names like triangles,  rectangles and squares.
+ 
+Fig. 4.1
+Here is a shape which is  in the form of a fish (see Fig. 4.1). 
+It has 5 lines.  Can you draw a fish with 4 lines or with 3 lines?  Think!
+4.1.2  Only two lines
+What shapes can you draw with only TWO lines?
+The following forms are possible with 2 lines.  Isn’t it?
+Fig. 4.2
+Is there something you notice in all these shapes?
+4.1.3  Only one line
+What shapes can be drawn with only ONE line?  The line may be standing 
+upright, lying flat, or slanting. Perhaps it can be, slant left or slant right. It may 
+be long or short. 
+Now, consider the following situation.
+The teacher gives Yazhini a paper with a 
+line drawn on it and asks Akilan to draw the 
+same line on the black board, as instructed 
+by Yazhini.  Then they shall reverse the process. They 
+do the same with other shapes using 2 lines and 3 lines.  
+Try doing this and say, whether this is easy to do!
+Observe the following conversation.
+Teacher  : Sakthi, can you say how to draw lines?  
+Sakthi  : Yes Teacher! Why only lines? I may like to 
+draw curves and circles too! 
+6th_Maths_EM_Term1_Chapter 4.indd   64 19/11/2022   17:26:02
+65
+Geometry
+Teacher :  Sakthi, you can do all the shapes you like.  But you see, there is enough 
+difficulty in describing shapes made only of lines.  So, we will get to curves and 
+circles later.   
+Sakthi :  Teacher, Why should we describe shapes?  We can just draw and show them 
+when we want.  
+  Is Sakthi right? 
+In Mathematics, every thinking is interesting and unlimited. Remember numbers;  
+it is not stopped with adding 2 – digits. Numbers go on endlessly and it is possible 
+to add any two numbers, however large. We know that even a 37- digit number 
+ending in 0 is divisible by 5.
+It is the same with shapes too.  We are interested in lines, triangles, rectangles 
+and in whatever the shapes may be and the size however large or small.  We need to give 
+them names not only to describe them but also to explore a lot with them.
+4.2 Describing lines
+A line can be long or short. A line can be flat or slant or vertical. If a line is rotated in any 
+direction, it remains to be a line. So, given below (Fig. 4.3) are lines in different positions.
+Fig. 4.3
+But the following (Fig.4.4) are not straight lines.
+Fig. 4.4
+If the length of a line is ignored, then it can be extended in both the directions without 
+ending as in (Fig. 4.5) given below. A line through two points A and B is written as  AB or 
+BA . Also it is denoted by a letter ‘ l ’.
+A B
+l
+ Fig. 4.5
+6th_Maths_EM_Term1_Chapter 4.indd   65 19/11/2022   17:26:03
+66
+6th Standard Mathematics
+4.2.1  Line segment
+What do we call a line that is short and ends on both sides?  That we call it as a line 
+segment and name both of its ends with letters as shown in fig. 4.6.
+A B
+P Q
+C
+D
+Fig. 4.6
+We usually use CAPITAL LETTERS to denote the ends of 
+the line segments. A line segment is denoted by AB  . 
+What can we do with a line segment?  We can measure 
+its length. Given two line segments, we can compare their 
+lengths and say which is shorter and which is longer .
+Even if we measure length as a number , we get lots of line 
+segments, each with a definite length. Using a ruler, we 
+can draw the following line segments. 
+1 cm  A  B
+2 cm  A  B
+3 cm  A   B
+...
+10 cm  A   B
+What about a line segment of length 17 cm or 20 cm or 30 cm or 378 cm? Like, numbers 
+never end, line segments get longer and longer forever!
+4.2.2  Construction of line segment
+Learn to measure line segments using the ruler.
+Correct way of viewing the scale.
+0
+1 2 3 4 5 6
+Wrong eye
+position
+Wrong eye
+position
+Correct eye
+position
+Object to be measured
+Fig. 4.7
+Name all the line segments.
+E
+C
+DA
+B
+TRY THIS
+6th_Maths_EM_Term1_Chapter 4.indd   66 19/11/2022   17:26:04
+67
+Geometry
+Examples of Measuring Line Segments
+ Fig. 4.8
+012345678 91 01 11 21 31 41 5
+4.4 cm
+0
+0
+0
+1
+1
+1
+2
+2
+2
+3
+3
+3
+4
+4
+4
+5
+5
+5
+6
+6
+6
+7
+7
+7
+8
+8
+8
+9
+9
+9
+10
+10
+10
+11
+11
+11
+12
+12
+12
+13
+13
+13
+14
+14
+14
+15
+15
+15
+3 cm
+7 cm
+5.5 cm
+If AB = 5cm, say which of the measures are correct in fig. 4.9.
+0123456
+5 cm
+0123456 7
+5 cm
+012345 6
+5 cm
+TRY THIS
+Fig. 4.9 (i) Fig. 4.9 (ii)
+Fig. 4.9 (iii)
+6th_Maths_EM_Term1_Chapter 4.indd   67 19/11/2022   17:26:05
+68
+6th Standard Mathematics
+Geometry originated from two Greek words, geo, meaning earth and metron 
+meaning measure. Geometry means earth measure. Around 600 B.C.(BCE), 
+Thales of Miletus was the first to use deductive methods to develop geometric concepts. 
+The Greek Mathematician, Pythagoras continued the systematic development of 
+Geometry. 
+Example  4.1
+With the help of a ruler and compass, draw a line segment PQ = 5.5cm.
+Solution
+ ● Draw a line ‘ l ’  and mark a point ‘P’ on it as shown in Fig. 4.10.
+P
+l
+ ● Measure 5.5 cm 
+using compass as 
+shown in Fig. 4.11 
+placing the pointer 
+at ‘0’ and the pencil 
+pointer at 5.5 cm.
+ ● Place the pointer of 
+the compass at ‘ P ’ 
+then draw a small arc 
+on the line ‘ l ’ with 
+the pencil pointer 
+(Fig. 4.12).  It cuts 
+the line ‘ l ’ at a point 
+and name that point 
+as ‘Q’ (Fig. 4.13).
+ ● Now, PQ is the required line segment of length 5.5 cm.
+012345678 91 01 11 21 31 41 5
+5.5 cm
+Fig. 4.10
+Fig. 4.11
+l
+ Fig. 4.12  Fig. 4.13
+5.5
+P Q
+5.5 cm cm
+6th_Maths_EM_Term1_Chapter 4.indd   68 19/11/2022   17:26:05
+69
+Geometry
+ACTIVITY
+This game can be played in small groups. Take 10 or more sticks 
+of equal length. Join them as a bundle and put them on the floor 
+in such a way that they fall one above the other. The challenge 
+is to take one stick after other without disturbing the position of 
+the other sticks.
+Enjoy trying kolams 
+using line segments!
+ACTIVITY
+4.2.3  Two lines
+Now let us get back to two lines (Fig. 4.14). Lines that go on forever on either side without 
+meeting each other (i.e. they have a constant distance in between) are called parallel lines. 
+l1
+ l2
+Fig. 4.14
+Thus, parallel lines go forever without meeting.
+What will happen if two lines are not parallel?
+Then they must meet somewhere! Of course, they go their way after meeting too.
+ 
+l1 l2
+Fig. 4.15
+Here, l1 and l2 are called intersecting lines.  
+Of course, we now have parallel line segments and intersecting line segments too.
+ 
+A
+A
+C C
+B
+BD
+D
+O
+Fig. 4.16
+The position ‘O’ at which the line segments AB and CD meet is called their point of intersection.
+6th_Maths_EM_Term1_Chapter 4.indd   69 19/11/2022   17:26:06
+70
+6th Standard Mathematics
+Take a piece of paper and fold in as many ways as you 
+can, which generates parallel lines or intersecting lines.
+A few examples are shown for you.
+ACTIVITY
+A line has no end points, whereas a line segment has end points.  We can measure the 
+length of a line segment.
+A B
+A B
+NOTE
+4.2.4  Rays
+What about lines that end on one side but proceed indefinitely on the other side? We call 
+them rays. They are  denoted by  AB,P Q, MN..., etc. The fixed end point of a ray is called 
+the starting point. (See fig.4.17)
+A B MN
+Q
+P
+Fig. 4.17
+4.2.5  Two rays
+With two rays we have more to learn. They can be parallel or intersecting.
+ Fig. 4.18
+Two rays may have the same starting point.
+ ● Name the rays in the given figure.
+ ● What is the common point of all 
+these rays?
+D
+T
+A
+B
+C
+TRY THIS
+Fig. 4.19
+A
+B
+C
+6th_Maths_EM_Term1_Chapter 4.indd   70 19/11/2022   17:26:06
+71
+Geometry
+Exercise 4.1
+1. Fill in the blanks.
+ (i) A line through two end points ‘A’ and ‘B’ is denoted by ____________.
+ (ii) A line segment from point ‘B’ to point ‘A’ is denoted by ____________.
+ (iii) A ray has ____________ end point(s).
+2. How many line segments are there in the given line? Name them. 
+P A B C Q
+l
+3. Measure the following line segments.
+ 
+X
+Y
+A B
+E
+F
+P
+Q
+4. Construct a line segment using ruler and compass.
+ (i) AB = 7.5 cm  (ii) CD = 3.6 cm  (iii)  QR = 10 cm
+5. From the given figure, name the 
+ (i) parallel lines
+ (ii) intersecting lines
+ (iii) points of intersection.  
+6. From the given figure, name
+ (i) all pairs of parallel lines.
+ (ii) all pairs of intersecting lines.
+ (iii) pair of lines whose point of intersection is ‘V’. 
+ (iv) point of intersection of the lines ‘ l2 ’ and ‘l3’.
+ (v) point of intersection of the lines ‘ l1’ and ‘l5’.
+Objective Type Questions
+7. The number of line segments in 
+A B C
+  is
+ (a) 1   (b) 2   (c) 3   (d) 4
+8. A line is  denoted as
+ (a) AB   (b) AB    (c) AB    (d) AB
+C E G I
+P Q R
+B
+HJFD
+A
+l1 l2
+l3
+l4
+l5
+UT
+V
+R S
+QP
+6th_Maths_EM_Term1_Chapter 4.indd   71 19/11/2022   17:26:07
+72
+6th Standard Mathematics
+4.3 Angles
+Can we find a way to describe all these shapes? (shown in fig. 4.20)
+C
+C
+A
+C
+B
+B
+B
+C C
+BA
+A
+A
+A B
+       
+   Fig. 4.20  
+How would you describe whether a ray (or line segment) is vertical or slanting with respect 
+to another ray (or line segment)?
+Carrom board involves many geometric concepts like line 
+segments and angles. When the striker hits the coin, the coin 
+moves in a straight line . When the striker or coins hit the 
+board end they make angles with the board while returning.
+When two rays or line segments meet at their end points, they form an angle at that point.
+A C
+B
+ 
+Fig. 4.21
+In the Fig.4.21 rays AB  and AC  are the sides and ‘A’ is the vertex which is the meeting 
+point of both the line segments.
+4.3.1  Naming Angles
+We name the angle as shown in the Fig.4.22 below.
+     
+Fig. 4.22
+Fig 4.22(i) shows the angle ∠PQR; QP, QR are its sides. 'P' is on QP; 'R' is on QR.
+Fig 4.22(ii) shows the angle ∠ABC; BA, BC  are its sides. 'A' is on BA; 'C' is on BC .
+We can do the same with 
+two line segments also. See 
+the figures given below.
+C C
+C
+A B
+B
+B
+C C
+B B
+A
+A
+A
+A
+NOTE
+BQ
+AP
+CR
+(i) (ii)
+6th_Maths_EM_Term1_Chapter 4.indd   72 19/11/2022   17:26:08
+73
+Geometry
+We name the angle in fig. 4.22 (i) as  ∠Q  or ∠PQR  or ∠RQP . Similarly, in Fig. 4.22 (ii), 
+we may write ∠B as ∠ABC or ∠CBA.
+Fig. 4.23
+4.3.2  Measuring Angles
+Can we measure angles too?  Yes, using protractor they are measured in degrees which 
+are denoted by the symbol ‘ º ’.  This has to be marked at top right of a number.  We write 
+angles as 35°, 78°, 90°, 110°, 145° and so on.
+Fig. 4.24
+See that angles can be equal even if they are positioned differently.
+4.3.3  Special Angles
+Some angles are special. 90° is one such. We call it as the right angle.
+C
+A B
+C
+A B
+Fig. 4.25
+B C
+A
+In the Fig. 4.23, two angles are marked.
+Note that ∠BAC is not the same as ∠ABC,
+as they have different vertices and different sides
+36°
+A B
+C
+36°
+A B
+C
+130°
+R
+P Q
+130°
+R
+P Q
+6th_Maths_EM_Term1_Chapter 4.indd   73 19/11/2022   17:26:08
+74
+6th Standard Mathematics
+Right angle is most common in life. Examples can be seen at cross-roads, chess board, TV, etc. 
+Acute Angles
+1211
+10
+9
+8
+7 6 5
+4
+3
+2
+112 12 12 12 1211 11 11 11
+10 10 10 10
+9999
+8888
+777766665555
+4444
+3333
+2222
+111112 12 12 12
+Fig. 4.26
+Each of the angles in the above Fig. 4.26 is less than a right angle. Angles smaller than 
+90º are called Acute angles.
+Obtuse Angles
+1211
+10
+9
+8
+7 6 5
+4
+3
+2
+112 12 12 12 1211 11 11 11
+10 10 10 10
+9999
+8888
+777766665555
+4444
+3333
+2222
+111112 12 12 12
+ 
+Fig. 4.27
+Each of the angles in the above Fig. 4.27 is greater than right angle. If an angle is more 
+than 90° and less than 180° is called an  obtuse angle.
+Stand facing the north side. Take a ‘right angle turn’ clockwise; you now face east. Again 
+take another ‘right angle turn’ in the same direction. You now face south. Once again take 
+another ‘right angle turn’ in the same direction. You now face west. Then follow the same 
+you will come to the original position. Thus the complete turn is called one revolution. The 
+turn from north to south will be two right angles. It is also called a straight angle.  Two 
+straight angles make one complete revolution. This is illustrated in the following figures. 
+N
+E
+S
+W
+N
+E
+S
+W
+N
+E
+S
+W
+N
+E
+S
+W
+ACTIVITY
+1. Which direction will you face if you start facing West and take three right turns 
+clockwise?
+2. Which direction will you face if you start facing North and take two right turns anti-
+clockwise?
+TRY THESE
+6th_Maths_EM_Term1_Chapter 4.indd   74 19/11/2022   17:26:09
+75
+Geometry
+4.3.4  Angle measurement using Protractor
+How do we measure an angle? Using a PROTRACTOR we can measure an angle.
+Outer Scale
+Base LineCentreInner Scale
+ 
+A protractor has one centre and a base line. It has two scales namely, inner scale from 
+0° to 180° in anti clockwise direction and outer scale from 0° to 180° in the clockwise 
+direction. Why does the protractor stop with 180°?  We can rotate the protractor and 
+measure, so 180° is enough.
+Steps To Measure an angle
+Step 1:   Place the centre of the protractor on the vertex of the angle and line up the base 
+line with 0°. 
+Step 2:  Read the measure where the other ray crosses the protractor.
+4.3.5  Using Protractor to draw Right Angle (90º)
+Example 4.2
+Use a Protractor to draw an angle 90º.
+Draw base ray
+P Q
+Draw base ray
+PQ
+P
+ Q
+R
+Place the center of the protractor at the 
+vertex P. Line up the ray PQ  with the 0° line. 
+Then draw and label a point (R) at the 90° 
+mark on the inner scale (anticlockwise) 
+P
+Q
+R
+Place the center of the protractor at the 
+vertex P. Line up the ray PQ  with the 0° 
+line. Then draw and label a point (R) at the 
+90° mark on the outer scale (clockwise)
+6th_Maths_EM_Term1_Chapter 4.indd   75 19/11/2022   17:26:11
+76
+6th Standard Mathematics
+R
+P Q
+Remove the protract or and draw PR to 
+complete the angle.
+Now, ∠P = ∠QPR = ∠RPQ =90°
+R
+PQ
+Remove the protractor and draw PR to 
+complete the angle.
+Now, ∠P = ∠QPR = ∠RPQ =90°
+4.3.6  Using Protractor to draw an Acute Angle
+Example  4.3
+Use a Protractor to draw an angle 45°.
+Draw base ray
+P Q
+Draw base ray
+PQ
+R
+QP
+Place the centre of the protractor at the 
+vertex P. Line up the ray  PQ  with the 
+0º line. Then draw and label a point 
+(R) at the 45° mark on the inner scale 
+(anticlock wise)
+R
+Q P
+Place the centre of the protractor at the 
+vertex P. Line up the ray PQ  with the 
+0º line. Then draw and label a  point 
+(R) at the 45° mark on the outer scale  
+(clock wise)
+R
+QP
+45°
+Remove the protractor and draw PR to 
+complete the angle.  
+Now, ∠P = ∠QPR = ∠RPQ =45°
+R
+Q P
+45°
+Remove the pr otractor and draw PR to 
+complete the angle.  
+Now, ∠P = ∠QPR = ∠RPQ =45°
+6th_Maths_EM_Term1_Chapter 4.indd   76 19/11/2022   17:26:12
+77
+Geometry
+4.3.7  Using Protractor to draw an Obtuse Angle
+Example  4.4
+Use a protractor to draw an obtuse angle 120°.
+Draw base ray
+P Q
+Draw base ray
+PQ
+P
+R
+Q
+Place the centre of  the protractor   at 
+the  vertex  P. Line up the ray PQ  with the 
+0° line.   Then   draw and label a point 
+(R) at the 120° mark on the inner scale  
+(anti clock wise) 
+P
+R
+Q
+Place the centre of  the protractor   at 
+the  vertex  P. Line up the ray PQ  with the 
+0° line.   Then   draw and label a point 
+(R) at the 120° mark on the outer scale  
+(clock wise) 
+P
+120°
+R
+Q
+Remove the protractor and draw PR to 
+complete the angle.  
+Now, ∠P = ∠QPR = ∠RPQ =120°
+P
+120°
+R
+Q
+Remove the protractor and draw PR to 
+complete the angle.  
+Now, ∠P = ∠QPR = ∠RPQ =120°
+Reflex angles are bigger than 180°. Always subtract the given 
+angle from 360° to get the reflex angle. 
+60°
+300°
+Reflex angle
+6th_Maths_EM_Term1_Chapter 4.indd   77 19/11/2022   17:26:12
+78
+6th Standard Mathematics
+Adjust the hands of the clock for the following time, note the angle made 
+between the hour hand and the minute hand and write the type of angle.
+12.10 12.40 3.25 9.40 5.55 1.25 4.25 7.05
+Acute 
+angle
+1211
+10
+9
+8
+7 6 5
+4
+3
+2
+112
+TRY THIS
+Fix a line segment AB  and let’s have another line segment AC , go on rotating AC  to 
+the left.
+A B
+C
+A B
+C
+A B
+C
+ACTIVITY
+A AB B
+C
+C
+A A AB B B
+C
+C
+C
+In this rotations, At some point AC  overlap AB  and then we 
+are back to the same as before. So angle, keep on increasing 
+and after some point, return to 0º.
+Is this familiar? Yes, you can see this in a clock!
+A B
+C
+6th_Maths_EM_Term1_Chapter 4.indd   78 19/11/2022   17:26:13
+79
+Geometry
+4.3.8  Very special angles
+ ● Here you find AC  is exactly on AB ; then the angle is 0°. It is called the Zero angle.
+     A c B
+ ● If ‘C’ is exactly on the opposite side ‘B’, with vertex ‘A’ in the middle. Then the angle 
+is 180°. It is called the Straight angle.
+CA B
+4.3.9  Special pairs of angles
+Two angles are complementary to each other if they add upto 90° [See Fig. 4.28(i)]  
+Two angles are supplementary to each other if they add upto 180° [See Fig. 4.28(ii)]
+(i)
+20°
+70°
+33°
+147°
+(ii)
+Fig. 4.28
+In the above figures, 20° and 70° are complementary angles and 147° and 33° are 
+supplementary angles. But 35° and 75° are neither complementary nor supplementary.
+Exercise 4.2
+1.  Use any number of the given dots to make different angles.
+ 1)  An Acute Angle
+  .    .    .
+  .    .    .
+  .    .    .
+ 3)  A Right Angle
+  .    .    .
+  .    .    .
+  .    .    .
+ 2) An Obtuse Angle
+  .    .    .
+  .    .    .
+  .    .    .
+ 4) A Straight Angle
+  .    .    .
+  .    .    .
+  .    .    .
+6th_Maths_EM_Term1_Chapter 4.indd   79 03-12-2022   12:54:35
+80
+6th Standard Mathematics
+2. Name the vertex and sides that form each angle.
+ 
+E
+D F
+C
+D E
+  Vertex _____________  Vertex _____________  
+   Sides   _____________  Sides   _____________
+3.  Pick out the Right angles from the given figures.
+90° 46° 105°
+(i) (ii) (iii) (iv) (v)
+4.  Pick out the Acute angles from the given figures.
+5.  Pick out the Obtuse angles from the given figures.
+6. Name the angle in each figure given below in all the possible ways.
+33°
+(i)
+56°
+(ii)
+89°
+(iii)
+90°
+(iv)
+100°
+(v)
+101°
+(i)
+129°
+(iii)(ii)
+89°
+(v)
+38°
+(iv)
+(iv)
+S
+AT
+(iii)
+M
+N O
+M
+N
+L
+(i)
+Q
+RP
+(ii)
+6th_Maths_EM_Term1_Chapter 4.indd   80 19/11/2022   17:26:14
+81
+Geometry
+7. Say True or False.
+(i) 20° and 70° are complementary.
+(ii) 88° and 12° are complementary.
+(iii) 80° and 180° are supplementary.
+(iv) 0° and 180° are supplementary.
+8. Draw and label each of the angles.
+ (i) ∠NAS = 90° (ii) ∠BIG = 35° (iii) ∠SMC = 145° (iv) ∠ABC = 180°
+9. Identify the types of angles shown by the hands of the given clock.
+12
+9
+6
+3
+12 12
+9
+6
+3
+12 12
+9
+6
+3
+12 12
+9
+6
+3
+12 12
+9
+6
+3
+12
+(i) (ii) (iii) (iv) (v)
+10. Find the complementary angle of 
+ (i) 30º   (ii) 26º  (iii) 85º  (iv) 0º  (v) 90º 
+11. Find the supplementary angle of
+ (i) 70º   (ii) 35º  (iii) 165º  (iv) 90º  (v) 0º 
+12. Find the supplementary / complementary angles in each case.
+25°
+?
+D
+CBA
+(i) 30°
+?
+A
+D
+C B
+(ii)
+46°
+?
+A
+D
+CB
+(iv)
+67°
+?
+D
+CB
+E
+A
+(iii)
+6th_Maths_EM_Term1_Chapter 4.indd   81 19/11/2022   17:26:15
+82
+6th Standard Mathematics
+Objective Type Questions
+13. In this Figure, which is not the correct way of naming an angle?  
+ (a) ∠ Y (b) ∠ ZXY (c) ∠ ZYX   (d)∠ XYZ 
+14. In this Figure, ∠ AYZ = 45°. If point ‘A’ is shifted to point ‘B’ 
+along the ray, then the measure of ∠ BYZ is ___________.
+ (a) more than 45°  (b) 45°  (c) Less than 45°  (d) 90°
+4.4 Points and lines
+When we have a line, we can mark a point on the line or not on it.
+B
+l2A l1
+Fig. 4.29
+‘A’ is on ‘l1’, ‘B’ is not on ‘l1’ or ‘l2’.  ‘B’ may be closer or far away, but not on the both of 
+the lines ‘l1’ and ‘l2’.  However, when any two points are given, there is exactly ONE line 
+passing through them!  Take several pairs of points and verify if this is true.
+What about 3 points and a line? Consider the following lines ‘l1’  ‘l2’  ‘l3’  and ‘l4’  and A,B,C 
+be three points.
+A
+A
+A
+A
+B
+B
+B
+B
+C
+C
+C
+C
+l1
+l3
+l2
+l4
+Fig 4.30
+When all the three points are on a line, they are special; we call such points as  
+collinear points. 
+When two  lines intersect at right angles (90°), we call them as perpendicular lines.  
+(Refer to 4.31) 
+90°
+O
+l1
+l2
+Fig 4.31
+X
+Y Z
+X
+B
+A
+Y Z
+6th_Maths_EM_Term1_Chapter 4.indd   82 03-12-2022   12:55:27
+83
+Geometry
+A book is an object where you can see parallel, perpendicular 
+and intersecting lines. 
+Suggest atleast 2 more examples having parallel, perpendicular 
+and intersecting lines.  
+ACTIVITY
+Two intersecting lines cut at a point. Will three lines intersect at one point? Fig.4.32 will 
+help you to answer this.
+l2
+l3
+l1
+l2
+l1
+l3
+P
+Fig 4.32
+When many lines intersect at a single point, that is again special, we call that point P as a 
+point of concurrency.  The lines are called concurrent lines.
+Exercise 4.3
+1. Observe the diagram and fill in the blanks.
+ (i) ‘A’, ‘O’ and ‘B’ are _________ points.
+ (ii) ‘A’, ‘O’ and ‘C’ are _________ points.
+ (iii) ‘A’, ‘B’ and ‘C’ are _________ points.
+ (iv) _________ is the point of concurrency.
+2. Draw any line and mark any 3 points that are collinear.
+3. Draw any line and mark any 4 points that are not collinear.
+4. Draw any 3 lines to have a point of concurrency.
+5. Draw any 3 lines that are not concurrent. Find the number of  
+points of intersection.
+A B
+C
+O
+6th_Maths_EM_Term1_Chapter 4.indd   83 19/11/2022   17:26:15
+84
+6th Standard Mathematics
+Objective Type Questions
+6. A set of collinear points in the figure are _________.
+ (a) A, B, C  (b) A, F, C  (c) B, C, D  (d) A, C, D
+7. A set of non-collinear points in the figure are _________.
+ (a) A, F, C  (b) B, F, D  (c) E, F, G  (d) A, D, C
+8. A point of concurrency in the figure is _________.
+ (a) E (b) F  (c) G  (d) H
+Exercise 4.4
+Miscellaneous Practice Problems 
+1. Find the type of lines marked in thick lines (Parallel, intersecting or perpendicular).
+(i)
+HOUSE
+A
+DE
+F G
+H
+B
+C
+(ii)
+MATCHBOX
+P
+Q R
+S
+T
+U
+V
+(iii)
+SCISSOR
+M
+NO
+P
+2. Find the parallel and intersecting line segments in the picture given below.
+ 
+A
+B C
+D
+E
+F G
+H
+3. Name the following angles as shown in the figure.
+ (i) ∠1       =
+ (ii) ∠2      =
+ (iii) ∠3        =
+ (iv)  ∠1 + ∠2    =
+ (v) ∠2  + ∠3    =
+ (vi) ∠1 +  ∠2  +  ∠3  =
+A
+D
+B
+C
+FH
+E
+G
+E
+D
+C
+1
+23
+B
+A
+6th_Maths_EM_Term1_Chapter 4.indd   84 19/11/2022   17:26:15
+85
+Geometry
+4. Measure the angles of the given figures using protractor and identify the type of 
+angle as acute, obtuse, right or straight.
+5.  From the figures given below, classify the following pairs of angles into complementary 
+and non complementary.
+6. From the figures given below, classify the following pairs of angles into supplementary 
+and non supplementary.
+(i) (iv)
+30°
+120°
+(iii)
+120°
+110°
+(ii)
+95°85°
+150°
+30°
+7. From the figure 
+E
+D
+C
+B
+AF
+ (i) name a pair of complementary angles 
+ (ii) name a pair of supplementary angles
+(i) (ii) (iv)(iii)
+(iv)
+38° 52°
+(ii)
+25°
+25°
+(iii)
+105°75°
+(i)
+45°
+45°
+6th_Maths_EM_Term1_Chapter 4.indd   85 19/11/2022   17:26:15
+86
+6th Standard Mathematics
+Challenging Problems
+8. Think and write an object having 
+ ● Parallel lines   (1) __________ (2) __________ (3) __________
+ ● Perpendicular lines (1) __________ (2) __________ (3) __________
+ ● Intersecting lines  (1) __________ (2) __________ (3) __________
+9. Which angle is equal to twice its complement?
+10. Which angle is equal to two-third of its supplement?
+11. Given two angles are supplementary and one angle is 20º more than other. Find the 
+two angles.
+12. Two complementary angles are in ratio 7:2. Find the angles.
+13. Two supplementary angles are in ratio 5:4. Find the angles.
+Summary
+ ● A line extends along both directions without end.
+ ● A line segment has two end points.
+ ● Parallel lines never meet.
+ ● When two lines meet they are called intersecting lines.
+ ● When two rays have common starting point, they form an angle at that point.
+ ● We measure angles using protractor.
+ ● An angle whose measure is less than 90º is called an acute angle.
+ ● An angle whose measure is exactly 90º is called a right angle.
+ ● An angle whose measure is greater than 90º is called an obtuse angle.
+ ● When the two rays or lines coincide, they are said to make angle zero, that is 0º.
+ ● Two angles are complementary when they add up to 90º.
+ ● Two angles are supplementary when they add up to 180º.
+ ● Given any two points there is a unique line passing through them.
+ ● When three points lie on a line, they are said to be collinear.
+ ● When two lines meet each other at 90° at the point of intersection, they are called 
+perpendicular lines.
+ ● When three or more lines pass through the same point, they are said to be 
+concurrent.  That point is called the Point of Concurrency.
+6th_Maths_EM_Term1_Chapter 4.indd   86 19/11/2022   17:26:15
+87
+Geometry
+ICT Corner
+GEOMETRY
+ Expected Result is shown in this picture
+Step – 1  
+Open the Browser,  copy and paste the link given below (or) by type the URL given (or) Scan the QR Code. 
+Step - 2 
+GeoGebra Work Book called “Measuring Angles Using Protractor” will appear. An angle and a Protractor will appear. 
+Step-3 
+Drag the protractor and place it on the angle and measure it. Now Click on the “Answer” Box to check whether your 
+measurement is correct. Click on “Random” bu on to create new angle and con nue l you understand how to 
+measure the angle. 
+.Step-1 Step-2  
+Step-3 
+Browse in the link  
+Measuring Angles:  h ps://www.geogebra.org/m/fMnsdbzv 
+6th_Maths_EM_Term1_Chapter 4.indd   87 19/11/2022   17:26:15
+88
+6th Standard Mathematics
+Learning Objectives
+ ● To understand the necessity of collecting data.
+ ● To organise collected data using tally marks.
+ ● To understand the need for scaling in pictographs.
+ ● To draw pictographs and interpret them.
+ ● To draw bar graphs and interpret them.
+Recap
+Count the objects in the following figure and complete the table that follows:
+From the given Figure and the table, answer the following questions.
+(i) The total number of objects in the above picture is __________.
+(ii)  The difference between the number of squares and the number of bats is 
+__________.
+(iii) The ratio of the number of balls to the number of bats is __________.
+(iv) What are the objects equal in number?
+(v) How many more balls are there than the number of bats?
+Object Number of 
+Objects
+Ball 8
+Bat
+Funnel
+Square
+5
+Chapter
+STATISTICS
+6th_Maths_EM_Term1_Chapter 5.indd   88 19/11/2022   17:36:01
+89
+Statistics
+5.1 Introduction
+Think about this situation
+The Headmaster of a school (see Fig. 5.1) wanted 
+to open Saving Bank accounts for his students. For 
+this, he needed data from his students. Students did 
+not understand the meaning of the word ‘data’. Do 
+you know what it means? Data means, "collection 
+of information about anything". Data is collected, 
+measured and analyzed, whereupon it can be visualized using graphs or images. In this 
+case, the details could consist of information like the ration card number with address, 
+the name of the student, Aadhaar card identity number, date of birth, phone number for 
+communication etc., These are preserved for drawing inferences.  
+Name of the student Aadhaar Number Date of birth Phone Number
+D. Nallathambi .......................... ........................ .........................
+MATHEMATICS ALIVE – STATISTICS IN REAL LIFE
+Population census Wickets taken by the bowler in 
+last 5 matches
+5.2 Data
+In our daily life, we come across many 
+situations where we need to collect information 
+in the form of Facts or Numbers.
+For example,
+ ● Number of studen ts using calculators 
+in your class.
+ ● Number of brothers and sisters in 
+your family.
+Fig.5.1
+  Alive
+ Mathematics
+The word ‘data’ was first used 
+in 1640’s.In 1946, the word ‘data’ also 
+meant for “transmittable and storable 
+computer information”. In 1954, a term 
+called ‘data processing’ was introduced. 
+The plural form of ‘datum’ is ‘data’. It 
+also means “given” or “to give” in Latin.
+6th_Maths_EM_Term1_Chapter 5.indd   89 19/11/2022   17:36:02
+90
+6th Standard Mathematics
+ ● Number of different types of houses in a village.
+ ● Number of girls wearing bangles.
+ ● Number of buses crossing a certain road junction at a particular time. 
+ ● Number of persons in a street who watch T.V. for more than 2 hours a day.
+ ● Number of shops in a shopping mall selling textiles.
+ ● Speeds of bikes, cars and other vehicles passed along a specific highway.
+Thus, the numerical information or facts collected are known as Data .
+5.2.1  Collection of data
+Santhi collected the following information about her friend's preference of sweets which 
+is as shown below.
+Friend's name Sweet preferred Friend's name Sweet preferred
+Vetri Gulabjamun Sadaiyan Laddu
+Kurinji Laddu Rafiq Gulabjamun
+Mullai Cake Francis Laddu
+Madhavi Gulabjamun Vetriselvi Laddu
+Pegan Cake Mary Gulabjamun
+Rahim Laddu Fathima Laddu
+Nawaz Cake Raju Cake
+Siva Gulabjamun Robert Gulabjamun
+Joseph Laddu Kalai Cake
+Tamil Gulabjamun Anbu Kesari
+Malar Laddu Thamarai Gulabjamun
+Velan Kesari Mariya Laddu
+Malarkodi Cake Manimozhi Kesari
+Selvi Gulabjamun Mubina Gulabjamun
+Arivu Laddu Kottravai Gulabjamun
+This way of collecting the data helps Santhi to decide, what sweets to get for her birthday 
+and how much for each.
+TRY THESE
+ ● Tabulate different kinds of crops cultivated by the farmers in 
+a village
+ ● List out different kinds of plants/trees in your school campus
+ACTIVITY
+Collect the data of 
+the birth months of 
+your classmates.
+6th_Maths_EM_Term1_Chapter 5.indd   90 19/11/2022   17:36:02
+91
+Statistics
+5.2.2  Types of Data
+On the basis of collection, data are of two types. They are primary data and secondary data.
+Primary data
+Primary data means the raw data (not tailored data) which has 
+just been collected from the original source and has not gone 
+any kind of statistical treatment like sorting and tabulation.
+Examples
+ ● List of absentees in the class.
+ ● A survey on writing habits of students conducted by a pen manufacturing company.
+ ● The types of leaves collected by students for studying nature.
+Secondary Data 
+Secondary data consists of second hand information which has already been collected. It 
+could have been collected by someone other than the user, for some other purpose.
+Examples
+ ● The Headmaster collects the students’ absentee 
+list from school office.
+ ● Cricket scores gathered from a website.
+ ● Data from Television and Newspapers.
+ ● List of contact numbers from telephone directory.
+5.2.3  Organizing Data
+The collected data are to be arranged methodically or logically so that the information can 
+be looked up fast whenever needed, easily and efficiently. The method of organizing the 
+data is discussed as follows.
+Tally Marks
+Consider the data collected by Santhi (given in Table). Is 
+it easy to get the required information from the data? For 
+example, can any one quickly tell the number of people who 
+do not like Laddu?  No. So she decides to organize the data 
+(See Fig. 5.2).  
+Her friends come to help her. Malar arranges the data as 
+given below in the table.  She uses ‘’ marks to note down 
+how many friends like each of the sweets.  The count of each sweet is called as “Frequency”.
+ACTIVITY
+Collect data on the  level 
+of literacy of people in 
+your street.
+Primary data is 
+collected in person and 
+so more reliable than 
+Secondary data.
+Fig.5.2
+6th_Maths_EM_Term1_Chapter 5.indd   91 19/11/2022   17:36:03
+92
+6th Standard Mathematics
+Sweet Marks Frequency
+Kesari  3
+Gulabjamun  11
+Laddu  10
+Cake  6
+But, Rahim arranges the data as shown below.
+Sweet Tally Marks Frequency
+Kesari ||| 3
+Gulabjamun ||||||||||| 11
+Laddu |||||||||| 10
+Cake |||||| 6
+Both have done well. But one would prefer tally marks as they are very simple.
+One Two Three Four Five
+| || ||| ||||
+As in the above table, the teacher arranges the data as follows:
+Sweet Tally Marks Frequency
+Kesari ||| 3
+Gulabjamun   | 11
+Laddu  10
+Cake  | 6
+The standard form of representing the data is obtained by using ‘Tally marks’.
+See that, 
+it does not 
+matter 
+whether you 
+use  ‘’ or ‘|’.
+This looks 
+so much 
+easier to 
+read now.
+6th_Maths_EM_Term1_Chapter 5.indd   92 19/11/2022   17:36:03
+93
+Statistics
+ ● The occurrence of each information is marked by a vertical line ‘ |’.
+ ● Every fifth tally is recorded by striking through the previous four vertical lines as ‘ ’.
+ ● This makes counting up the tallies easy.
+NOTE
+Example 5.1
+Thamarai  is fond of reading books. The number of pages read by her on each day during 
+the last 40 days are given below. Make a Tally Marks table.
+  1 3 5 6 6  3 5 4 1 6 2 5 3 4 1 6 6 5 5 1
+  1 2 3 2 5  2 4 1 6 2 5 5 6 5 5 3 5 2 5 1
+Solution
+The Tally marks table is given below.
+Number of 
+pages Tally Marks Frequency
+1  || 7
+2  | 6
+3  5
+4 ||| 3
+5   || 12
+6  || 7
+Total 40
+Exercise 5.1
+1. Fill in the blanks.
+(i) The collected information is called __________.
+(ii) An example of a Primary Data is __________.
+(iii) An example of a Secondary Data is __________.
+(iv) The tally marks for number 8 in standard form is __________.
+If someone asks, “typically, how 
+many pages does Thamarai 
+read in one day?”, what will be 
+your answer?
+THINK
+6th_Maths_EM_Term1_Chapter 5.indd   93 19/11/2022   17:36:03
+94
+6th Standard Mathematics
+2. Viji threw a die 30 times and noted down the result each time as follows. Prepare a 
+table on the numbers shown using Tally Marks.
+  1 4 3 5 5  6 6 4 3 5 4 5 6 5 2
+  4 2 6 5 5  6 6 4 5 6 6 5 4 1 1
+3. The following list tells colours liked by 25 students. Prepare a table using Tally Marks.
+Red   Blue White Grey White
+Green Grey Blue Green Grey
+Blue   Grey Red Green Red
+Blue   Blue Green Blue Green
+Grey   Grey Green Grey Red
+4. The following are the marks obtained by 30 students in a class test out of 20 in 
+Mathematics subject.
+  11  12  13  12  12  15  16  17  18  12
+  20  13  13  14  14  14  15  15  15  15
+  16  16  16  15  14  13  12  11  19  17
+ Prepare a table using Tally Marks.
+5. The table shows the number of calls recorded by a Fire Service Station in one year.
+Types of Calls Tally Marks Frequency
+Building Fires  |
+Other Fires   |
+Hazardous Materials 7
+Rescues 4
+False Alarms  ||
+Total
+Complete the table and answer the following questions.
+(i) Which type of call was recorded the most?
+(ii) Which type of call was recorded the least?
+(iii) How many calls were recorded in all?
+(iv) How many calls were recorded as False Alarms?
+6th_Maths_EM_Term1_Chapter 5.indd   94 19/11/2022   17:36:03
+95
+Statistics
+Objective Type Questions
+6. The tally marks for the number 7 in standard form is __________.
+ (a) 7   (b)  ||  (c)  (d) 
+7. The tally marks  |||| represents the number count
+(a) 5   (b) 8    (c) 9    (d) 10 
+5.3 Representation of data using Pictograph
+The teacher was discussing about the pollution caused by the vehicles. The students said 
+that they saw many vehicles when they were standing in the bus stop while coming to 
+school. Everyone described in their own way, but Azhagi drew the pictures of the vehicles 
+that she had seen, as shown below.
+All the students were able to easily understand that Azhagi had seen 5 cars, 3 lorries and 
+2 buses. This sort of representation of data using pictures is called Pictograph.
+Nowadays pictographs are frequently used in promotion of tourism, weather forecast, 
+geography etc.
+Advantages of using Pictograph
+● The data can be easily analyzed and interpreted.
+● The pictures and symbols help us to understand better.
+A pictograph is the 
+representation of data 
+through pictures.
+NOTE
+ ● The pictograph is a pictorial representation for a word or Phrase. 
+ ● A pictograph is also called Pictogram.
+ ● Pictographs were used as the earliest known form of writing examples having 
+been discovered in Egypt and Mesopotomia since 3000 BC.
+6th_Maths_EM_Term1_Chapter 5.indd   95 19/11/2022   17:36:03
+96
+6th Standard Mathematics
+5.3.1  Need for scaling in the Pictograph
+Fig. 5.3 shows,  a fruit stall where there are 40 mangoes, 
+55 apples, 35 oranges and 60 bananas. How can we 
+represent this data by using pictures? If the data is very 
+large, it is very difficult and time consuming to represent 
+each of the fruits in a pictograph. In such cases, we can 
+use one picture to represent many of the same kind. 
+This is called scaling . 
+5.3.2  Drawing Pictographs
+Consider the above data of fruits. 40 and 60 are multiples of 10, while 55 and 35 are 
+multiples of 5. Let us assume, that One full picture of fruit represents 10 fruits and One 
+half picture represents 5 fruits . 
+The pictograph can be drawn for the above data as shown in the table.
+5.3.3  Interpreting pictograph
+From the above pictograph the number of fruits can be calculated very easily. 
+Number of Mangoes  =  4 full pictures  4 × 10 = 40 mangoes
+Number of Apples  =  5 full pictures and 1 half picture    
+      (5 x 10) + 5 = 55 apples
+Number of Bananas  =  6 full pictures  6 × 10 = 60  bananas
+Number of Oranges  =  3 full pictures and 1 half picture   
+      (3 x 10) + 5 = 35 oranges
+Fig. 5.3
+Name of the fruits Number of fruits
+Mangoes
+   
+Apples
+Bananas
+Oranges
+6th_Maths_EM_Term1_Chapter 5.indd   96 19/11/2022   17:36:21
+97
+Statistics
+Example 5.2 
+The following table shows the number of vehicles sold in a year.
+Car
+Van
+Motor Cycle
+Bus
+  
+Bicycle
+Key: One picture represents 10 vehicles     
+Look at the pictograph and answer the following questions.
+(i) How many motor cycles were sold in a year?
+(ii) Number of buses sold in a year is 20. Say True or False.
+(iii) How many bicycles were sold ?
+(iv) How many cars and vans were sold?
+(v) How many vehicles were sold altogether?
+Solution
+Given : 1 picture represents 10 vehicles
+(i) There were 9 × 10 = 90 motor cycles sold.
+(ii) True.
+(iii) There were 4 × 10 = 40 bicycles sold.
+(iv) There were 7 cars and 3 vans pictures.  
+Therefore  70 + 30 = 100  cars and vans sold. 
+(v) There were 7 cars, 3 vans, 9 motor cycles, 2 buses and 4 bicycles sold.  
+Therefore,  70 + 30 + 90 + 20 + 40 = 250 vehicles sold.
+Activity
+Collect from class VI 
+students data regarding  
+games they like and 
+then draw a pictograph 
+for the data collected.
+6th_Maths_EM_Term1_Chapter 5.indd   97 19/11/2022   17:36:23
+98
+6th Standard Mathematics
+Exercise 5.2
+1. Fill in the blanks.
+(i) If 
+  represents 100 balls then 
+   
+  represents __________ balls.
+(ii) If 200 is represented by 
+ then 600 is represented by __________.
+(iii) Representation of data by using pictures is known as __________.
+2. Draw a pictograph for the given data.
+Month June July August September
+Number of Computers sold 300 450 600 550
+ (Choose your own suitable scale)
+3. The following table shows the number of tourists who visited the places in the month 
+of May. Draw a pictograph.
+Place Mahabalipuram Vedanthangal Hogenakkal Ooty
+Number of Tourists 20,000 15,000 40,000 35,000
+ (Choose your own suitable scale)
+4. The following Pictograph shows the number of students playing different games in a school.
+Game Number of Students
+Kho-Kho
+Kabaddi
+Basketball
+Volleyball
+Hockey
+  Represents 
+10 students
+6th_Maths_EM_Term1_Chapter 5.indd   98 19/11/2022   17:36:24
+99
+Statistics
+ Answer the following questions.
+(i) Which is the most popular game among the students?
+(ii) Find the number of students playing Kabaddi.
+(iii) Which two games are played by equal number of students?
+(iv) What is the difference between the number of students playing Kho-Kho and 
+Hockey?
+(v) Which is the least popular game among the students?
+Objective Type Questions
+5. The representation of ‘one picture to many objects’ in a Pictograph is called _______.
+(a) Tally mark   (b) Pictoword  (c) Scaling   (d) Frequency
+6. A Pictograph is also known as __________.
+(a) Pictoword   (b) Pictogram  (c) Pictophrase  (d) Pictograft
+5.4 Representation of data using Bar Graph
+Ragavi’s father is a mobile shop owner. She finds the following data of sale of mobiles 
+in a week. 
+Day Number of 
+Mobiles Sold
+Sunday 50
+Monday 45
+Tuesday 40
+Wednesday 20
+Thursday 35
+Friday 30
+Saturday 55
+A Bar graph consists of equally - spaced parallel bars (Horizontal or Vertical) whose 
+lengths / heights are proportional to the number of items given.
+NOTE
+0
+1
+2
+3
+4
+5
+6
+What if the number of mobiles 
+be 4, 37 or 305? How many 
+pictures will be used? 
+For this data instead 
+of  pictographs, 
+something different 
+can be used.
+Yes! 
+Try this!
+6th_Maths_EM_Term1_Chapter 5.indd   99 19/11/2022   17:36:25
+100
+6th Standard Mathematics
+5.4.1  Drawing Bar-Graph
+This graph is called as Vertical Bar Graph.   The corresponding horizontal Bar 
+Graph will look like this:
+Step 1:  Draw two lines which are 
+perpendicular to each other.  One of them 
+is horizontal and the other one is vertical.
+Fig. 5.5
+Step 2:  A suitable title (Sale of mobiles 
+in a week) is given.  The lines are labelled 
+(Horizontal line $ Days of the week; vertical 
+line $ Number of mobiles sold).
+Sales of Mobiles in a Week
+Number of Mobiles Sold
+Days of the Week
+Fig. 5.6
+Step 3:  A suitable scale is chosen. The 
+scale used is stated on the graph.
+Number of Mobiles Sold
+Sales of Mobiles in a Week
+Scale : 1 unit = 10 mobiles
+Days of the Week
+Fig. 5.7
+Step 4:  Let the vertical line start from 0 
+and the values of information are marked at 
+equal distances in same increments.
+0
+10
+20
+30
+40
+50
+60
+Sales of Mobiles in a Week
+Scale : 1 unit = 10 mobiles
+Number of Mobiles Sold
+Days of the Week
+Fig. 5.8
+Step 5:  For each information vertical bars are drawn on the horizontal line. They are 
+labelled by respective information (as Monday, Tuesday… Sunday).
+0
+10
+20
+30
+40
+50
+60
+Number of Mobiles Sold
+Sales of Mobiles in a Week
+Scale : 1 unit = 10 mobiles
+Sun
+day
+Days of the Week
+Fig. 5.9
+Mon
+day
+Tues
+day
+Wednes
+day
+Thurs
+day
+Fri
+day
+Satur
+day 0 10 20 30 40 50 60
+Number of Mobiles Sold
+Sales of Mobiles in a Week
+Scale : 1 unit = 10 mobiles
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Days of the Week
+Fig. 5.10
+Sunday
+6th_Maths_EM_Term1_Chapter 5.indd   100 19/11/2022   17:36:25
+101
+Statistics
+5.4.2  Interpreting the Bar Graph
+The data from the above Bar Graph (Fig. 5.10) can be easily interpreted 
+and analyzed as follows.
+ ● The maximum number of mobiles were sold on Saturday (55).
+ ● The minimum number of mobiles were sold on Wednesday (20).
+ ● The total number of mobiles sold in the week 
+(50+45+40+20+35+30+55 = 275).
+ ● The number of mobiles sold on a particular day (for example: 
+on Friday is 30, etc.,).
+Example 5.3 
+0
+2
+4
+6
+8
+10
+Number of Students
+Sunday Activities of Students
+Scale: 1 Unit=2 Students
+Reading
+Comics
+Solving
+Puzzles
+Reading
+Novels
+Reading
+Stories
+Studying
+Subject
+Activities
+Fig. 5.11
+ Study the above Bar graph and answer the following questions.
+(i) Which activity is followed by maximum number of students?
+(ii) How many students in all, spend their time on solving puzzles?
+(iii) The total number of students who follow either reading stories or reading their 
+subjects is __________.
+(iv) The activity followed by minimum number of students is __________.
+(v) The number of students who took part in reading comics is __________.
+Solution
+(i) ‘Reading stories’ is followed by maximum number of students.
+(ii) 7 students spend their time to work out solving puzzles. 
+(iii) 8 + 4 = 12 students spend their time on reading stories  
+or subjects.
+(iv) ‘Studying subject’ is followed by minimum number of 
+students.
+(v) 5 students spend their time on reading comics.
+ACTIVITY
+Collect different data 
+from Newspapers, 
+Magazines, etc. and 
+interpret them using 
+Bar graphs. 
+Why are these important?
+ ● The width of each bar 
+is same.
+ ● The spaces between 
+any two bars are also 
+the same.
+THINK
+Can you use 
+1 unit =1 student?
+Justify your answer.
+THINK
+6th_Maths_EM_Term1_Chapter 5.indd   101 19/11/2022   17:36:25
+102
+6th Standard Mathematics
+Exercise 5.3
+1. Read the given Bar Graph which shows the percentage of marks obtained by Brinda 
+in different subjects in an assessment test.
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Percentage of Mark
+s
+Brinda's marks in Assessment Test
+Language EnglishM athematicsS cience Social Science
+Subjects
+ Observe the Bar Graph and answer the following questions.
+(i) 1 Unit = __________ % of marks on vertical line.
+(ii) Brinda has scored maximum marks in __________ subject.
+(iii) Brinda has scored minimum marks in __________ subject.
+(iv) The percentage of marks scored by Brinda in Science is __________.   
+(v) Brinda scored 60% marks in the subject __________.
+(vi) Brinda scored 20% more in __________ subject than __________ subject.
+2. Chitra has to buy Laddus in order to distribute to her friends as follows:
+Classes VI VII VIII IX X
+Number of Laddus 70 60 45 80 55
+ Draw a Bar Graph for this data.
+3. The fruits liked by the students of a class are as follows. Draw a Bar Graph for this data.
+Fruits Bananas Grapes Apples Mangoes Guavas Papayas Other
+fruits
+Number of 
+students 8 10 8 7 12 3 2
+4. The pictograph below gives the number of absentees on different days of the week 
+in class six. Draw the Bar graph for the same.
+Day Monday Tuesday Wednesday Thursday Friday Saturday
+Number of 
+Absentees          
+--
+      
+ represents 4 students    represents 2 students
+6th_Maths_EM_Term1_Chapter 5.indd   102 19/11/2022   17:36:25
+103
+Statistics
+Objective Type Questions
+5. A bar graph can be drawn using __________.
+(a) Horizontal bars only
+(b) Vertical bars only
+(c) Both horizontal bars and vertical bars
+(d) Either horizontal bars or vertical bars.  
+6. The spaces between any two bars in a bar graph __________.
+(a) can be different   (b) are the same 
+(c) are not the same   (d) all of these
+Exercise 5.4
+Miscellaneous Practice Problems 
+1. The heights (in centimeters) of 40 children are.
+110   112  112  116  119  111  113  115  118  120
+110   113  114  111  114  113  110  120  118  115
+112   110  116  111  115  120  113  111  113  120
+115   111  116  112  110  111  120  111  120  111
+ Prepare a tally marks table.
+2. The following pictograph shows the total savings of a group of friends in a year.  
+Each picture represents a saving of Rs.100. Answer the following questions.
+Ruby
+ 
+Malarkodi
+  
+Thasnim
+Kuzhali
+ 
+Iniya
+ 
+represents 
+Rs.100
+6th_Maths_EM_Term1_Chapter 5.indd   103 19/11/2022   17:36:27
+104
+6th Standard Mathematics
+(i) What is the ratio of Ruby’s saving to that of Thasnim’s?
+(ii) What is the ratio of Kuzhali’s savings to that of others?
+(iii) How much is Iniya’s savings?
+(iv) Find the total amount of savings of all the friends?
+(v) Ruby and Kuzhali save the same amount. Say True or False.
+3. There are 1000 students in a school. Data regarding the mode of transport of the 
+students is given below.  Draw a pictograph to represent the data.
+Mode of Travel On Foot Bicycle Scooter Bus Car
+Number of Students 350 300 150 100 100
+Challenging Problems
+4. The prediction of Weather in the month of September is given below.
+September
+Sunday Monday Tuesday Wednesday Thursday Friday Saturday
+1 
+  2 
+3 
+ 4 
+  5  
+ 6 
+ 7 
+  8 
+  9 
+  
+10 
+ 11 
+ 12 
+ 13 
+  14 
+ 15 
+  16 
+  
+17 
+  18 
+  19 
+  20 
+  21 
+ 22 
+ 23 
+24 
+  25 
+ 26 
+ 27 
+ 28 
+  29 
+  30 
+  
+ Sunny  
+  Partly Cloudy  
+  Cloudy 
+  Rainy
+(i) Make a frequency table of the types of weather by reading the calendar. 
+(ii) How many days are either cloudy or partly cloudy?
+(iii) How many days do not have rain? Give two ways to find t he answer? 
+(iv) Find the ratio of the number of Sunny days to Rainy days.
+5. The table shows the number of moons that orbit each of the planets in our solar system.
+Planet Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune
+Number
+of Moons 0 0 1 2 28 30 21 8
+ Make a Bar graph for the above data.
+6th_Maths_EM_Term1_Chapter 5.indd   104 19/11/2022   17:36:29
+105
+Statistics
+6. 26 students were interviewed to find out what they want to become in future. Their 
+responses are given in the following table.
+Profession Tally marks
+Teacher  ||
+Pilot |||
+Bank Manager  
+Doctor |||
+Engineer
+Other Professions |||
+ Represent this data using Pictograph.
+7. Yasmin of class VI was given a task to count the number of books which are biographies, 
+in her school library. The information collected by her is represented as follows.
+Biographies Number of books
+Mathematicians
+ 
+   
+Scientists
+ 
+Novelists
+ 
+   
+   
+Sportspersons
+ 
+  
+Politicians
+ 
+  
+  Observe the pictograph and answer the following questions. 
+(i) Which title has the maximum number of biographies?
+(ii) Which title has the minimum number of biographies?
+(iii) Which title has exactly half the number of biographies as Novelists?
+(iv) How many biographies are there on the title of Sportspersons?
+(v) What is the total number of biographies in the library?
+Key: 
+ represents 
+20 books
+6th_Maths_EM_Term1_Chapter 5.indd   105 19/11/2022   17:36:31
+106
+6th Standard Mathematics
+8. The bar graph illustrates the results of a survey conducted on vehicles crossing over 
+a Toll Plaza in one hour.
+0
+10
+20
+30
+40
+50
+60
+70
+Number of 
+Ve
+hicles
+Vehicles crossing over a Toll Plaza
+Scale : 1 Unit = 10 Vehicles
+BusesL orries Cars Vans Two
+Wheelers
+Vehicles
+Fig. 5.13
+Others
+ Observe the bar graph carefully and fill up the following table.
+Vehicles Buses ____ Cars Vans ____ Others Total vehicles
+Number of 
+Vehicles ____ 45 ____ ____ 30 ____ ____
+9. The lengths (in the nearest centimetre) of 30 drumsticks are given as follows.
+Lengths Number of drumsticks
+24
+25 --
+26 --
+27  |
+28 --
+29  |||
+30  |
+31  
+Summary
+ ● Information collected is known as data.
+ ● First-hand information is called primary data.
+ ● The data collected by someone else is called secondary data.
+ ● The data collected is organized usually in a tally marks table.
+ ● The organized data can be represented using a pictograph or a bar graph.
+ ● A pictograph is the representation of data through pictures of objects.
+ ● A bar graph consists of parallel bars (horizontal or vertical) whose length corresponds 
+to the number of items.
+Draw the bar graph showing 
+the same information.
+6th_Maths_EM_Term1_Chapter 5.indd   106 19/11/2022   17:36:31
+107
+Statistics
+ICT Corner
+STATISTICS
+  Expected Result is shown in this picture
+Step – 1  
+Open the Browser, Copy and paste the link given below (or) by type the URL given (or) Scan the QR Code. 
+Step - 2 
+GeoGebra worksheet “Tally Mark Addi�on” will appear. You can generate a new set by clicking “Click here to 
+generate a new set”.   
+Step-3 
+Select “Show Answer” check box to view the answers for the sets. 
+Step 4: 
+ Generate various results and observe the diﬀerence in set forma�on 
+Step-1 Step-2  
+Step-3 Step-4 
+ Geogebraʼs url :      
+h�ps://www.geogebra.org/m/gzRAnHKw 
+Alternate source to try tally calculations: 
+https://play.google.com/store/apps/details?id=org.geogebra&hl=en
+6th_Maths_EM_Term1_Chapter 5.indd   107 19/11/2022   17:36:31
+108
+6th Standard Mathematics
+Learning Objectives
+ ● To learn about systematic listing and counting.
+ ● To solve puzzles like Sudoku and triangles by systematics completion.
+6.1 Introduction
+Ponmozhi is at her cousin’s wedding which has a large gathering of people. There are a 
+few hundred people, for sure. Suddenly her uncle comes and says, “We are getting ready 
+to serve the meal; one of you quickly count the number of people and tell me”. “Ponmozhi, 
+you are good at counting; Do this quickly and tell to me, I will be inside, getting the 
+plantain leaves ready.”
+It will be very tedious to count each and everyone assembled there. Ponmozhi is standing 
+on a chair and is trying to count everyone. Suddenly, Ponmozhi is unsure of the count that 
+she made and she did not want to count the same head more than once.
+Ponmozhi was told that the task of counting was not easy. While counting, some people 
+may leave, some may enter and some may move here and there. So it is difficult to make 
+sure that her  count would be correct.
+Fig. 6.1  Fig. 6.2
+6
+Chapter
+INFORMATION PROCESSING
+6th_Maths_EM_Term1_Chapter 6.indd   108 19/11/2022   17:40:04
+109
+Information Processing
+But in a wedding feast it does not matter if there is a small error  in the count: Whether 
+there are 384 persons or 417 persons in the hall it does not really make much of a 
+difference. Food made ready for 400 persons can be sufficient for 20 more persons. 
+Mathematics will help not only in exact counting but also in estimation and approximate 
+counting, depending on what is actually needed.
+Instead of the above wedding hall situation, counting the number of children in the 
+classroom is very easy. But counting the number of people in the wedding hall is difficult. 
+There are many reasons for this.
+The number of children in the classroom is small, in 10s rather than 100s. Children sit 
+in the benches, the same number on each bench and the benches are organized in rows 
+and columns. Children sit in one place when you are counting. The number is too small 
+to ask the children to count starting from the left of the first row to the right of the last 
+row, as the children themselves have collectively counted the number present in the 
+class. But again we need not do this. If 3 children sit on each bench and there are 3 
+benches in a row and there are 4 rows, and every bench in the class is fully occupied, 
+then we have 3 × 3 × 4 = 36 children in class. But what should we do if all benches 
+are not occupied full? If there are 3 benches with only 2 children and one bench with 
+only one child, we only need to subtract (3+2) from 36 to get 31 children in the class. 
+Importantly, not only we can get the answer, but also we can be confident that everyone 
+was counted, and that nobody was left uncounted or counted twice.
+The absence of these factors makes counting in wedding halls more difficult. In general, 
+we can say:
+Fig. 6.3
+6th_Maths_EM_Term1_Chapter 6.indd   109 19/11/2022   17:40:06
+110
+6th Standard Mathematics
+The place in which the things are counted is fixed and arranged in some order, then 
+counting is easy, otherwise it is difficult.
+This suggests that the things should be in order if it is needed to be counted easily.
+MATHEMATICS ALIVE  - INFORMATION PROCESSING IN REAL LIFE
+7
+6 6
+5
+5
+4
+3
+4
+5
+4 3 2
+1
+2
+3 4
+1 × 1 =1
+2 × 2 =4
+3 × 3 =9
+4 × 4 =1 6
+3 × 5 =1 5
+2 × 6 =1 2
+1 × 7 =7
+64
+Systematic sorting of triangles Logical reasoning in 3 kal-aattam
+Fig.6.4 Fig.6.5
+6.2 Systematic listing
+There are two shorts and three shirts. In how many different combinations can you wear them?
+At a time you are going to pick one of the shorts and different shirts. We denote the shorts 
+as A and B, and the shirts as p, q and r. Then you can wear one of these: A p, A q, A r, B p, 
+B q and B r.
+Thus you have six different combinations and you know that you have counted all the 
+possibilities. This is systematic listing.
+Situation 1
+Your friend has built a house with three floors. He  wants  
+to  paint  each  floor  with  three  different colours 
+red, blue and green. Can you help him to find 
+different ways of possible colour combinations to 
+paint the home?
+In how many ways can his house be painted with 
+these three colours?
+Let us consider the floors as the Third floor, the 
+Second floor and the First floor. We can say that 
+  Alive
+ Mathematics
+Fig.6.6
+6th_Maths_EM_Term1_Chapter 6.indd   110 19/11/2022   17:40:07
+111
+Information Processing
+the painting can be done as RBG, BRG, GRB…etc. But here it is possible that we may miss 
+out some patterns of colours. So, we can use systematic listing  as given below.
+Step 1: Fix one colour; try the possible arrangements with other colours. For example, 
+if the Third floor is fixed as Red, then we get 2 ways which is shown in the table below.
+Fix Third floor Colour Second floor Colour First floor Colour
+Red Blue Green
+Red Green Blue
+Step 2: If the Third floor is fixed as Blue, then we get another 2 ways which is shown in 
+the table below.
+Fix Third floor Colour Second floor Colour First floor Colour
+Blue Green Red
+Blue Red Green
+Step 3: If the Third floor is fixed as Green, then we get 2 more ways which is shown in 
+the table below.
+Fix Third floor Colour Second floor Colour First floor Colour
+Green Blue Red
+Green Red Blue
+Hence, we get 6 different ways of painting the three floors, which are R-B-G, R-G-B, 
+B-G-R, B-R-G, G-B-R and G-R-B.
+Situation 2
+Suppose you want to write four digit numbers by using the digits 3, 6, 9 and 5. What are 
+the possible numbers you can write using each digit exactly once?
+If you list randomly, for example 9365, 3695, 5639 and so on, you may not write all the 
+possibilities. So, write in ascending order.
+ ● All numbers beginning with 3:
+Fix next digit and change the other 2 digits. We get, 3569, 3596, 3659, 3695, 3956, 3965.
+Similarly,
+ ● All numbers beginning with 5  : 5369, 5396, 5639, 5693, 5936, 5963
+ ● All numbers beginning with 6 : 6359, 6395, 6539, 6593, 6935, 6953
+ ● All numbers beginning with 9 : 9356, 9365, 9536, 9563, 9635, 9653
+ Totally, we can have 6+6+6+6 = 24 numbers
+6th_Maths_EM_Term1_Chapter 6.indd   111 19/11/2022   17:40:07
+112
+6th Standard Mathematics
+Fig.6.7
+Mother had a lot of wooden pieces in different shapes with her. She gave 6 triangles to 
+Kannagi and 6 circles to Madhan and asked them to create different figures using them. 
+They tried and got some interesting figures. Can you create figures like them that are 
+nice and interesting? 
+45 6
+23
+1
+1
+2
+3
+4
+5
+6
+1)
+2)
+TRY THESE
+1)
+2)
+3)
+4)
+Space for new figures
+6.3 Systematic completion of lists
+Suppose that you are already given a list that is partially filled. How would you complete 
+it? In the activity with 4-digit numbers we had experienced this already. The idea is to find 
+how the filled in part is arranged and use the same idea to complete the rest.
+6.3.1  Sudoku 
+Sudoku is a number game. Completion with some constraints is best enjoyed in Sudoku. 
+This is a puzzle where there is a partially filled in grid. Horizontal lines of cells in the  grid 
+are called as rows and vertical lines of cells in the grid are called as columns. In 9x9 
+Sudoku, you have to fill in the remaining blank cells with numbers from 1 to 9 so that no 
+number repeats in a row, or in a column. In 3x3 Sudoku, you can use only the numbers 
+from 1 to 3. In 4x4 Sudoku, you can use only the numbers from 1 to 4 and so on.
+(i) 3X3 Sudoku
+Sudoku
+The word Sudoku comes 
+from the Japanese language. Su means 
+‘number’ and Doku means ‘single’. It 
+refers to the condition that each number 
+is listed only once in each row, column. 
+The modern version of this puzzle is said 
+to have come from Howard Garns.
+1 2 3
+2 3 1
+(a)
+1 2 3
+2 3 1
+3 1 2
+(b)
+Fig. 6.8
+6th_Maths_EM_Term1_Chapter 6.indd   112 19/11/2022   17:40:07
+113
+Information Processing
+NOTE
+In Fig, 6.8  (a) two rows are fixed.  We get only one possible way to complete the third 
+row (Fig. 6.8 (b)).   
+(ii) 3X3 sudoku
+1 2 3
+Fig. 6.9
+In the above 3 x 3 sudoku, the first row only is fixed. The second row can be filled in  
+2 ways either by 2 3 1 or 3 1 2
+1 2 3
+2 3 1
+3 1 2
+(a)
+1 2 3
+3 1 2
+2 3 1
+(b)
+Fig. 6.10
+To fill the third row, bear in mind that numbers cannot be repeated in the row or in the 
+column. The third row can be filled by only one way in each case. 
+(iii) 3 × 3 sudoku
+In how many different ways can the first row be arranged?
+The first row can be arranged in six ways as (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2) and 
+(3,2,1).
+(iv) Let us find all possible solutions to solve 3 × 3 sudoku puzzle.
+1 2 3 1 2 3 2 3 1 2 3 1
+2 3 1 3 1 2 3 1 2 1 2 3
+3 1 2 2 3 1 1 2 3 3 1 2
+(a) (b) (c) (d)
+6th_Maths_EM_Term1_Chapter 6.indd   113 19/11/2022   17:40:07
+114
+6th Standard Mathematics
+1 3 2 1 3 2 3 2 1 3 2 1
+3 2 1 2 1 3 2 1 3 1 3 2
+2 1 3 3 2 1 1 3 2 2 1 3
+(e) (f) (g) (h)
+2 1 3 2 1 3 3 1 2 3 1 2
+1 3 2 3 2 1 1 2 3 2 3 1
+3 2 1 1 3 2 2 3 1 1 2 3
+(i) (j) (k) (l)
+Fig. 6.11
+We get 12 possible ways.
+(iv) Here is a partially filled 4x4 sudoku.
+1 4 3
+3 4
+1 2
+2 4 1
+Fig. 6.12
+One way of completing it is given below. Is there any other way to complete the sudoku?
+1 4 3 2
+3 2 1 4
+4 1 2 3
+2 3 4 1
+Fig. 6.13
+In the 4 × 4 Sudoku, there is an extra condition. We have four 2 × 2 grid boxes in the 
+4 × 4 sudoku.  You have to be careful that no number from 1 to 4 repeats within that 
+2 × 2 grid also.
+6th_Maths_EM_Term1_Chapter 6.indd   114 19/11/2022   17:40:07
+115
+Information Processing
+6.3.2  Magic triangle 
+Magic triangles are also very interesting in a similar way.
+In a magic triangle, numbers are to be filled without repetition on the sides of a triangle. 
+So that the sum of each side remains the same.
+Fill up the circle with the numbers from 1 to 6 without repetition so that each side of the 
+magic triangle adds upto 12.
+Fig. 6.14
+Step 1: Place the larger numbers at the corners of the triangle i.e., 4 ,5, and 6.
+Step 2: Place the smaller numbers i.e., 1,2 and 3 in the middle of each side.
+5
+1 3
+4
+2 6
+Fig. 6.15
+Wrong Placement of numbers (first row 4, second row 1, 3 and third row 5, 2, 6)
+Sum of the numbers on three sides of the triangle are 10, 13 and 13. All the total are not 
+the same. This placement of numbers is not correct. 
+Try the other way, by changing the  numbers as shown in the figure, given below.           
+5
+2 1
+4
+3 6
+Fig. 6.16
+Wrong Placement of numbers (first row 4, second row 2, 1 and third row 5, 3, 6)
+4 + 1 + 5 =  10                                                                                  
+5 + 2 + 6 =  13
+4 + 3 + 6 =  13
+4 + 2 + 5 = 11                                                                                  
+5 + 3 + 6 = 14
+4 + 1 + 6 = 11
+6th_Maths_EM_Term1_Chapter 6.indd   115 19/11/2022   17:40:07
+116
+6th Standard Mathematics
+Sums of the numbers on three sides of the triangle are 11, 14 and 11. Again, the totals 
+are not the same. 
+Try again. Change the  numbers to get a total of 12 on each side. 
+5
+3 2
+4
+1 6
+Fig. 6.17
+Correct placement of numbers.  (first row 4, second row 3, 2 and third row 5, 1, 6)  
+This is the desired magic triangle.
+6.3.3  More figures in a figure
+Examples 
+How many triangles are there in the given figures?
+(i)      (ii) 
+    (a)                 (b)
+Fig. 6.18
+(i) Solution
+A, B, C, D are four triangles. 
+Combining A & D, B & D and D & C  do not form any 
+triangles. 
+Combining A, B & D; A, C & D and B, D & C also do  not 
+form any triangles.
+Combining A, B, C & D = 1 triangle
+Total numbero f triangles 41 5` = + =
+4 + 3 + 5 = 12                                                                                  
+5 + 1 + 6 = 12
+4 + 2 + 6 = 12
+A
+B C
+D
+(a)
+6th_Maths_EM_Term1_Chapter 6.indd   116 19/11/2022   17:40:08
+117
+Information Processing
+(ii) Solution
+A, B, C, D, & E are five triangles. 
+No combination of these triangles taken 2 at a time, form 
+any triangle.
+Only  the combinations of A, F & C; A, F & D; B, F & E;  B, 
+F & D and C, F & E form triangles when taken 3 triangles at 
+a time. Hence, the total number of triangles = 5 + 5 = 10.
+Exercise 6.1
+1.   Suppose, you have two shorts, one is black and the other one is 
+blue; three shirts  which are in white, blue and red. You again wish 
+to make different combinations, but you always want to make sure 
+that the shorts and shirt that you wear are of different colours. List 
+and check how many combinations are possible now.
+2.   You have two red and two blue blocks. How many different towers can you build that 
+are four blocks high using these blocks? List all the possibilities.
+3. In the following magic triangle, arrange the numbers from 1 to 6,  so that you get 
+the same sum on all its sides. 
+ 
+4. Using the numbers from 1 to 9
+(i)  Can you form a magic triangle?
+(ii) How many magic triangles can be formed?
+(iii)  What are the sums of the sides of the magic triangle?
+5.  Arrange the odd numbers from 1 to 17 without repetition 
+to get a sum of 30 on each side of the magic triangle.
+1
+5 3
+  
+A
+B
+C D
+EF
+(b) 
+6th_Maths_EM_Term1_Chapter 6.indd   117 19/11/2022   17:40:08
+118
+6th Standard Mathematics
+6.   Put the numbers 1, 2, 3, 4, 5, 6, & 
+7 in the circles so that each straight 
+line of three numbers add up to the 
+same total. 
+  7. Place the number 1 to 12 in the 12 
+circles so that the sum of the numbers 
+in each of the six lines of the star is 26. 
+Use each number from 1 to 12 exactly 
+once. Find more possible ways?
+8.  How many Triangles are there in each of the following figures? 
+ (i)   (ii) 
+              (a)             (b)
+ (iii)  (iv) 
+              (c)             (d)
+9.  Find the number of dots in the tenth figure of the following patterns.
+(i) 
+(ii)  
+6th_Maths_EM_Term1_Chapter 6.indd   118 19/11/2022   17:40:08
+119
+Information Processing
+10.  
+ (i)  Draw the next pattern.
+ (ii) Prepare a table for the number of dots used for each pattern.
+ (iii)  Explain the pattern.
+ (iv)  Find the number of dots in the 25 th pattern.
+11.  Count the number of squares in each of the following figures?
+ (i)   (ii) 
+12.  How many Circles are there in the following figure?   
+13.  Find the minimum number of straight lines used in forming the following figures. 
+ 
+(i) (ii)
+6th_Maths_EM_Term1_Chapter 6.indd   119 19/11/2022   17:40:09
+120
+6th Standard Mathematics
+INFORMATION PROCESSING
+  Expected Result is shown in this picture
+Step – 1  
+Open the Browser, copy and paste the link given below (or) by type the URL given (or) Scan the QR Code. 
+Step - 2 
+ “Genius Puzzles” web page will appear. There are many PUZZLES related to the triangle are present. This page is to 
+ﬁnd “HOW MANY TRIANGLES ARE THERE” in the given ﬁgure.  
+Step-3 
+Calculate your answer and click “View Answer” to check whether your answer is correct for each puzzle. 
+.Step-1 Step-2  
+Step-3 
+Browse in the link 
+Triangles: https://gpuzzles.com/quiz/how-many-triangles-are-there-puzzles-with-answers/ 
+ICT Corner
+6th_Maths_EM_Term1_Chapter 6.indd   120 19/11/2022   17:40:09
+121
+Answers
+ANSWERS
+NUMBERS 
+Exercise 1.1
+ 1)  (i) 10,00,000 (ii) 9,99,99,999 (iii) Five Thousand (iv) 7000000+600000+70000+900+5
+ 2) (i) False (ii) False (iii) True (iv) False
+ 3) 10   4) (i) 70,00,000 (ii) 7,000,000
+ 5) (i) 347,056  (ii) 7,345,671  (iii) 634,567,105  (iv) 1,234,567,890
+ 6)  Indian System : 9,99,999 (Nine Lakh Ninety Nine Thousand Nine Hundred Ninety Nine) 
+International System : 999,999 (Nine Hundred Ninety Nine Thousand, Nine Hundred 
+Nintey Nine)
+ 7) (i)  Seventy five lakh thirty two thousand one hundred five
+  (ii) Nine crore seventy five lakh sixty three thousand four hundred fifty three
+8) (i)  Three hundred forty five thousand six hundred seventy eight
+    (ii) Eight million three hundred forty three thousand seven hundred ten
+        iii) One hundred three million four hundred fifty six thousand seven hundred eighty nine
+9) (i) 2,30,51,980  (ii) 66,345,027  (iii) 789,213,456    10) 26,345
+11) 1,000,000 (One million)
+Objective Type Questions
+12) (b) 10000001          13) (c) 2        14) (a) 100 Crore
+15) (d) 6× 100000 + 7 × 10000 +0× 1000 +9× 100 +0× 10 +5× 1
+Exercise 1.2
+1)  (i) 48792< 48972 (ii) 1248654> 1246854 (iii) 658794 = 658794
+2) (i) False   (ii) False   (iii) True
+3)  The greatest number is 1386787215
+ The smallest number is  86720560
+4) 128435 > 25840 > 21354 > 10835 > 6348
+5) 76095321, 86593214 (Similarly, we can write many numbers)
+6) 479, 497, 749, 794, 947, 974     7) 4698
+8) The smallest Postal Index Number is 631036
+ The largest Postal Index Number is  631630
+9) (i) Aanaimudi  (ii) Aanaimudi > Dottabetta > Velliangiri > Mahendragiri 
+(iii) 1048 m
+Objective Type Questions
+10) (c) 134205, 134208, 154203   11) (a) 1489000 and 1492540   12) (d) 26
+6th_Maths_EM_Term1_Answers.indd   121 23/11/2022   15:28:18
+122
+6th Standard Mathematics
+Exercise 1.3
+1) (i) 360 (ii) 150 (iii) 1   2) (i) False (ii) True (iii) False  3) 11910
+4) 2,15,750  5) 39,000 bicycles  6) ` 2500  7) (i) 9  (ii) 11  (ii) 107
+8) (d) 1   9) (b) 12   10) (c) ×   
+Exercise 1.4
+1) (i) 800 (ii) 1000 (iii) 90,000  2) (i) False (ii) True (iii) False
+3) (i) 4100  (ii) 45,000 (iii) 90,000 (iv) 51,00,000 (v) 30,00,00,000
+4) 1,90,000  5) (i) 12,300 (ii) 18,99,600  6) 3,37,000
+Objective Type Questions
+7) (b) 10855  8) (c) 76800   9) (a) 9800000   10) (b) 165000
+Exercise 1.5
+1) (i) 1   (ii) 34  (iii) 0  (iv) Zero  (v) one
+2) (i) False  (ii) False (iii) True (iv) True  (v) True
+3) (i) Commutativity for Addition (ii) Associativity for Multiplication
+ (iii) Zero is Additive Identity (iv) One is Multiplicative Identity
+ (v) Distributivity of Multiplication over Addition
+4) (i) 5100  (ii) 3,00,000  (iii) 13,200   (iv) 334
+Objective Type Questions
+5) (b) 0     6) (d) 59      7) (a) an even number
+8) (b) 0   9) (c) 2+0      10) (c) 4237+ 5498 × 3439 = (4237 + 5498) × 3439
+Exercise 1.6
+1) 87543
+2) Ascending Order : 6,85,48,437 < 7,21,47,030 < 7,26,26,809 < 9,12,76,115
+ Descending Order: 9,12,76,115 >7,26,26,809 >7,21,47,030 > 6,85,48,437
+3) (i) 1706 tigers in 2011 (ii) 2100 (iii) 520 tigers increased from 2011 to 2014   
+4) among 6 friends, each of them  get 37 apples.  3 apples left over
+5) 515 + 1 = 516 trays required
+6) (i) Indian System:Two crore fifty nine lakh forty one thousand nine hundred 
+ International System : Twenty five million nine hundred forty one thousand nine hundred
+ (ii) 5,50,500   (iii) Eighty six crore forty lakh seven hundred thirty
+ (iv)  Ninteen million eight hundred eighty eight thousand eight hundred
+ (v)  Indian System :  60,53,100 - Sixty lakh fifty three thousand one hundred
+ International System : 6,053,100 - Six million fifty three thousand one hundred
+7) One of the answers is 43781. Many answers are possible
+8) (i) 85 rows are required to fill 7650 chairs (ii) The remaining chairs are 39
+9) Y es, both are same (30,00,000)      10) Relevant answers are yours
+6th_Maths_EM_Term1_Answers.indd   122 23/11/2022   15:28:18
+123
+Answers
+ALGEBRA 
+Exercise 2.1
+1) (i) Variables (ii) f - 5 (iii) s
+5   (iv) n - 7 (v) 17
+2) (i) False   (ii) True (iii) False (iv) True (v) True
+3) 
+Shapes 1st Pattern 2nd Pattern 3rd Pattern 4th Pattern 5th Pattern
+Squares 1 2 3 4 5
+Circles 1 2 3 4 5
+Triangles 2 4 6 8 10
+4) Arivazhagan’s age is ‘n-30’  5) (i) u + 2 (ii) u – 2
+6) (i) t + 100 (ii) 4q  (iii) 9y - 4
+7) (i) x divided by 3 (ii) 11 added to 10 times x  (iii) product of 70 and s
+8) Vetri's answer is correct  9) (i) 299; 301   (ii)18
+10)  k 3 6 9 12 15 18
+3
+k 1 2 3 4 5 6
+ The value of ‘k’ is 15.
+Objective Type Questions
+11) c) can take different values  12) d) 7w  13) d) 22
+14) b) y = 6     15) a) n - 6 = 8
+Exercise 2.2
+1) 8; 77; 666; 5555; 44444; 333333   2) (i) 4s   (ii) 3s
+3) 
+ 
+8 7 7 8 =30
+8 8 10 10 =36
+8 10 7 7 =32
+8 7 10 7 =32
+=32 =32 =34 =32 =130
+4)  k = 3; m = 1; n = 10; a = 9; b = 6; c = 4; x = 4; y = 9.
+5) 19
+6th_Maths_EM_Term1_Answers.indd   123 23/11/2022   15:28:18
+124
+6th Standard Mathematics
+6) (i) P=2; Q=8; R=6; S=10
+         (ii)  
+Rectangle P Q R S T
+Number of squares along the breadth 2 2 2 2 2
+Number of squares along the length 1 4 3 5 x
+Total number of squares in rectangle 2 8 6 10 2x
+7) x 0 t
+z p
+v k
+u
+a m
+s
+6
+0
+3
+0
+6 0 1
+0742
+6 5 4
+42
+9
+2 5 9
+30 8
+ 
+RATIO AND PROPORTION 
+Exercise 3.1
+1)  (i) 3 : 5  (ii) 3 : 2  (iii)25 : 2  (iv)3 : 8    2) (i) True  (ii) False
+3)  (i) 3 : 4  (ii) 4 : 3  (iii) 7 : 15  (iv) 4 : 9  (v) 3 : 4  4) 5 : 3   5) 1 : 3
+6)  (i) 3 : 5  (ii)2 : 5  (iii)3 : 2   7) (d) 5 : 1   8) (c) 20 : 1  9) (d) 10 : 7
+10.  (b) 3 : 4  11. (c) 5 : 1
+Exercise 3.2
+1)  (i) 15  (ii) 8  (iii) 12   2) (i) 36 inches, 6 Feet  (ii) 14 days, 9 weeks
+3)  (i) False  (ii) True   4) (i) 6 : 4,  9 : 6   (ii) 2 : 12,  3 : 18  (iii) 10 : 8,  15 : 12
+5) (i) 4 : 5 is larger than 8 : 15  (ii) 7 : 8 is larger 3 : 4 (iii) 2 : 1 is larger than 1 : 2
+6)  (i) 12, 8  (ii) 12, 15  (iii) 12,  28   7) (i) Rs.2400  (ii) Rs.1600
+8) 21 cm,  42 cm  9) (a) 6   10) (d) 12 : 21  11) (d) 20/28  12) (c) Rs.1000
+6th_Maths_EM_Term1_Answers.indd   124 23/11/2022   15:28:18
+125
+Answers
+Exercise 3.3
+1)  (i) 12 (ii) 9 (iii) 4; 12 (iv) 24; 2  2) (i) False (ii) False (iii) True (iv) False
+3) (i) Rs.30  (ii) 25 days    4) Y es, 12:24, 18:36
+5) (i) Y es, Extreme values - 78, 20; Inbetween values - 130, 12
+ (ii) No, Extreme values - 400, 625; Inbetween values - 50, 25
+6)  Y es     7) 80 Pages    8) 2 km   9) 44 points
+10 ) Asif ’s run rate is better   11) My friend’s rate of purchase is better than me.
+Objective Type Questions
+12) (c) 2 : 5 , 10 : 25   13) (d) 8   14) (c) 35   15) (b) 270   16) (c) 6 km
+Exercise 3.4
+1)  (i) 1 : 4  (ii) 4 : 5 (iii) 1 : 5 (iv) Ratio of elephant to cheetah is least
+2)  60 teachers and 6 administrators     3) (i) 2 : 1  (ii) 1 : 3  (iii) 12 ratios
+4)  A : B = 2 : 1,  B : C = 2 : 1; They are in proportion.
+5) (a) 4
+1  cup  (b) 8 cups
+ (c) Ragi flour, Raw rice and water are in one unit, Sesame oil and salt are in different 
+units.  these different units cannot be compared and cannot be expressed as a ratio.
+6)  2 : 1    7) There are four different ways.    8) T eam B has better record
+9) The standard 8 is the least ratio
+10)  The six different answers are :  1 and 90;  2 and 45;  30 and 3;  5 and 18;  
+ 6 and 15, 9 and 10.
+11)  29 : 44     12) (a) Black balls   (b) 96 balls   (c) 32 balls,  24 balls
+GEOMETRY 
+Exercise 4.1
+1) i) AB ii) BA iii) One     2) 10, PQ, PA, PB, PC, AB, BC, CQ, AQ, BQ, AC 
+3) XY =2.4 cm, AB = 3.4cm, EF = 4 cm, PQ = 3cm.
+5) (i)  
+ (ii) AB andC D, AB andE F, AB andI J, GH andI J, AB andG H  (iii)  P , Q and R
+6th_Maths_EM_Term1_Answers.indd   125 23/11/2022   15:28:19
+126
+6th Standard Mathematics
+6) (i) l3 and l4 , l4 and l5 , l3 and l5
+ (ii) l1 and l2, l1 and l3 , l1 and l4 , l1 and l5 , l2 and l3 , l2 and l4 , l2 and l5
+ (iii) l1 and l2   (iv) Q  (v) U
+Objective Type Questions
+7) c) 3     8) d) AB
+Exercise 4.2
+2) i) D,DE and DF ii) D,DE,D C 
+3) i), iii), v) are right angles     4) i), ii) and iii) are acute angles
+5) i), iii) are obtuse angles
+6) i) ∠LMN, ∠NML, ∠M ii) ∠PQR, ∠R Q P,  ∠Q
+ iii) ∠MNO, ∠ONM, ∠N iv) ∠TAS, ∠SAT, ∠A
+7) i) True  ii) False  iii) False iv) True
+9) i) Obtuse angle ii) Zero angle iii) Straight angle iv) Acute angle v) Right angle
+10) i) 60˚  ii) 64˚  iii) 5˚  iv) 90˚  v) 0˚
+11)  i) 110˚  ii) 145˚ iii) 15˚ iv) 90˚  v) 180˚
+12) i) 155˚  ii) 60˚  iii) 44˚   iv) 113˚    13) b) ∠ZXY    14) b) 45˚ 
+Exercise 4.3
+1) i) Collinear ii) Non-Collinear iii) Non-Collinear  iv) O
+2) P Q R l
+3) 
+A B C
+D
+D B
+B
+C
+A A
+C
+D
+4) 
+l2
+l1
+l3
+  5)
+l2
+l3
+l1  , 3
+6th_Maths_EM_Term1_Answers.indd   126 23/11/2022   15:28:19
+127
+Answers
+Objective Type Questions
+6) b) A, F , C  7) d) A, D, C  8) b) F
+Exercise 4.4
+1) i) Parallel lines  ii) Parallel and Perpendicular lines
+ iii) Intersecting lines
+2) Parallel lines     Intersecting Lines
+ AB and DC     AB, AE, AD
+ AD and BC     DA, DH, DC 
+ DC and HG     CB, CG, CD 
+ AD and EH     HD, HG, HE 
+ AE and DH     EA, EH...
+ DH and CG     
+3) i) ∠1 = ∠CBD or ∠DBC  ii) ∠2 = ∠DBE or ∠EBD
+ iii) ∠3 = ∠ABE or ∠EBA  iv) ∠1+∠2 = ∠CBE or ∠EBC
+ v) ∠2 + ∠3 = ∠ABD or ∠DBA vi) ∠1 + ∠2 + ∠3 = ∠ABC or ∠CBA
+4) i) right angle  ii) acute angle iii) straight angle iv) obtuse angle
+5) (i) and (iv) are complementary angles  (ii) and (iii) are non-complementary angles 
+6) ii) and iv) are supplementary        i) and iii) are not supplementary
+7) i) ∠FAE; ∠EAD
+ ii) ∠FAD; ∠DAC  ∠BAC; ∠CAE  ∠DAB; ∠DAE  ∠FAB; ∠BAC  ∠FAB; ∠FAE
+8)  i) Legs of the table, railway track, edges of the scale
+ ii) Adjacent sides of a Board, Cross bars of windows, Adjacent sides of the textbook
+ iii) Cross bars of windows, Ladder, blades of a scissor.
+9)  60˚ is twice its complement.   10) 72˚   11) The two angles are 80˚ and 100˚
+12)  Two angles are 70˚ and 20˚.    13)  The angles are 100˚ and 80˚.
+6th_Maths_EM_Term1_Answers.indd   127 23/11/2022   15:28:19
+128
+6th Standard Mathematics
+STATISTICS 
+Exercise 5.1
+1)  (i) Data  (ii) List of absentees in a class  
+(iii) Cricket scores gathered from a website (iv)  |||
+2)
+ 
+Face of  
+die
+Tally 
+Marks Frequency
+1 ||| 3
+2 || 2
+3 || 2
+4  | 6
+5  |||| 9
+6  ||| 8
+30
+4)
+ 
+Numbers Tally Marks Frequency
+11 || 2
+12 5
+13 |||| 4
+14 |||| 4
+15  | 6
+16 |||| 4
+17 || 2
+18 | 1
+19 | 1
+20 | 1
+30
+5)
+ 
+Types of Calls Tally Marks Frequency
+Building fires  | 6
+Other fires   | 11
+Hazardous materials  || 7
+Rescues |||| 4
+False Alarms  || 7
+35
+ (i) Other fires (ii) Rescues (iii) 35 (iv) 7
+6)  (b)  ||     7) (c) 9      
+3) Colours Tally Marks Frequency
+Red |||| 4
+Blue  | 6
+White || 2
+Grey  || 7
+Green  | 6
+25
+6th_Maths_EM_Term1_Answers.indd   128 23/11/2022   15:28:19
+129
+Answers
+Exercise 5.2
+1) i) 150 ii) 
+  
+  
+     iii) Pictograph
+4) i) kabaddi ii) 110  iii) Kho-Kho and Hockey iv) 0 v) Basketball
+5) (c) Scaling        6) (b) Pictogram
+Exercise 5.3
+1) i) 10  ii) Mathematics iii) Language  iv) 65% v) English  
+ vi) Mathematics; English
+5) (d) Both horizontal bars or vertical bars.     6) (b) are the same
+Exercise 5.4
+Heights (in Cms) Tally Marks Frequency
+110 5
+111  ||| 8
+112 |||| 4
+113 5
+114 || 2
+115 |||| 4
+116 ||| 3
+117
+118 || 2
+119 | 1
+120  | 6
+40
+2) i) 5 : 4  ii) 5 : 19 iii) ` 300 iv) ` 2400 v) true
+4) ii) 14 days iii) 24 days iv) 5 : 3
+7) i) Novelists ii) Scientists iii) Sportspersons  iv) 25  v) 160
+INFORMATION PROCESSING  
+Exercise 6.1
+1) 5 combinations are possible, Black - White  Black - Blue Black - Red
+        Blue - white  Blue - Red
+2) 6 possibilities,  R - B - R - B  R - R - B - B  B - R - R - B  
+    B - R - B - R  B - B - R - R  R - B - B - R  
+6th_Maths_EM_Term1_Answers.indd   129 23/11/2022   15:28:20
+130
+6th Standard Mathematics
+(3) One of the answers is, 
+1
+23 4
+5 6
+(4) (i) Y es
+ (ii) 5
+ (iii) 17, 19, 20, 21, 23
+5)
+       
+1
+17
+7
+5 13 9 3
+15
+11
+6)
+       
+1
+2
+3 6
+7 5
+4
+(7) There are many other possible ways.
+4
+3 12
+8
+2 6 11 7
+9
+5
+10 1
+(8) (i) 12 triangles
+ (ii) 16 triangles
+ (iii) 32 triangles
+ (iv) 35 triangles
+(9) (i) 55
+ (ii) 100
+(10) (i)  
+ 
+(ii)
+Pattern 1 2 3 4
+Number 
+of dots 2 5 9 14
+(iv) 350
+(11) (i) 20 squares  (ii) 10 squares
+(12) 7 circles   (13) (i) 10   (ii) 12
+(iii)
+Pattern 1 2 3 4
+Number 
+of dots 2 2 + 3 2 + 3 + 4 2 + 3 + 4 + 5
+6th_Maths_EM_Term1_Answers.indd   130 23/11/2022   15:28:20
+131
+Mathematical T erms
+Acute angle குறுங்கோணம்
+Additive Identity கூட்டல் சமனி
+Algebra இயறகணிதம்
+Algebraic Expressions இயறகணித ்கோவைகள்
+Algebraic Statement இயறகணித கூறறு
+Angle ்கோணம்
+Associative ்சர்ப்பு
+Bar graph படவ்ட ைவைப்டம்
+Classification	 ைவகப்படுத்துதல்
+Closure அவ்டவு
+Coincide ஒன்றுதல்
+Collecting data தைவு திைடடுதல்
+Collinear points ஒரு ்கோ்டவம புள்ளிகள்
+Commutative பரிமோறறு 
+Complementary angles நிைப்புக் ்கோணஙகள்
+Construction ைவைமுவை
+Data/Information தைவு / தகைல்
+Denominator பகுதி
+Discrete ததோ்டர்ச்சியறை
+Distributive பஙகீடடு
+Equation சமன்போடு
+Equivalent Ratio சமோன விகிதம்
+Estimation மதிப்பீடு
+Expanded form விரிைோக்கம்
+Facts உணவமகள்
+First hand information முதல்நிவை தைவு
+Fractions பின்னஙகள்
+Frequency நிகழதைண
+Geometry ைடிவியல்
+Horizontal bars கிவ்டமட்ட படவ்டகள்
+Information Processing தகைல் தசயைோக்கம்
+Integers முழுக்கள்
+Interchanging Digits இைக்கஙகளின் இ்டமோறைம்
+Intersecting lines தைடடும் ்கோடுகள்
+Interpret விைரித்தல்
+Line segment ்கோடடுத்துணடு
+Lines ்கோடுகள்
+Magic triangle மோய முக்்கோணம்
+Measure அளவீடு
+Multiplicative identity தபருக்கல் சமனி
+Natural Numbers இயல் எணகள்
+Notation குறியீடு
+Number patterns எண அவமப்புகள்
+Numerator ததோகுதி
+Obtuse angle விரி்கோணம்
+Operation on Variables மோறிகள் மீதோன தசயல்போடு
+Organizing data தைவு ஒருஙகவமப்பு
+Parallel lines இவண ்கோடுகள்
+Pictograph உருை விளக்கப்ப்டம்
+Place Value Chart இ்டமதிப்பு அட்டைவண
+Plane தளம்
+Point of Intersection தைடடும் புள்ளி
+Points  புள்ளிகள்
+Points of concurrency ஒருஙகவம புள்ளிகள்
+Predecessor முன்னி
+Primary data முதன்வம தைவு
+Product தபருக்கறபைன்
+Properties பணபுகள்
+Proportion விகித சமம்
+Proportionality law விகித சம விதி
+Protractor போவகமோனி
+Quotient ஈவு
+Ratio விகிதம்
+Rays கதிர்கள்
+Right angle தசங்கோணம்
+Rounding off முழுவமயோக்கல்
+Scaling அளவுத்திட்டம்
+Secondary data இைண்டோம் நிவைத் தைவு
+Sequence ததோ்டர்கள்
+Set Square முக்்கோணமோனிகள்
+Shaded portion நிழலி்டப்பட்டபகுதி
+Solve தீர்வு கோணல்
+Standard form திட்ட ைடிைம்
+Statistics புள்ளியியல்
+Straight angle ்ேர்்கோணம்
+Successor ததோ்டரி
+Sudoku சு்்டோகு
+Supplementary angles மிவக நிைப்புக் ்கோணஙகள்
+Systematic listing முவையோன படடியல்
+Tabulation படடியலிடுதல்
+Tally mark ்ேர்்கோடடு குறிகள்
+Unitary method அைகு முவை
+Unshaded portion நிழலி்டப்ப்டோத பகுதி
+Variables மோறிகள்
+Variation மோைல்
+Verbal statements தசோறதைோ்டர் கூறறு
+Vertex முவன
+Vertical bars தசஙகுத்து படவ்டகள்
+Vice-versa மறுதவை
+Whole Numbers முழு எணகள்
+MATHEMATICAL TERMS
+6th_Maths_EM_Term1_Answers.indd   131 03-12-2022   12:58:25
+132
+6th Standard Mathematics
+Text Book Development Team
+ Content Writers
+ M. Sellamuthu 
+ P .G. Assistant, GHSS, Lakshmipuram, Tiruvallur
+ R. Karthika 
+ P .G. Assistant, GHSS, Periyapalayam, Tiruvallur
+ G. Kamalanathan 
+ B.T.Assistant, GHSS, Arpakkam, Kancheepuram
+ S. Mariamanonmani 
+ B.T.Assistant, GGHS, Devigapuram, Tiruvannamalai
+ B. Malarvizhi 
+ B.T. Assistant, SBOA MHSS, Chennai
+ R. Vijayakumar 
+ B.T.Assistant, PUMS, Chandrapuram, Tiruppur
+ A. Ravikandan 
+ B.T.Assistant, GHSS, Periyasiruvathur, Villupuram
+ P . Madhavilatha 
+ B.T.Assistant, KRM Public School, Sembium, Chennai
+ M. Shubhashiny 
+ B.T Assistant, GHSS, Somangalam, Kancheepuram
+ D. Kannagi 
+ B.T, Assistant, Corporation HSS, Alwarpet, Chennai
+ V . M. Revathy 
+ TGT, J G Hindu Vidyalaya MHSS, 
+ West Mambalam.
+ J. Dhananjayan 
+ B.T.Assistant, MMS Main Bazaar, Vellore
+ M. Thiyagu 
+ P .G. Assistant, Velammal MHSS, Chennai
+ K. Karikalan 
+ B.T. Assistant,  
+ PUMS, Pulikkal, Karimangalam, Dharmapuri
+ M. Amal Raj, B.T. Asst, 
+  Pallavapuram Municipal Hr. Sec. School,  
+Zamin Royapet, Chengalpet.
+ Reviewers
+ Dr. R. Ramanujam 
+ IMSC, Chennai
+ Dr. Hridayakant Dewan 
+ Member, NCTE & Director, Vidya Bhavan, Jaipur
+ Dr. A. Ravishankar 
+ Director, Chudar Education, Chennai
+ Academic Coordinator
+ B. Tamilselvi 
+ Deputy Director, SCERT, Chennai
+ ICT Coordinators
+ Vasuraj D 
+ B.T. Assistant., PUMS., Thiruvallur
+ K. Sankar 
+ B.T. Assistant., GHSS., Vellore
+ Text Book Coordinator
+ V . Ilayarani Mohan 
+ Assistant Professor, SCERT, Chennai
+ D. Joshua Edison 
+ Lecturer, DIET Kancheepuram.
+ Layout Artist
+ Joy Graphics, Chennai
+Content Readers
+ Dr. M. P . Jeyaraman, Assistant Professor, 
+ L.N.Govt College, Ponneri.
+ Dr. N. Geetha, Assistant Professor, 
+ L.N.Govt College, Ponneri.
+ S. Karthikeyan, Assistant Professor, 
+ L.N.Govt College, Ponneri.
+ Domain Experts
+ Dr. Y . Balachandran 
+ Associate Professor, Presidency College, Chennai
+ D. Iyappanx 
+ Lecturer, DIET, Vellore
+ S. K. Saravanan  
+ Lecturer, DIET, Krishnagiri
+ Illustration
+ R. Rengabashiyam, Art Teacher,  
+ Natarajan Dhamayanthi,High School, Velipalayam,  
+ Nagapattinam Dt
+ G. Somasundaram, 
+ Art Teacher, GHSS.,Z.Suthamathi 
+ Ariyalur  Dt
+ Art Teachers,  
+ Government of Tamil Nadu.
+ Students,  
+ Government College of Fine Arts, 
+ Chennai & Kumbakonam. 
+ A. Palanivel 
+ Typist, SCERT, Chennai
+ Art and Design Team
+ In-House 
+ QC - Gopu Rasuvel, Rajesh Thangappan 
+        - Mathan Raj R, Jerald Wilson, Y esu Rathinam, 
+   - Prasanth, Arun Kamaraj, Sridhar Velu
+ Co-ordinator
+ Ramesh munisamy
+This book has been printed on 80 G.S.M.  
+Elegant Maplitho paper.
+Printed by offset at:
+EMIS Technology Team
+  R.M. Satheesh , State Coordinator Technical,  
+TN EMIS, Samagra Shiksha.
+ K.P . Sathya Narayana, IT Consultant, 
+ TN EMIS, Samagra Shikaha
+  R. Arun Maruthi Selvan, Technical Project Consultant,  
+TN EMIS, Samagra Shiksha.
+Standard Six, Term - I, Volume - 2, Mathematics
+6th_Maths_EM_Term1_Answers.indd   132 23/11/2022   15:28:20

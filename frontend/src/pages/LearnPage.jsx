@@ -101,10 +101,13 @@ export default function LearnPage({ onBack }) {
       setIsSpeaking(true);
       const utt = speak(reply, { rate: 0.88 });
       if (utt) {
-        utt.onend = () => setIsSpeaking(false);
+        utt.onend = () => {
+          setIsSpeaking(false);
+          startListening(); // Enable auto-listening for blind students
+        };
         utt.onerror = () => setIsSpeaking(false);
       } else {
-        setTimeout(() => setIsSpeaking(false), 2000);
+        setTimeout(() => setIsSpeaking(false), 3000);
       }
     } catch (err) {
       console.error(err);
@@ -137,160 +140,256 @@ export default function LearnPage({ onBack }) {
 
   return (
     <div style={styles.page}>
-
-      {/* ─── Header ─── */}
+      {/* ─── Global Header ─── */}
       <header style={styles.header}>
-        <button className="btn btn-ghost" style={{ padding:'0.5rem 1rem', fontSize:'0.9rem' }}
-          onClick={handleEndSession} aria-label="Go back to lesson dashboard">
-          ← Back
-        </button>
+        <div style={styles.headerLeft}>
+          <button className="btn btn-ghost" style={styles.backBtn} onClick={handleEndSession} aria-label="Go back">
+            ← Exit
+          </button>
+          <div style={styles.headerDivider} />
+          <div style={styles.lessonMeta}>
+            <span style={styles.clBadge}>Class {selectedClass}</span>
+            <span style={styles.subBadge}>{selectedSubject}</span>
+          </div>
+        </div>
+
         <div style={styles.headerCenter}>
-          <span style={styles.akkaAvatar} aria-hidden="true">👩‍🏫</span>
-          <div>
-            <div style={styles.akkaName}>Akka — AI Teacher</div>
-            {selectedChapter && (
-              <div style={styles.chapterInfo} aria-label={`Chapter ${selectedChapter.chapterNumber}: ${selectedChapter.title}`}>
-                Ch {selectedChapter.chapterNumber}: {selectedChapter.title}
-              </div>
-            )}
+          <div style={styles.akkaBrand}>
+            <span style={styles.akkaIcon}>👩‍🏫</span>
+            <span style={styles.akkaTitle}>Akka AI Teacher</span>
           </div>
           {isSpeaking && <AudioWave />}
         </div>
-        <div style={{ display:'flex', gap:'0.4rem' }}>
-          {selectedClass  && <span className="badge badge-blue"  aria-label={`Class ${selectedClass}`}>Cl {selectedClass}</span>}
-          {selectedSubject && <span className="badge badge-gold" aria-label={`Subject: ${selectedSubject}`} style={{ textTransform:'capitalize' }}>{selectedSubject}</span>}
+
+        <div style={styles.headerRight}>
+          {student && (
+            <div style={styles.studentChip}>
+              <span>👤</span>
+              <span style={{ fontWeight: 600 }}>{student.name}</span>
+            </div>
+          )}
         </div>
       </header>
 
-      {/* ─── Chat area ─── */}
-      <div
-        style={styles.chatArea}
-        role="log"
-        aria-label="Conversation with AI teacher"
-        aria-live="polite"
-        aria-atomic="false"
-      >
-        {chatHistory.length === 0 && !isThinking && (
-          <div style={styles.emptyState}>
-            <div style={{ fontSize:'3rem', marginBottom:'0.5rem' }}>👩‍🏫</div>
-            <p style={{ color:'var(--color-text-soft)' }}>Ask Akka anything about your lesson!</p>
-          </div>
-        )}
+      <div style={styles.mainContainer}>
+        {/* ─── Left: Lesson Content ─── */}
+        <aside style={styles.contentSection} aria-label="Lesson Materials">
+          {selectedChapter ? (
+            <>
+              <div style={styles.contentTitleArea}>
+                <h1 style={styles.mainTitle}>{selectedChapter.title}</h1>
+                <p style={styles.chapterTag}>Chapter {selectedChapter.chapterNumber}</p>
+                <button className="btn btn-primary" style={styles.readBtn} onClick={() => speak(selectedChapter.content, { rate: 0.85 })}>
+                  <span>🔊</span> Listen to Lesson
+                </button>
+              </div>
 
-        {chatHistory.map(msg => (
-          <div
-            key={msg.id}
-            style={{ display:'flex', flexDirection:'column', alignItems: msg.role === 'student' ? 'flex-end' : 'flex-start' }}
-          >
-            {msg.role === 'teacher' && (
-              <div style={styles.roleLabel} aria-hidden="true">👩‍🏫 Akka</div>
-            )}
-            {msg.role === 'student' && (
-              <div style={{ ...styles.roleLabel, textAlign:'right' }} aria-hidden="true">You 👤</div>
-            )}
-            <div
-              className={`chat-bubble ${msg.role}`}
-              role={msg.role === 'teacher' ? 'article' : 'note'}
-              aria-label={`${msg.role === 'teacher' ? 'Akka says' : 'You said'}: ${msg.text}`}
-            >
-              {msg.text}
+              <div style={styles.scrollContent}>
+                <div style={styles.glassCard}>
+                  <p style={styles.summaryText}>{selectedChapter.content}</p>
+                </div>
+
+                {selectedChapter.keyPoints?.length > 0 && (
+                  <div style={styles.contentGroup}>
+                    <h3 style={styles.groupTitle}>⭐ Key Takeaways</h3>
+                    <div style={styles.keyPointsGrid}>
+                      {selectedChapter.keyPoints.map((kp, i) => (
+                        <div key={i} style={styles.kpItem}>
+                          <span style={styles.kpDot}>•</span> {kp}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {selectedChapter.vocabulary?.length > 0 && (
+                  <div style={styles.contentGroup}>
+                    <h3 style={styles.groupTitle}>📚 Vocabulary</h3>
+                    <div style={styles.vocabGrid}>
+                      {selectedChapter.vocabulary.map((v, i) => (
+                        <div key={i} style={styles.vocabCard}>
+                          <strong style={styles.vocabWord}>{v.word}</strong>
+                          <span style={styles.vocabMean}>{v.meaning}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </>
+          ) : (
+            <div style={styles.emptyContent}>
+              <span>📖</span>
+              <p>Select a chapter to begin</p>
             </div>
+          )}
+        </aside>
+
+        {/* ─── Right: Chat Conversation ─── */}
+        <main style={styles.chatSection}>
+          <div style={styles.chatHeader}>
+            <span>💬 Live Discussion</span>
+            <div style={styles.statusDot} />
           </div>
-        ))}
 
-        {isThinking && <TypingDots />}
-        <div ref={chatEndRef} />
-      </div>
+          <div style={styles.chatMessages} role="log" aria-live="polite">
+            {chatHistory.length === 0 && !isThinking && (
+              <div style={styles.emptyChat}>
+                <div style={styles.akkaAvatarLarge}>👩‍🏫</div>
+                <h2>Ask Akka!</h2>
+                <p>I'm here to help you understand this lesson. What should we talk about?</p>
+              </div>
+            )}
 
-      {/* ─── Voice Commands hint ─── */}
-      <div style={styles.hintBar} aria-label="Voice command examples">
-        <span style={{ color:'var(--color-text-muted)', fontSize:'0.8rem' }}>💬 Try saying: </span>
-        {['"Explain photosynthesis"', '"Give me 5 questions"', '"Repeat that"', '"I don\'t understand"'].map(h => (
-          <span key={h} style={styles.hint}>{h}</span>
-        ))}
-      </div>
+            {chatHistory.map(msg => (
+              <div
+                key={msg.id}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: msg.role === 'student' ? 'flex-end' : 'flex-start',
+                  marginBottom: '1.2rem'
+                }}
+              >
+                <div style={{
+                  ...styles.chatLabel,
+                  textAlign: msg.role === 'student' ? 'right' : 'left'
+                }}>
+                  {msg.role === 'teacher' ? 'Akka' : 'You'}
+                </div>
+                <div className={`chat-bubble ${msg.role}`}>
+                  {msg.text}
+                </div>
+              </div>
+            ))}
 
-      {/* ─── Input area ─── */}
-      <div style={styles.inputArea} role="form" aria-label="Send a message to Akka">
-        {/* Mic transcript display */}
-        {isListening && (
-          <div style={styles.transcriptBar} aria-live="polite" aria-label="Listening for your voice">
-            <span style={{ color:'var(--color-primary)' }}>🎙️</span>
-            <span style={{ flex:1, color:'var(--color-text-soft)' }}>
-              {transcript || 'Listening... speak now!'}
-            </span>
+            {isThinking && <TypingDots />}
+            <div ref={chatEndRef} />
           </div>
-        )}
 
-        <div style={styles.inputRow}>
-          <VoiceButton
-            isListening={isListening}
-            onStart={startListening}
-            onStop={stopListening}
-            size="md"
-          />
-          <input
-            ref={inputRef}
-            className="input-field"
-            type="text"
-            placeholder={isSupported ? "Type or use mic to speak…" : "Type your question…"}
-            value={textInput}
-            onChange={e => setTextInput(e.target.value)}
-            onKeyDown={handleKeyDown}
-            disabled={isThinking || isListening}
-            aria-label="Type your question to Akka"
-            style={{ flex:1, borderRadius:'var(--radius-full)' }}
-          />
-          <button
-            className="btn btn-primary"
-            onClick={() => handleSend()}
-            disabled={!textInput.trim() || isThinking}
-            aria-label="Send message"
-            style={{ padding:'0.7rem 1.4rem', whiteSpace:'nowrap' }}
-          >
-            Send ➤
-          </button>
-        </div>
+          {/* ─── Input Bar ─── */}
+          <footer style={styles.inputArea}>
+            <div style={styles.inputShadow} />
+            
+            {/* Context bar / Transcript */}
+            <div style={styles.contextBar}>
+              {isListening ? (
+                <div style={styles.listeningStatus}>
+                  <div className="audio-wave small">
+                    <div className="bar" /><div className="bar" /><div className="bar" />
+                  </div>
+                  <span>{transcript || 'Listening to your voice...'}</span>
+                </div>
+              ) : (
+                <div style={styles.hints}>
+                  {['"Explain this"', '"Quiz me"', '"Repeat"'].map(h => (
+                    <button key={h} style={styles.smallHint} onClick={() => setTextInput(h.replace(/"/g, ''))}>
+                      {h}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div style={styles.inputRow}>
+              <VoiceButton isListening={isListening} onStart={startListening} onStop={stopListening} size="md" />
+              <div style={styles.fieldWrap}>
+                <input
+                  ref={inputRef}
+                  className="input-field"
+                  placeholder="Ask a question..."
+                  value={textInput}
+                  onChange={e => setTextInput(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  disabled={isThinking || isListening}
+                />
+                <button
+                  style={styles.sendIconBtn}
+                  onClick={() => handleSend()}
+                  disabled={!textInput.trim() || isThinking}
+                  aria-label="Send message"
+                >
+                  ➤
+                </button>
+              </div>
+            </div>
+          </footer>
+        </main>
       </div>
     </div>
   );
 }
 
 const styles = {
-  page: { display:'flex', flexDirection:'column', height:'100dvh', overflow:'hidden', background:'var(--color-bg)' },
+  page: { 
+    display:'flex', flexDirection:'column', height:'100dvh', overflow:'hidden', 
+    background:'radial-gradient(circle at top right, #1a2236 0%, #0d1117 100%)' 
+  },
   header: {
-    display:'flex', alignItems:'center', justifyContent:'space-between', gap:'0.75rem',
-    padding:'0.8rem 1.2rem', borderBottom:'1px solid var(--color-border)',
-    background:'rgba(13,17,23,0.95)', backdropFilter:'blur(12px)', flexShrink:0, flexWrap:'wrap',
+    height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+    padding: '0 1.5rem', background: 'rgba(13, 17, 23, 0.8)', backdropFilter: 'blur(20px)',
+    borderBottom: '1px solid var(--color-border)', zIndex: 100, flexShrink: 0
   },
-  headerCenter: { display:'flex', alignItems:'center', gap:'0.75rem', flex:1, justifyContent:'center' },
-  akkaAvatar: { fontSize:'1.8rem', lineHeight:1 },
-  akkaName:   { fontWeight:700, color:'var(--color-text)', fontSize:'1rem' },
-  chapterInfo:{ fontSize:'0.75rem', color:'var(--color-text-soft)', maxWidth:'220px', overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' },
-  chatArea: {
-    flex:1, overflowY:'auto', padding:'1.5rem 1rem',
-    display:'flex', flexDirection:'column', gap:'1rem',
+  headerLeft: { display: 'flex', alignItems: 'center', gap: '1rem' },
+  headerDivider: { width: '1px', height: '24px', background: 'var(--color-border)' },
+  backBtn: { padding: '0.4rem 1rem', fontSize: '0.9rem', borderRadius: 'var(--radius-sm)' },
+  lessonMeta: { display: 'flex', gap: '0.5rem' },
+  clBadge: { background: 'rgba(79, 142, 247, 0.1)', color: 'var(--color-primary)', padding: '2px 8px', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 700, border: '1px solid rgba(79, 142, 247, 0.2)' },
+  subBadge: { background: 'rgba(247, 201, 79, 0.1)', color: 'var(--color-secondary)', padding: '2px 8px', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 700, border: '1px solid rgba(247, 201, 79, 0.2)', textTransform: 'capitalize' },
+  
+  headerCenter: { display: 'flex', alignItems: 'center', gap: '1.5rem' },
+  akkaBrand: { display: 'flex', alignItems: 'center', gap: '0.5rem' },
+  akkaIcon: { fontSize: '1.5rem' },
+  akkaTitle: { fontWeight: 800, fontSize: '1.1rem', letterSpacing: '-0.3px', background: 'linear-gradient(to right, #fff, #99a)' , WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' },
+  
+  headerRight: { width: '150px', display: 'flex', justifyContent: 'flex-end' },
+  studentChip: { background: 'var(--color-surface-2)', padding: '0.4rem 0.8rem', borderRadius: 'var(--radius-full)', fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '0.5rem', border: '1px solid var(--color-border)' },
+
+  mainContainer: { flex: 1, display: 'flex', overflow: 'hidden' },
+  
+  // Content Aside
+  contentSection: { 
+    width: '420px', background: 'rgba(22, 27, 34, 0.3)', borderRight: '1px solid var(--color-border)',
+    display: 'flex', flexDirection: 'column', overflow: 'hidden'
   },
-  emptyState: { display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', flex:1, opacity:0.6 },
-  roleLabel:  { fontSize:'0.75rem', color:'var(--color-text-muted)', marginBottom:'2px', paddingLeft:'4px' },
-  hintBar: {
-    padding:'0.5rem 1rem', display:'flex', flexWrap:'wrap', gap:'0.5rem', alignItems:'center',
-    borderTop:'1px solid var(--color-border)', background:'var(--color-surface)', flexShrink:0,
-  },
-  hint: {
-    fontSize:'0.75rem', color:'var(--color-text-soft)',
-    background:'var(--color-surface-2)', padding:'2px 8px', borderRadius:'var(--radius-full)',
-    border:'1px solid var(--color-border)',
-  },
-  inputArea: {
-    padding:'0.75rem 1rem', borderTop:'1px solid var(--color-border)',
-    background:'var(--color-surface)', flexShrink:0, display:'flex', flexDirection:'column', gap:'0.5rem',
-  },
-  transcriptBar: {
-    display:'flex', alignItems:'center', gap:'0.5rem',
-    background:'rgba(79,142,247,0.08)', borderRadius:'var(--radius-full)',
-    padding:'0.4rem 1rem', border:'1px solid rgba(79,142,247,0.3)',
-    fontSize:'0.95rem',
-  },
-  inputRow: { display:'flex', alignItems:'center', gap:'0.75rem' },
+  contentTitleArea: { padding: '1.5rem', flexShrink: 0, borderBottom: '1px solid var(--color-border)' },
+  mainTitle: { fontSize: '1.5rem', fontWeight: 800, color: '#fff', marginBottom: '0.2rem', lineHeight: 1.2 },
+  chapterTag: { fontSize: '0.85rem', color: 'var(--color-text-soft)', fontWeight: 600, textTransform: 'uppercase', marginBottom: '1rem' },
+  readBtn: { width: '100%', gap: '0.5rem', justifyContent: 'center', fontWeight: 700 },
+  scrollContent: { flex: 1, overflowY: 'auto', padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '2rem' },
+  glassCard: { background: 'rgba(255, 255, 255, 0.03)', padding: '1.2rem', borderRadius: 'var(--radius-md)', border: '1px solid rgba(255,255,255,0.05)', boxShadow: 'inset 0 0 20px rgba(0,0,0,0.2)' },
+  summaryText: { margin: 0, fontSize: '1.05rem', lineHeight: 1.7, color: '#d0d7de' },
+  
+  contentGroup: { display: 'flex', flexDirection: 'column', gap: '0.8rem' },
+  groupTitle: { fontSize: '1rem', fontWeight: 700, color: 'var(--color-primary)', textTransform: 'uppercase', letterSpacing: '0.5px' },
+  keyPointsGrid: { display: 'flex', flexDirection: 'column', gap: '0.6rem' },
+  kpItem: { display: 'flex', gap: '0.75rem', fontSize: '0.95rem', color: 'var(--color-text-soft)', lineHeight: 1.4 },
+  kpDot: { color: 'var(--color-primary)', fontWeight: 900 },
+  
+  vocabGrid: { display: 'grid', gridTemplateColumns: '1fr', gap: '0.75rem' },
+  vocabCard: { background: 'var(--color-surface-2)', padding: '0.8rem 1rem', borderRadius: 'var(--radius-sm)', border: '1px solid var(--color-border)', display: 'flex', flexDirection: 'column', gap: '0.2rem' },
+  vocabWord: { color: 'var(--color-secondary)', fontSize: '0.95rem' },
+  vocabMean: { fontSize: '0.85rem', color: 'var(--color-text-soft)' },
+  emptyContent: { flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', opacity: 0.5, gap: '1rem' },
+
+  // Chat Main
+  chatSection: { flex: 1, display: 'flex', flexDirection: 'column', background: 'transparent', position: 'relative' },
+  chatHeader: { padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', gap: '0.6rem', borderBottom: '1px solid rgba(255,255,255,0.05)', fontSize: '0.85rem', color: 'var(--color-text-soft)', fontWeight: 600 },
+  statusDot: { width: '8px', height: '8px', background: '#238636', borderRadius: '50%', boxShadow: '0 0 8px #238636' },
+  chatMessages: { flex: 1, overflowY: 'auto', padding: '2rem 1.5rem', display: 'flex', flexDirection: 'column' },
+  chatLabel: { fontSize: '0.7rem', fontWeight: 700, color: 'var(--color-text-muted)', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.5px' },
+  
+  emptyChat: { flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '2rem' },
+  akkaAvatarLarge: { fontSize: '4rem', marginBottom: '1rem' },
+
+  inputArea: { padding: '1.5rem', background: 'linear-gradient(to top, #0d1117 80%, transparent)', position: 'relative' },
+  inputShadow: { position: 'absolute', top: '-40px', left: 0, right: 0, height: '40px', background: 'linear-gradient(to top, #0d1117, transparent)', pointerEvents: 'none' },
+  contextBar: { marginBottom: '0.8rem', minHeight: '32px' },
+  hints: { display: 'flex', gap: '0.5rem', flexWrap: 'wrap' },
+  smallHint: { background: 'rgba(255,255,255,0.05)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-full)', padding: '4px 12px', fontSize: '0.75rem', color: 'var(--color-text-soft)', cursor: 'pointer', transition: '0.2s' },
+  listeningStatus: { display: 'flex', alignItems: 'center', gap: '0.8rem', color: 'var(--color-primary)', fontSize: '0.9rem', fontWeight: 600 },
+  
+  inputRow: { display: 'flex', alignItems: 'center', gap: '1rem' },
+  fieldWrap: { flex: 1, position: 'relative', display: 'flex', alignItems: 'center' },
+  sendIconBtn: { position: 'absolute', right: '8px', padding: '0.5rem 0.8rem', background: 'var(--color-primary)', border: 'none', borderRadius: 'var(--radius-full)', color: '#fff', cursor: 'pointer' }
 };
