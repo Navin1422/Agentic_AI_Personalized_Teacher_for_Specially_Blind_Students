@@ -1,3 +1,5 @@
+import cv2
+import base64
 import speech_recognition as sr
 import pyttsx3
 import webbrowser
@@ -9,15 +11,17 @@ from PIL import Image
 from openai import OpenAI
 
 # --- CONFIGURATION ---
-TEACHER_API_KEY = "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"
-ASSISTANT_API_KEY = "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"
+# Agent 1: The Vision Specialist (Gemini Flash)
+VISION_API_KEY = "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"
+VISION_MODEL = "google/gemini-2.0-flash-001" 
 
-TEACHER_MODEL = "deepseek/deepseek-chat" 
-ASSISTANT_MODEL = "deepseek/deepseek-chat"
+# Agent 2: The Pedagogy Expert (DeepSeek V3)
+BRAIN_API_KEY = "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"
+BRAIN_MODEL = "deepseek/deepseek-chat" # DeepSeek V3
 
 # Setup OpenRouter clients
-t_client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=TEACHER_API_KEY)
-a_client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=ASSISTANT_API_KEY)
+v_client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=VISION_API_KEY)
+b_client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=BRAIN_API_KEY)
 
 # Project Config
 WEBSITE_URL = "http://localhost:5174"
@@ -118,28 +122,90 @@ class BrixbeeApp(ctk.CTk):
             self.status_circle.configure(fg_color="#4F3601")
         elif text.upper() == "SPEAKING":
             self.status_circle.configure(fg_color="#1B4D2D")
+        elif text.upper() == "SEEING":
+            self.status_circle.configure(fg_color="#5D3FD3") # Purple for vision
         else:
             self.status_circle.configure(fg_color="#1a1a1a")
 
-    def ask_ai(self, question, model_type="assistant"):
+    def capture_image(self):
+        """Captures a frame from the webcam and returns it as base64."""
+        self.set_status("SEEING", "#9B59B6")
+        cap = cv2.VideoCapture(0)
+        if not cap.isOpened():
+            return None
+        
+        # Give camera time to adjust
+        time.sleep(0.5)
+        ret, frame = cap.read()
+        cap.release()
+        
+        if not ret:
+            return None
+            
+        # Convert to base64
+        _, buffer = cv2.imencode('.jpg', frame)
+        return base64.b64encode(buffer).decode('utf-8')
+
+    def analyze_image(self, image_base64, prompt):
+        """Vision Agent (Gemini): Processes pixels and describes them to the Brain."""
         self.set_status("THINKING", "#F1C40F")
-        target_model = TEACHER_MODEL if model_type == "teacher" else ASSISTANT_MODEL
-        client = t_client if model_type == "teacher" else a_client
+        try:
+            messages = [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{image_base64}"
+                            }
+                        }
+                    ]
+                }
+            ]
+            
+            completion = v_client.chat.completions.create(
+                model=VISION_MODEL,
+                messages=messages,
+                max_tokens=300
+            )
+            return completion.choices[0].message.content
+        except Exception as e:
+            print(f"Vision Agent Error: {e}")
+            return "I am having trouble processing the image."
+
+    def ask_ai(self, question, model_type="teacher", vision_data=None):
+        """Brain Agent (DeepSeek): The lead orchestrator and persona."""
+        self.set_status("THINKING", "#F1C40F")
         
         # Add to memory
         self.memory.append({"role": "user", "content": question})
-        if len(self.memory) > 6: self.memory = self.memory[-6:] # Keep last 3 exchanges
+        if len(self.memory) > 6: self.memory = self.memory[-6:] 
 
         try:
-            role_prompt = (
-                "You are a helpful Teacher. Be short, warm, and conversational. Use 1-2 sentences. Avoid being robotic."
-                if model_type == "teacher" else "You are a friendly friend. Be extremely brief and person-like."
-            )
+            # Multi-Agent Context: If we have vision data, we tell the Brain Agent!
+            system_context = ""
+            if vision_data:
+                system_context = f"\n[VISION DATA FROM GEMINI]: The student is holding or looking at: {vision_data}. Use this info to guide them."
+
+            if model_type == "teacher":
+                role_prompt = (
+                    "You are 'Akka', a warm Tamil AI teacher. Speak in Tanglish (Tamil-English mix). "
+                    "Use simple local examples from Tamil Nadu. Be very encouraging. Keep it to 2 sentences."
+                    f"{system_context}"
+                )
+            else:
+                role_prompt = (
+                    "You are Brixbee, a friendly AI companion for a blind child in Tamil Nadu. "
+                    "Be warm and supportive. Use occasional Tamil words like 'Kanna'. "
+                    f"Keep responses very short (1-2 sentences). {system_context}"
+                )
             
             messages = [{"role": "system", "content": role_prompt}] + self.memory
 
-            completion = client.chat.completions.create(
-              model=target_model,
+            completion = b_client.chat.completions.create(
+              model=BRAIN_MODEL,
               messages=messages,
               max_tokens=150,
               timeout=8.0
@@ -223,6 +289,54 @@ class BrixbeeApp(ctk.CTk):
                     continue
 
                 # Command Routing
+                vision_words = ["see", "look", "describe", "read", "color", "what is this", "what am i holding"]
+                search_words = ["where is", "find my", "locate"]
+                
+                # 1. Handle Object Search (Multi-Agent Flow)
+                if any(k in user_msg for k in search_words):
+                    target = user_msg.split("is")[-1].strip() if "is" in user_msg else user_msg.split("my")[-1].strip()
+                    self.speak(f"Looking for your {target}. Hold on.")
+                    img = self.capture_image()
+                    if img:
+                        # Agent 1 (Vision) gets raw data
+                        prompt = f"Identify the location of the {target} relative to the center. Be brief."
+                        raw_vision = self.analyze_image(img, prompt)
+                        
+                        # Agent 2 (Brain) creates a warm response for the child
+                        ans = self.ask_ai(f"I found the {target}. Tell the child where it is based on this data: {raw_vision}", vision_data=raw_vision)
+                        self.speak(ans)
+                        continue
+
+                # 2. Handle General Vision (Multi-Agent Flow)
+                if any(k in user_msg for k in vision_words):
+                    self.speak("Let me take a look.")
+                    img = self.capture_image()
+                    if img:
+                        v_prompt = "Describe exactly what is in front of the camera."
+                        if "read" in user_msg: v_prompt = "Transcribe all text visible in this image."
+                        
+                        raw_vision = self.analyze_image(img, v_prompt)
+                        
+                        # Brain Agent interprets the vision data for the blind student
+                        ans = self.ask_ai(f"Explain what I am seeing in simple words. Vision report: {raw_vision}", vision_data=raw_vision)
+                        self.speak(ans)
+                        continue
+
+                # 3. Handle Weather
+                if "weather" in user_msg:
+                    self.speak("Checking the weather in Tamil Nadu for you.")
+                    try:
+                        import requests
+                        # Simple free weather service (no key needed for basic info)
+                        resp = requests.get("https://wttr.in/Tamil%20Nadu?format=3", timeout=3)
+                        if resp.status_code == 200:
+                            self.speak(f"The weather is {resp.text}")
+                        else:
+                            self.speak("I couldn't reach the weather service right now.")
+                    except:
+                        self.speak("I'm unable to check the weather at the moment.")
+                    continue
+
                 if "open" in user_msg:
                     # 1. Check for specific learning website
                     if any(x in user_msg for x in ["brixbee", "learning", "specially", "notes", "project", "website"]):
