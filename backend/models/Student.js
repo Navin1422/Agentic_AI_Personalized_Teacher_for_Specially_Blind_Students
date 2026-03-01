@@ -9,6 +9,12 @@ const sessionSchema = new mongoose.Schema({
   score: Number,
 });
 
+const noteSchema = new mongoose.Schema({
+  topic: { type: String, default: 'GENERAL' },
+  points: [String],
+  savedAt: { type: Date, default: Date.now },
+});
+
 const studentSchema = new mongoose.Schema({
   studentId: { type: String, required: true, unique: true },
   name: { type: String, required: true },
@@ -17,6 +23,7 @@ const studentSchema = new mongoose.Schema({
   weakTopics: [String],
   masteredTopics: [String],
   sessionHistory: [sessionSchema],
+  notes: [noteSchema],
   lastSubject: { type: String, default: '' },
   lastChapter: { type: String, default: '' },
   createdAt: { type: Date, default: Date.now },

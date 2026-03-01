@@ -5,7 +5,8 @@ const { v4: uuidv4 } = require('uuid');
 // @desc   Create new student or find by name
 const createStudent = async (req, res) => {
   try {
-    const { name, classLevel, language } = req.body;
+    const { name, classLevel, class: classParam, language } = req.body;
+    const finalClass = classLevel || classParam;
     if (!name) return res.status(400).json({ error: 'Name is required' });
 
     // Check if student with same name exists (case-insensitive)
@@ -21,7 +22,7 @@ const createStudent = async (req, res) => {
     student = await Student.create({
       studentId,
       name: name.trim(),
-      class: classLevel || '',
+      class: finalClass || '',
       language: language || 'english',
     });
 
@@ -47,12 +48,13 @@ const getStudent = async (req, res) => {
 // @desc   Update student profile / memory
 const updateStudent = async (req, res) => {
   try {
-    const { name, classLevel, language, weakTopics, masteredTopics } = req.body;
+    const { name, classLevel, class: classParam, language, weakTopics, masteredTopics } = req.body;
+    const finalClass = classLevel || classParam;
     const student = await Student.findOne({ studentId: req.params.id });
     if (!student) return res.status(404).json({ error: 'Student not found' });
 
     if (name) student.name = name;
-    if (classLevel) student.class = classLevel;
+    if (finalClass) student.class = finalClass;
     if (language) student.language = language;
     if (weakTopics) student.weakTopics = weakTopics;
     if (masteredTopics) student.masteredTopics = masteredTopics;
@@ -88,4 +90,24 @@ const getProgress = async (req, res) => {
   }
 };
 
-module.exports = { createStudent, getStudent, updateStudent, getProgress };
+// @route  POST /api/students/:id/notes
+// @desc   Save a voice-notes session for a student
+const saveNotes = async (req, res) => {
+  try {
+    const { topic, points } = req.body;
+    if (!points || !Array.isArray(points) || points.length === 0) {
+      return res.status(400).json({ error: 'Points array is required' });
+    }
+    const student = await Student.findOneAndUpdate(
+      { studentId: req.params.id },
+      { $push: { notes: { topic: topic || 'GENERAL', points, savedAt: new Date() } } },
+      { new: true }
+    );
+    if (!student) return res.status(404).json({ error: 'Student not found' });
+    res.json({ message: 'Notes saved!', notes: student.notes });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+module.exports = { createStudent, getStudent, updateStudent, getProgress, saveNotes };

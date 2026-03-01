@@ -3,195 +3,142 @@ const mongoose = require('mongoose');
 const Textbook = require('../models/Textbook');
 
 const seedData = [
-  // ─────────────── CLASS 5 ───────────────
-  {
-    class: '5', subject: 'science', chapterNumber: 1,
-    title: 'Plants — Our Green Friends',
-    content: `Plants are living things that grow on land and in water. They are very important for us because they give us food, oxygen, medicine, and shelter. Plants have roots, stem, leaves, flowers, and fruits. Roots hold the plant in the soil and absorb water and minerals. The stem carries water from roots to leaves. Leaves make food for the plant using sunlight, water, and carbon dioxide — this process is called photosynthesis. Plants give us oxygen when they make food. Without plants, no animals or humans can live on Earth. In Tamil Nadu, we see many types of plants like coconut tree, neem tree, banana plant, paddy (rice plant), and tamarind tree. The coconut tree is called "kalpavriksha" meaning it gives us everything we need — fruit, oil, water, and leaves for thatching roofs.`,
-    keyPoints: [
-      'Plants make their own food through photosynthesis',
-      'Roots absorb water and minerals from soil',
-      'Leaves are the food factory of the plant',
-      'Plants give us oxygen to breathe',
-      'Coconut tree is important in Tamil Nadu',
-    ],
-    vocabulary: [
-      { word: 'Photosynthesis', meaning: 'The process by which plants make food using sunlight, water and carbon dioxide' },
-      { word: 'Roots', meaning: 'Underground part of plant that absorbs water' },
-      { word: 'Chlorophyll', meaning: 'Green color in leaves that helps in making food' },
-    ],
-    examples: ['Coconut tree gives us coconut oil and coconut water', 'Rice plant gives us rice — the main food of Tamil Nadu'],
-  },
-  {
-    class: '5', subject: 'science', chapterNumber: 2,
-    title: 'Animals Around Us',
-    content: `Animals are living beings that move from one place to another. They can be wild animals like lions and elephants, or domestic animals like cow, dog, and hen. Animals living with us at home are called pets or domestic animals. Wild animals live in forests. Animals get their food in different ways — some eat plants (herbivores like cow, deer, rabbit), some eat other animals (carnivores like lion, eagle, snake), and some eat both plants and animals (omnivores like crow, bear, humans). Animals breathe in different ways — some breathe through lungs like us, fish breathe through gills, and insects breathe through tiny pores. In Tamil Nadu, the elephant is the state animal. Cows are very sacred and useful — they give milk, and bulls help farmers plough fields. Many families in Tamil Nadu keep cows, goats, and hens at home.`,
-    keyPoints: [
-      'Herbivores eat only plants (cow, deer, goat)',
-      'Carnivores eat only animals (lion, eagle)',
-      'Omnivores eat both plants and animals (crow, human)',
-      'Fish breathe through gills, not lungs',
-      'Elephant is the state animal of Tamil Nadu',
-    ],
-    vocabulary: [
-      { word: 'Herbivore', meaning: 'Animal that eats only plants' },
-      { word: 'Carnivore', meaning: 'Animal that eats only other animals' },
-      { word: 'Omnivore', meaning: 'Animal that eats both plants and animals' },
-      { word: 'Gills', meaning: 'Part of a fish used to breathe underwater' },
-    ],
-    examples: ['Cow eats grass — it is a herbivore', 'We humans eat both rice and chicken — we are omnivores'],
-  },
-  {
-    class: '5', subject: 'maths', chapterNumber: 1,
-    title: 'Large Numbers',
-    content: `We use numbers every day — to count mangoes in a basket, to know how many students are in school, or to find the price of things. In Tamil Nadu, a big mango market can have 1 lakh mangoes! Numbers beyond 999 are called large numbers. One thousand is 1,000 and it has 4 digits. Ten thousand is 10,000. One lakh is 1,00,000 and has 6 digits. Ten lakh is 10,00,000. One crore is 1,00,00,000 and has 8 digits. We use the Indian system of place value — ones, tens, hundreds, thousands, ten thousands, lakhs, ten lakhs, crores. To read large numbers, we put commas after every 2 digits from the right, starting after 3. For example: 5,67,834 is read as "five lakh sixty seven thousand eight hundred and thirty four." Comparing numbers — always the number with more digits is bigger. If digits are same, compare from left to right.`,
-    keyPoints: [
-      '1000 = One Thousand (4 digits)',
-      '1,00,000 = One Lakh (6 digits)',
-      '1,00,00,000 = One Crore (8 digits)',
-      'Indian system uses commas after 3 digits then every 2 digits',
-      'More digits = bigger number',
-    ],
-    vocabulary: [
-      { word: 'Digit', meaning: 'A single number symbol from 0 to 9' },
-      { word: 'Place Value', meaning: 'The value of a digit based on its position in a number' },
-      { word: 'Lakh', meaning: 'One hundred thousand (1,00,000)' },
-    ],
-    examples: ['A cricket stadium in Chennai can hold 50,000 people', 'India has more than 140 crore people'],
-  },
-  {
-    class: '5', subject: 'maths', chapterNumber: 2,
-    title: 'Fractions',
-    content: `When we cut an idli into 2 equal pieces, each piece is half of the idli. This "half" is a fraction — 1/2. A fraction shows a part of a whole thing. The number on top is called the numerator — it tells how many parts we have. The number below is called the denominator — it tells total equal parts the whole is divided into. If you cut a chapati into 4 equal pieces and eat 3 pieces, you ate 3 out of 4 equal parts — that is 3/4. Fractions with same denominator are called like fractions — example 1/5, 2/5, 3/5. To add like fractions just add the numerators — 1/5 + 2/5 = 3/5. To compare fractions with same denominator, the bigger numerator means bigger fraction. A fraction where numerator equals denominator equals 1 whole — like 5/5 = 1.`,
-    keyPoints: [
-      'Fraction = part of a whole (numerator/denominator)',
-      'Numerator = how many parts we have',
-      'Denominator = total equal parts',
-      'Like fractions have the same denominator',
-      'Add like fractions by adding numerators only',
-    ],
-    vocabulary: [
-      { word: 'Numerator', meaning: 'Top number of a fraction — how many parts we have' },
-      { word: 'Denominator', meaning: 'Bottom number of a fraction — total equal parts' },
-      { word: 'Like Fractions', meaning: 'Fractions with the same denominator' },
-    ],
-    examples: ['Cutting an idli into 2 equal pieces — each piece is 1/2', 'Eating 2 out of 4 pieces of chapati = 2/4 = 1/2'],
-  },
-  // ─────────────── CLASS 6 ───────────────
+  // ─────────────── CLASS 6 SCIENCE (Term 1 - 2024) ───────────────
   {
     class: '6', subject: 'science', chapterNumber: 1,
-    title: 'Food: Where Does It Come From?',
-    content: `Everything we eat is called food. Food gives us energy to study, play, work, and grow. We get food from two main sources — plants and animals. From plants we get rice, wheat, vegetables like brinjal, tomato, drumstick, fruits like mango and banana. From animals we get milk, eggs, meat, fish. In Tamil Nadu, rice is the main food. We make idli, dosa, sambar, rasam from rice and lentils. Leaves of plants are food — we eat drumstick leaves, curry leaves, coriander. We also eat stems (sugarcane, ginger), roots (carrot, radish, groundnut), seeds (rice, wheat, sesame), and flowers (banana flower, cauliflower). Photosynthesis is the process where plants make their own food using sunlight, water, and carbon dioxide from air. Chlorophyll is the green pigment in leaves that helps in photosynthesis. Plants are called producers because they make their own food.`,
+    title: 'Measurements',
+    content: `Measurement is the comparison of an unknown quantity with some known quantity. This known constant quantity is called a unit. In ancient times, people used hand-span, cubit, and foot to measure length, but these varied from person to person. To have uniformity, scientists all over the world have accepted a common set of units called the International System of Units (SI Units). The SI unit of length is Metre (m), mass is Kilogram (kg), time is Second (s), and temperature is Kelvin (K). We use instruments like a meter scale to measure length, an electronic balance for mass, and a clock for time. Parallax error is a common mistake made while reading a scale; we must always keep our eye vertically above the point of measurement. Volume is the space occupied by an object. Multiples and sub-multiples of units are used for very large or very small measurements, like kilometers for distance or millimeters for tiny objects.`,
     keyPoints: [
-      'Food comes from plants and animals',
-      'Plants are producers — they make their own food',
-      'Photosynthesis uses sunlight + water + CO2 to make food',
-      'Chlorophyll (green color in leaves) helps photosynthesis',
-      'We eat different parts of plants — roots, stems, leaves, flowers, seeds',
+      'Definition of Measurement and Unit',
+      'Need for SI Units (International System)',
+      'Basic SI Units: Metre, Kilogram, Second, Kelvin',
+      'Instruments: Meter Scale, Electronic Balance, Stop Clock',
+      'Avoiding Parallax Error in measurement',
+      'Understanding Multiples and Sub-multiples'
     ],
     vocabulary: [
-      { word: 'Photosynthesis', meaning: 'Process by which plants make food using sunlight, water and carbon dioxide' },
-      { word: 'Chlorophyll', meaning: 'Green pigment in leaves that captures sunlight for photosynthesis' },
-      { word: 'Producer', meaning: 'Living thing that makes its own food — all plants are producers' },
-      { word: 'Herbivore', meaning: 'Animal that eats only plant food' },
+      { word: 'Measurement', meaning: 'Comparison of unknown quantity with a known unit' },
+      { word: 'SI Unit', meaning: 'Standard international system of measurement units' },
+      { word: 'Parallax', meaning: 'Apparent shift in position of an object when viewed from different angles' }
     ],
-    examples: [
-      'A mango tree makes its own food using sunlight — it is a producer',
-      'Idli is made from rice (seed) and urad dal (seed) — both from plants',
-      'We eat carrot which is the root of the carrot plant',
-    ],
+    examples: ['Measuring your height in centimeters', 'Buying 2 kilograms of rice from a shop', 'Measuring the time taken to run 100 meters']
   },
   {
     class: '6', subject: 'science', chapterNumber: 2,
-    title: 'Sorting Materials into Groups',
-    content: `Everything around us is made of materials. We can sort or group materials based on their properties. Properties of materials are things like colour, texture, hardness, solubility, transparency, and whether they float or sink. Texture means how a surface feels — rough like sandpaper, or smooth like glass. Hard materials cannot be easily compressed or scratched — like stone, iron, wood. Soft materials can be easily compressed — like sponge, cotton, rubber. Soluble materials dissolve in water — like salt, sugar. Insoluble materials do not dissolve in water — like sand, chalk. Transparent materials let light pass through completely — like glass, clear water. Opaque materials do not let light pass — like wood, stone, metal sheet. We can also group materials by whether they float or sink in water — wood, dry leaf, and plastic bottles float; stone and iron sink. In Tamil Nadu villages, pots made of clay (mud) are used to store water — clay is an earthy material.`,
+    title: 'Force and Motion',
+    content: `Push or pull results in motion. When an object changes its position with respect to time, it is said to be in motion; otherwise, it is at rest. Forces are of two types: Contact forces (like hitting a ball) and Non-contact forces (like gravity or magnetism). Forces can change the state of rest or motion, change the speed, or even change the shape of an object. Motion can be classified into several types: Linear motion (moving in a straight line), Curvilinear motion (moving in a curve), Rotary motion (spinning like a top), Oscillatory motion (swinging like a pendulum), and Zig-zag motion (irregular path). Speed is the distance traveled by an object in unit time (Speed = Distance / Time). If an object covers equal distances in equal intervals of time, it is in Uniform motion. Robotics is an advanced field where machines (robots) are designed to perform complex tasks mimicking human motion.`,
     keyPoints: [
-      'Materials are sorted based on their properties',
-      'Hard materials: stone, iron, wood; Soft materials: sponge, cotton',
-      'Soluble: salt, sugar dissolve in water; Insoluble: sand, chalk do not',
-      'Transparent: glass lets light through; Opaque: wood does not',
-      'Float: wood, plastic; Sink: stone, iron',
+      'Definition of Motion and Rest',
+      'Types of Forces: Contact and Non-contact',
+      'Effects of Force on objects',
+      'Classification of Motion (Linear, Rotary, etc.)',
+      'Calculating Speed (Distance / Time)',
+      'Uniform and Non-uniform motion'
     ],
     vocabulary: [
-      { word: 'Texture', meaning: 'How a surface feels — rough or smooth' },
-      { word: 'Soluble', meaning: 'Can dissolve in water (like salt and sugar)' },
-      { word: 'Insoluble', meaning: 'Cannot dissolve in water (like sand)' },
-      { word: 'Transparent', meaning: 'Lets light pass through completely (like glass)' },
-      { word: 'Opaque', meaning: 'Does not let light pass (like wood or a wall)' },
+      { word: 'Force', meaning: 'A push or pull that produces or stops motion' },
+      { word: 'Friction', meaning: 'A force that opposes motion between two surfaces' },
+      { word: 'Oscillatory', meaning: 'To-and-fro motion like a swing' }
     ],
-    examples: [
-      'Salt dissolves in water when making rasam — it is soluble',
-      'A stone thrown in the river sinks — it is dense and heavy',
-      'A mud pot (clay pot) is opaque — you cannot see through it',
-    ],
+    examples: ['A falling apple is linear motion due to gravity', 'A ceiling fan shows rotary motion', 'A grandfather clock pendulum shows oscillatory motion']
   },
   {
-    class: '6', subject: 'maths', chapterNumber: 1,
-    title: 'Knowing Our Numbers',
-    content: `Numbers are used in our everyday life. In Tamil Nadu, we count how many coconuts fell, how much rice we need for a feast, or how many people are coming for a function. The number system we use has 10 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Every number has a place value. In Indian system, we have ones, tens, hundreds, thousands, ten-thousands, lakhs, ten-lakhs, and crores. In 34,56,789 — the digit 3 is in ten-lakhs place, so its value is 30,00,000. The greatest number using digits 1,5,3,8 without repeating is 8531, and the smallest is 1358. Successor of a number is the number just after it (successor of 99 is 100). Predecessor of a number is just before it (predecessor of 100 is 99). Comparing numbers — the one with more digits is always greater. Roman numerals use letters: I=1, V=5, X=10, L=50, C=100, D=500, M=1000.`,
+    class: '6', subject: 'science', chapterNumber: 3,
+    title: 'Matter Around Us',
+    content: `Matter is anything that has mass and occupies space. All matter is made up of tiny particles called atoms. Matter exists in three main states: Solid, Liquid, and Gas. In solids, particles are very tightly packed, so they have a fixed shape and volume. In liquids, particles are loosely packed, so they have volume but take the shape of the container. In gases, particles are far apart and move freely, so they have no fixed shape or volume. Pure substances are made of only one type of particle (elements or compounds), while mixtures contain two or more different substances (like salt water or air). We use various methods to separate mixtures, such as Hand-picking, Sifting, Decantation, and Filtration. Food adulteration is the practice of adding harmful or cheaper substances to food, which we must be careful about.`,
     keyPoints: [
-      'Indian place value: ones, tens, hundreds, thousands, lakhs, crores',
-      'Greatest number: arrange digits largest to smallest',
-      'Smallest number: arrange digits smallest to largest (never start with 0)',
-      'Successor = number just after; Predecessor = number just before',
-      'Roman numerals: I=1, V=5, X=10, L=50, C=100',
+      'Definition of Matter and Atoms',
+      'Three States of Matter: Solid, Liquid, Gas',
+      'Properties of particles in different states',
+      'Pure substances vs Mixtures',
+      'Separation methods: Sifting, Winnowing, Filtration',
+      'Dangers of Food Adulteration'
     ],
     vocabulary: [
-      { word: 'Place Value', meaning: 'The value of a digit based on where it sits in the number' },
-      { word: 'Successor', meaning: 'The number that comes just after a given number' },
-      { word: 'Predecessor', meaning: 'The number that comes just before a given number' },
-      { word: 'Roman Numerals', meaning: 'A number system using letters like I, V, X, L, C' },
+      { word: 'Matter', meaning: 'Anything that has mass and takes up space' },
+      { word: 'Atom', meaning: 'Tiny building block of all matter' },
+      { word: 'Adulteration', meaning: 'Mixing impure substances into pure food' }
     ],
-    examples: [
-      'In a school with 2,345 students, the digit 2 is in thousands place, its place value is 2000',
-      'The successor of 9999 is 10000 — a new number of more digits!',
+    examples: ['Ice (solid) turns to Water (liquid) when heated', 'Air is a mixture of many gases', 'Separating stones from rice by hand-picking']
+  },
+  {
+    class: '6', subject: 'science', chapterNumber: 4,
+    title: 'The World of Plants',
+    content: `Plants are the primary producers on Earth. A plant body consists of two main systems: the Root system and the Shoot system. The root system grows underground and helps in absorption of water and minerals. There are two types of root systems: Taproot (single thick root like hibiscus) and Fibrous root (cluster of roots like grass). The shoot system grows above ground and includes the stem, leaves, flower, and fruit. Leaves perform photosynthesis to make food using sunlight and chlorophyll. They also perform transpiration (losing water vapor) and exchange gases through tiny pores called stomata. Plants adapt to their environment; for example, desert plants have spines instead of leaves to save water, and aquatic plants have air spaces to float. Some plants even climb using tendrils (Twiners) like pea plants.`,
+    keyPoints: [
+      'Root System: Taproot and Fibrous roots',
+      'Shoot System: Stem, Leaves, Flowers',
+      'Functions of Leaves: Photosynthesis and Stomata',
+      'Plant Adaptations: Desert, Aquatic, Terrestrial',
+      'Climbers and Twiners (Tendrils)',
+      'Importance of plants as Producers'
     ],
+    vocabulary: [
+      { word: 'Photosynthesis', meaning: 'Process of making food using sunlight' },
+      { word: 'Stomata', meaning: 'Tiny pores on leaves for breathing' },
+      { word: 'Transpiration', meaning: 'Loss of water from leaves as vapor' }
+    ],
+    examples: ['Cactus in the desert has spines', 'Lotus has air-filled stems to float on water', 'Money plant uses its stem to climb']
+  },
+
+  // ─────────────── CLASS 6 MATHEMATICS (Term 1 - 2024) ───────────────
+  {
+    class: '6', subject: 'maths', chapterNumber: 1,
+    title: 'Numbers',
+    content: `Numbers are the foundation of mathematics. We use large numbers to represent population, distance between planets, or large sums of money. In the Indian system, we use place values: Ones, Tens, Hundreds, Thousands, Ten Thousands, Lakhs, Ten Lakhs, Crores. In the International system, we use Millions and Billions. For example, 10 Lakhs is equal to 1 Million. Comparing numbers is easy — the number with more digits is always larger. Estimation or rounding off helps us get a quick "nearby" value for complex calculations. BODMAS rule (Brackets, Off, Division, Multiplication, Addition, Subtraction) is essential for solving expressions with multiple operations correctly. Whole numbers start from 0 (0, 1, 2, 3...) while Natural numbers start from 1. Zero is a special number discovered by Indian mathematicians.`,
+    keyPoints: [
+      'Indian vs International Number Systems',
+      'Place Value and Face Value',
+      'Comparison and Ordering of Numbers',
+      'Estimation and Rounding Off',
+      'BODMAS Rule for combined operations',
+      'Natural Numbers vs Whole Numbers'
+    ],
+    vocabulary: [
+      { word: 'BODMAS', meaning: 'The order of operations in math' },
+      { word: 'Magnitude', meaning: 'The size or value of a number' },
+      { word: 'Estimation', meaning: 'Finding a value close to the correct answer' }
+    ],
+    examples: ['Rounding 48 to the nearest ten gives 50', 'Using BODMAS: (2+3)x4 = 20', 'One Million is 10,00,000 in Indian system']
   },
   {
     class: '6', subject: 'maths', chapterNumber: 2,
-    title: 'Whole Numbers',
-    content: `Natural numbers are the counting numbers we use from 1, 2, 3, 4... and they go on forever. When we add 0 to natural numbers, we get whole numbers. So whole numbers are 0, 1, 2, 3, 4... The number 0 was a great discovery — it was invented in India! Without zero, we cannot write numbers like 10, 100, or 1000. On a number line, numbers go from left to right in increasing order. Every number on the right is greater than numbers on the left. Adding two whole numbers gives a whole number — this is called closure property. Even if you change the order of addition the answer is same — 3 + 5 = 5 + 3 = 8. This is commutative property. Zero added to any number gives the same number — 7 + 0 = 7. Zero is called the additive identity. Multiplying 1 with any number gives the same number — 7 × 1 = 7. One is called the multiplicative identity.`,
+    title: 'Introduction to Algebra',
+    content: `Algebra is a branch of mathematics where we use letters (like x, y, a, b) to represent unknown numbers or values that can change. These letters are called Variables. Constants are values that never change (like 5, 100, -2). Expressions are formed by combining variables and constants using arithmetic operations (e.g., x + 5 or 2y). Algebra helps us find patterns and create formulas. For example, if the price of one pen is 'p', the price of 10 pens is 10p. We can solve equations to find the value of the unknown variable. Equations are like balanced scales; whatever we do to one side, we must do to the other to keep them equal. Algebra is used in science, engineering, and everyday counting where values are not fixed.`,
     keyPoints: [
-      'Natural numbers: 1, 2, 3... Whole numbers: 0, 1, 2, 3...',
-      'Zero was discovered in India — it is a very important number',
-      'Number line: numbers increase from left to right',
-      'Commutative: 3 + 5 = 5 + 3 (order does not matter in addition)',
-      '0 is additive identity; 1 is multiplicative identity',
+      'Variables (letters) and Constants (fixed numbers)',
+      'Formation of Algebraic Expressions',
+      'Using Algebra for patterns and rules',
+      'Introduction to Equations',
+      'Solving simple linear equations',
+      'Everyday applications of Variables'
     ],
     vocabulary: [
-      { word: 'Natural Numbers', meaning: 'Counting numbers starting from 1 (1, 2, 3...)' },
-      { word: 'Whole Numbers', meaning: 'Natural numbers plus zero (0, 1, 2, 3...)' },
-      { word: 'Number Line', meaning: 'A line where numbers are placed in order from left to right' },
-      { word: 'Additive Identity', meaning: 'Zero, because adding 0 to any number does not change it' },
+      { word: 'Variable', meaning: 'A symbol used for a number we don\'t know yet' },
+      { word: 'Constant', meaning: 'A fixed value that does not change' },
+      { word: 'Expression', meaning: 'A mathematical phrase containing numbers and variables' }
     ],
-    examples: [
-      'If you have 0 idlis and someone gives you 5, you have 5 — that is 0 + 5 = 5',
-      'Whether you say 4 + 3 or 3 + 4, you get 7 — commutative property',
-    ],
+    examples: ['If x=2, then x+10 is 12', 'The perimeter of a square with side s is 4s', 'Age of a person after 5 years is (age + 5)']
   },
-  // ─────────────── CLASS 6 EVS / SOCIAL ───────────────
   {
-    class: '6', subject: 'social', chapterNumber: 1,
-    title: 'The Earth — Our Home',
-    content: `The Earth is the planet where we all live. It is the only planet in our solar system that has life. Earth is round like a ball — this shape is called a sphere. Two imaginary lines are very important — the Equator divides Earth into Northern and Southern hemispheres. The other line is called the Prime Meridian. Earth rotates on its axis — this rotation takes 24 hours and gives us day and night. Earth also revolves around the Sun — this revolution takes 365 and a quarter days, giving us one year and the four seasons. The Moon is Earth's natural satellite. It revolves around Earth and takes about 30 days (one month). Tamil Nadu is located in the southern part of India, close to the Equator, which is why our weather is hot. The Bay of Bengal is to the east of Tamil Nadu and the Arabian Sea is to the west. The Himalayas in the north protect India from cold winds.`,
+    class: '6', subject: 'maths', chapterNumber: 3,
+    title: 'Ratio and Proportion',
+    content: `Ratio is a way of comparing two quantities of the same kind by division. It is expressed using a colon symbol (:). For example, if there are 2 boys and 3 girls, the ratio of boys to girls is 2:3. Ratios do not have units. Two ratios are said to be in Proportion if they are equal (a:b = c:d). We use the "Product of Extremes = Product of Means" rule to check if four numbers are in proportion. The Unitary Method is a very useful technique where we first find the value of one unit and then use it to find the value of the required number of units. This is used in shopping, traveling (speed), and cooking recipes. Proportions help us scale things up or down while keeping the balance the same.`,
     keyPoints: [
-      'Earth is round (sphere) and only planet with life',
-      'Rotation (24 hours) = day and night',
-      'Revolution around Sun (365 days) = one year and seasons',
-      'Equator divides Earth into Northern and Southern halves',
-      'Tamil Nadu is in Southern India, close to Equator',
+      'Meaning and representation of Ratio (:)',
+      'Simplifying Ratios to lowest terms',
+      'Comparison of Ratios',
+      'Definition of Proportion',
+      'The Unitary Method (finding value of one)',
+      'Proportionality constants'
     ],
     vocabulary: [
-      { word: 'Rotation', meaning: 'Earth spinning on its own axis — gives day and night' },
-      { word: 'Revolution', meaning: 'Earth moving around the Sun — gives seasons and years' },
-      { word: 'Equator', meaning: 'Imaginary line dividing Earth into Northern and Southern halves' },
-      { word: 'Satellite', meaning: 'Object that goes around a planet — Moon is Earth\'s satellite' },
+      { word: 'Ratio', meaning: 'Comparison of two quantities by division' },
+      { word: 'Proportion', meaning: 'Equality of two ratios' },
+      { word: 'Unitary Method', meaning: 'Method of finding the value of one unit' }
     ],
-    examples: [
-      'During daytime in Chennai, it is night time in America — because Earth rotates',
-      'We have summer, rainy season, winter because Earth goes around the Sun',
-    ],
-  },
+    examples: ['If 5 chocolates cost 50, then 1 costs 10 (Unitary Method)', 'A ratio of 2:4 is same as 1:2', 'Mixing milk and water in 3:1 ratio']
+  }
 ];
 
 const seedDB = async () => {
@@ -203,13 +150,10 @@ const seedDB = async () => {
     console.log('🗑️  Cleared existing textbook data');
 
     await Textbook.insertMany(seedData);
-    console.log(`✅ Seeded ${seedData.length} chapters into MongoDB`);
-
-    const classes = [...new Set(seedData.map(d => d.class))];
-    console.log(`📚 Classes available: ${classes.join(', ')}`);
+    console.log(`✅ Seeded ${seedData.length} chapters into MongoDB (2024 Edition Aligned)`);
 
     await mongoose.disconnect();
-    console.log('\n🎓 Seed complete! EduVoice is ready for Tamil Nadu students.\n');
+    console.log('\n🎓 Seed complete! EduVoice is perfectly aligned with the 2024 Books.\n');
     process.exit(0);
   } catch (err) {
     console.error('❌ Seed error:', err.message);

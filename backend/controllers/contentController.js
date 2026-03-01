@@ -1,4 +1,5 @@
 const Textbook = require('../models/Textbook');
+const mongoose = require('mongoose');
 
 // @route  GET /api/content/classes
 // @desc   Get all available classes
@@ -15,7 +16,9 @@ const getClasses = async (req, res) => {
 // @desc   Get subjects for a class
 const getSubjects = async (req, res) => {
   try {
+    console.log('Querying subjects for class:', req.params.class);
     const subjects = await Textbook.distinct('subject', { class: req.params.class });
+    console.log('Found subjects:', subjects);
     res.json({ class: req.params.class, subjects });
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -56,4 +59,42 @@ const getChapter = async (req, res) => {
   }
 };
 
-module.exports = { getClasses, getSubjects, getChapters, getChapter };
+// @route  GET /api/content/pdf/:class/:subject
+// @desc   Get full PDF for a subject
+const getChapterPdf = async (req, res) => {
+  try {
+    const { class: classVal, subject } = req.params;
+    const BookFile = mongoose.models.BookFile || mongoose.model('BookFile', new mongoose.Schema({ 
+      filename: String, 
+      subject: String, 
+      class: String,
+      gridFsId: mongoose.Schema.Types.ObjectId,
+      extractedTextPreview: String 
+    }, { collection: 'bookfiles' }));
+
+    const bookFile = await BookFile.findOne({ class: classVal, subject: subject.toLowerCase() });
+    
+    if (!bookFile || !bookFile.gridFsId) {
+      return res.status(404).json({ error: 'PDF not found' });
+    }
+
+    const db = mongoose.connection.db;
+    const bucket = new mongoose.mongo.GridFSBucket(db, { bucketName: 'textbooks' });
+    
+    res.set('Content-Type', 'application/pdf');
+    res.set('Content-Disposition', `inline; filename="${bookFile.filename}"`);
+    
+    const downloadStream = bucket.openDownloadStream(bookFile.gridFsId);
+    
+    downloadStream.on('error', (err) => {
+      console.error('GridFS download error:', err);
+      res.status(500).end();
+    });
+    
+    downloadStream.pipe(res);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+module.exports = { getClasses, getSubjects, getChapters, getChapter, getChapterPdf };

@@ -9,6 +9,8 @@ const textbookSchema = new mongoose.Schema({
   keyPoints: [String],
   vocabulary: [{ word: String, meaning: String }],
   examples: [String],
+  pdfFileId: { type: mongoose.Schema.Types.ObjectId }, // Link to GridFS binary
+  rawText: { type: String }, // Extracted text for data analytics/AI training
 });
 
 textbookSchema.index({ class: 1, subject: 1, chapterNumber: 1 }, { unique: true });
