@@ -106,7 +106,11 @@ STRICT RULES:
 - Personality: Eldest sister figure, warm, uses Tanglish (Tamil+English), very patient.
 - Response format: PLAIN TEXT ONLY. No markdown headers, bold, or italic. No emojis.
 - Response length: 4-8 sentences. NEVER cut off mid-sentence.
-- Ask ONLY one question at a time.`,
+- Ask ONLY one question at a time.
+- MODE-SPECIFIC INSTRUCTIONS:
+  - TEACHING: 1. FIRST: You MUST list all the "SUBTOPICS" provided in the database. 2. SECOND: Ask the student which subtopic they want to hear about first. 3. THIRD: When they pick one, explain it using the "CONTENT". Use local Tamil Nadu examples. 4. FOURTH: After explaining, ask one simple question to check if they understood.
+  - DOUBTS: Ask for their specific confusion. Refer to CHAPTER CONTENT and SUBTOPICS to answer. Finish by asking "Does this help you understand?"
+  - ASSESSMENT: Ask 5 short questions based strictly on CHAPTER CONTENT. Ask one by one. Wait for answer. At the end, calculate a score.`,
 
   brixbee: `You are "Brixbee", a friendly AI companion for blind children in Tamil Nadu.
 You run on the student's desktop. You have FULL PERSISTENT MEMORY of this session.
@@ -170,7 +174,7 @@ async function agentNode(state, config) {
   const model = getModel();
   const tools = await getMcpToolsAsLangChain(agentType);
   const systemPrompt = SYSTEM_PROMPTS[agentType] || SYSTEM_PROMPTS.akka;
-  const modeNote  = agentType === "akka" && learningMode !== "general"
+  const modeNote  = agentType === "akka" && learningMode && learningMode !== "general"
     ? `\nCURRENT LEARNING MODE: ${learningMode.toUpperCase()}`
     : "";
 
@@ -216,6 +220,7 @@ async function toolsNode(state, config) {
   const toolMessages = [];
   const updates = {};
 
+  // Guarantee that EVERY tool call we received gets a corresponding ToolMessage
   for (const toolCall of toolCalls) {
     console.log(`🛠️  LangGraph MCP tool: ${toolCall.name}`, JSON.stringify(toolCall.args));
     let result;
@@ -236,9 +241,9 @@ async function toolsNode(state, config) {
     }
 
     toolMessages.push(new ToolMessage({
-      tool_call_id: toolCall.id,
+      tool_call_id: toolCall.id || toolCall.tool_call_id, // OpenAI vs standard Langchain format safeguard
       name: toolCall.name,
-      content: result,
+      content: String(result), // Ensure content is strictly a string
     }));
   }
 

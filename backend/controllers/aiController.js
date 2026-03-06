@@ -428,7 +428,8 @@ const agentChat = async (req, res) => {
     });
 
   } catch (error) {
-    console.error(`❌ LangGraph Akka Agent ERROR [${studentId}]:`, error);
+    const sId = req?.body?.studentId || 'unknown';
+    console.error(`❌ LangGraph Akka Agent ERROR [${sId}]:`, error);
     res.status(500).json({ 
       error: "Akka's tools are jammed. Please try again soon.", 
       details: error?.message,

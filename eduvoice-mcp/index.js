@@ -6,7 +6,7 @@
 const { Server } = require("@modelcontextprotocol/sdk/server/index.js");
 const { StdioServerTransport } = require("@modelcontextprotocol/sdk/server/stdio.js");
 const { ListToolsRequestSchema, CallToolRequestSchema } = require("@modelcontextprotocol/sdk/types.js");
-const mongoose = require("mongoose");
+const mongoose = require("../backend/node_modules/mongoose");
 const fs = require("fs");
 const path = require("path");
 const pdfParse = require("pdf-parse");
@@ -216,13 +216,17 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
 
       case "find_lesson_content": {
-        const lesson = await Textbook.findOne({
-          class: args.classLevel,
-          subject: args.subject.toLowerCase(),
-          chapterNumber: args.chapterNumber
-        });
-        if (!lesson) return { content: [{ type: "text", text: "Lesson content not found in database." }], isError: true };
-        return { content: [{ type: "text", text: JSON.stringify(lesson, null, 2) }] };
+        const query = {
+          class: String(args.classLevel),
+          subject: String(args.subject).toLowerCase(),
+          chapterNumber: Number(args.chapterNumber)
+        };
+        console.error("🔍 MCP Querying Textbook:", JSON.stringify(query));
+        const lesson = await Textbook.findOne(query);
+        if (!lesson) {
+           return { content: [{ type: "text", text: `Lesson not found for: ${JSON.stringify(query)}` }], isError: true };
+        }
+        return { content: [{ type: "text", text: JSON.stringify(lesson.toObject(), null, 2) }] };
       }
 
       case "search_textbook_pdf": {
@@ -232,16 +236,30 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         }
         
         const text = bookFile.extractedTextPreview;
-        const pageMatch = args.query.match(/page\s+(\d+)/i);
+        
+        // 1. First try page number matching
+        const pageMatch = args.query.match(/(?:page|pg)[^\d]*(\d+)/i) || args.query.match(/^(\d+)$/);
         if (pageMatch) {
           const pageNum = pageMatch[1];
-          const marker = `\n${pageNum}\n`;
-          const idx = text.indexOf(marker);
-          if (idx !== -1) return { content: [{ type: "text", text: text.substring(idx, idx + 2000) }] };
+          let idx = text.indexOf(`\n${pageNum}\n`);
+          if (idx === -1) idx = text.indexOf(` ${pageNum} `);
+          
+          if (idx !== -1) {
+             return { content: [{ type: "text", text: `[CONTENT STARTING FROM PAGE ${pageNum}]\n` + text.substring(idx, idx + 2000) }] };
+          }
         }
         
-        const snippets = text.split("\n\n").filter(chunk => chunk.toLowerCase().includes(args.query.toLowerCase())).slice(0, 3);
-        return { content: [{ type: "text", text: snippets.length ? snippets.join("\n---\n") : "No matching snippets found." }] };
+        // 2. Fallback to basic term search
+        const qWords = args.query.toLowerCase().split(" ").filter(w => w.length > 3 && w !== 'page');
+        const snippets = text.split("\n\n").filter(chunk => 
+           qWords.some(w => chunk.toLowerCase().includes(w))
+        ).slice(0, 3);
+        
+        if (snippets.length) {
+          return { content: [{ type: "text", text: snippets.join("\n---\n") }] };
+        }
+        
+        return { content: [{ type: "text", text: "I couldn't find that specific page or detail in the PDF book." }] };
       }
 
       case "update_student_analytics": {
